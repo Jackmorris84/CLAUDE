@@ -13,12 +13,14 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 
 ## Entschieden (laut Jannik)
 - Start **1.12.2026**; alles Material fertig bis **2. Novemberwoche (9.–15.11.)**.
-- Preis **25 € Early Bird**, danach **29 €**. Ende des Early Birds: ❓ noch festzulegen.
+- Preis **25 € Early Bird**, danach **29 €**. **Early Bird endet 15.11.2026**, danach 29 €.
 - Zugang per Mail-Link, kein Login. Zahlung über Digistore.
 - Türchen: 10 Lieder-Videos (eine Kameraposition) + 10 Geschichten-Videos (David erzählt aus Leben/Kindheit/Weihnachten) + 4 Musikvideos (Higgsfield + echter Dreh) = 24.
 - Musikvideo 1 (1. Advent, 29.11.) läuft **nur auf YouTube als Werbung**, nicht im Kalender. Die übrigen Sonntage (6./13./20.12.) kommt je ein Lied nur für Käufer.
 - Verlosungen: 29.11. unter allen Followern; danach nur unter Käufern. „Ewigkeit“ (CD) an 3 Personen pro Advent; Finale 24.12.
-- Live-Show: **16 Uhr Paraguay = 20 Uhr Deutschland** (nach Jannik 4 h Differenz). Plattform YouTube oder TikTok (offen).
+- Live/Verlosung **nicht abends**: Kandidaten **8 Uhr Paraguay = 12 Uhr DE (= 20 Uhr Korea)** oder **10 Uhr Paraguay = 14 Uhr DE (= 22 Uhr Korea)**. ❓ Endgültige Uhrzeit offen. Plattform YouTube oder TikTok (offen). Gilt auch für die Verlosung am 24.12.
+- Gewinnspiel: Alle Follower dürfen teilnehmen, Kalenderkäufer haben **2×/3× höhere Gewinnchance** (❓ Faktor offen).
+- Konzertgutschein: **1 Jahr gültig, nur einmal einlösbar**, gültig für ein beliebiges Konzert.
 - **40 % CD-Rabatt am 4. Advent, 20.12.**, nur auf benannte CDs (Pan Paradies, Hallelujah, Passion). Im Türchen: Shop-Link oder Code. Shop: davids-panparadies.de/cds (❓ Link bestätigen).
 - Gewinne: 3× Paket mit 6 CDs (Überraschung), Konzertgutschein (Code, gültig für ein beliebiges Konzert, freier Eintritt, zum Mitbringen). CDs genug da, Versand weltweit.
 - Optik: hellbraun, rot, grün (❓ Abstimmung mit Vater).
@@ -32,16 +34,16 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Videos direkt in der Seite eingebettet (Hoster mit Domain-Schutz) statt reiner YouTube-„nicht gelistet“-Links, die sich weitergeben lassen.
 
 ## Wichtige Hinweise
-- 16 Uhr Paraguay = 20 Uhr Deutschland (Dezember). In Korea ist das 4 Uhr nachts (Folgetag): Replay für Korea einplanen.
-- ⚠️ Rechtlich prüfen: Gewinnspiel mit Teilnahme nur nach Kauf kann als Glücksspiel/Lotterie gelten. Vor dem Start rechtlich klären (Anwalt/Verbraucherzentrale/Anbieter).
-- Konzertgutschein: Gültigkeit, Ablaufdatum, Einlösung, Codeerzeugung festlegen.
+- Paraguay = Deutschland −4 h, Korea = Deutschland +8 h (Dezember). 12 Uhr DE passt für Korea (20 Uhr).
+- Gewinnspiel mit kostenloser Teilnahme für alle plus Bonuschance für Käufer ist rechtlich unkritischer als „nur Käufer“. Trotzdem Teilnahmebedingungen und Anbieter vor dem Start rechtlich prüfen lassen.
+- Early-Bird-Verkauf bis 15.11. läuft, bevor alle Videos online sind: Freischalttermine im Shop klar nennen (Verbraucherrecht, digitale Inhalte).
+- Konzertgutschein: Codeerzeugung und Einlösung am Einlass festlegen.
 
 ## Offen / ❓ unklar
 - Budget, Team und Wochenstunden, Aufgabenverteilung.
-- Ende Early Bird.
 - GEMA/Cover-Rechte, Playbacks, Songauswahl (10 Lieder + 4 Musikvideos), Skript/Storyboard.
-- Weiteres Format (Ideen nötig).
-- Livestream-Plattform; Live am 24.12. zur Uhrzeit?
+- Weiteres Format: Ideen bisher „Weihnachtsbräuche in Südkorea und Deutschland“, „Brief an die Zuschauer“ (gefällt); weitere sammeln.
+- Livestream-Plattform und endgültige Uhrzeit.
 - Anbieter und Teilnahmebedingungen für Gewinnspiel.
 - Rechtliche/steuerliche Klärung Digistore (MwSt.) und Weltversand.
 
@@ -49,4 +51,5 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[2026-10-16_Adventskalender-Rohnotiz]]
 - [[2026-10-16_Adventskalender-Antworten-Runde1]]
 - [[2026-10-16_Adventskalender-Antworten-Runde2]]
+- [[2026-10-16_Adventskalender-Antworten-Runde3]]
 - [[Adventskalender-Zeitplan]]

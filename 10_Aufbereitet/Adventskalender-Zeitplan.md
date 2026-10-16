@@ -13,7 +13,7 @@ Vorschlag für einen Wochenplan rückwärts von den festen Terminen. Verantwortl
 
 ## Feste Termine
 - 9.–15.11.: alle 24 Videos fertig
-- 29.11. (So): 1. Advent – Musikvideo 1 auf YouTube, Verlosung unter Followern, Live 20 Uhr DE
+- 29.11. (So): 1. Advent – Musikvideo 1 auf YouTube, Verlosung unter Followern, Live (12 oder 14 Uhr DE)
 - 1.12. (Di): Kalender startet, Türchen 1
 - 6.12. / 13.12. (So): Live, Verlosung 3× Ewigkeit unter Käufern, Lied-Türchen
 - 20.12. (So): 4. Advent – Live, Verlosung, 40 % CD-Rabatt (nur dieser Tag)
@@ -27,8 +27,10 @@ Vorschlag für einen Wochenplan rückwärts von den festen Terminen. Verantwortl
 | 3: 2.–8.11. | Dreh 1 | 10 Lieder-Videos aufnehmen, Story-Videos beginnen, Website-Grundgerüst |
 | 4: 9.–15.11. | Dreh 2 + Schnitt | Story-Videos fertig, 4 Musikvideos (Dreh + Higgsfield), Schnitt, Thumbnails |
 | 5: 16.–22.11. | Sprachen + Test | Voice-Overs DE/KO, Seite testen (Mail-Link, Freischaltung nach Datum), Digistore-Testkauf, Mail-Funnel, Teilnahmebedingungen |
-| 6: 23.–29.11. | Launch/Werbung | Kurzvideos, Pre-Sale, YouTube-Video 29.11., Verlosung Follower, Live |
+| 6: 23.–29.11. | Werbung | Kurzvideos, YouTube-Video 29.11., Verlosung Follower, Live |
 | 7–10: 30.11.–27.12. | Betrieb | Täglich Türchen prüfen, Sonntags-Lives, Verlosungen, Rabatt 20.12., Finale 24.12., Versand der Gewinne |
+
+Early Bird endet **15.11.**: Der Verkauf muss also vor Ende der Produktion starten (Teaser-Seite + Vorverkauf ab Anfang November, Wochen 2–4), sonst bleiben nur wenige Tage.
 
 Hinweis: Das ist eng. Woche 3–4 trägt die ganze Produktion (24 Videos). Wenn Dreh-Tage mit David nicht sicher sind, ist das der Engpass.
 
