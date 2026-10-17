@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adventskalender – David Döring</title>
+<style>
+  :root{
+    --bg:#f1e3cf; --bg2:#e7d3b6; --brown:#6b4423; --brown-d:#4a2d14;
+    --red:#a9302a; --green:#2f6b3a; --gold:#d8a94a; --ink:#2b1b0e; --gap:10px;
+    --cols:4; --cell:calc((min(100vw,720px) - 32px - (var(--cols) - 1)*var(--gap))/var(--cols));
+  }
+  @media (min-width:720px){ :root{ --cols:6; } }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Noto Serif KR",serif;
+    background-image:radial-gradient(var(--bg2) 1px,transparent 1px);background-size:22px 22px}
+  header{padding:20px 16px 8px;text-align:center}
+  h1{margin:0;color:var(--red);font-size:clamp(1.6rem,6vw,2.6rem);letter-spacing:.02em}
+  header p{margin:6px 0 0;color:var(--brown)}
+  .langs{display:flex;gap:8px;justify-content:center;margin:12px 0}
+  .langs button{border:2px solid var(--brown);background:transparent;color:var(--brown);padding:6px 14px;
+    border-radius:999px;font:inherit;cursor:pointer}
+  .langs button[aria-pressed=true]{background:var(--brown);color:#fff}
+  main{max-width:720px;margin:0 auto;padding:8px 16px 40px}
+  .grid{display:grid;grid-template-columns:repeat(var(--cols),var(--cell));gap:var(--gap);justify-content:center}
+  .door{aspect-ratio:1;position:relative;border:0;padding:0;cursor:pointer;border-radius:10px;
+    background:linear-gradient(145deg,var(--brown),var(--brown-d));color:#fff;font:inherit;
+    box-shadow:0 3px 0 #2c1a0a,inset 0 0 0 3px rgba(255,255,255,.12)}
+  .door:nth-child(3n+1){background:linear-gradient(145deg,var(--red),#7d1f1b)}
+  .door:nth-child(3n+2){background:linear-gradient(145deg,var(--green),#1f4a28)}
+  .door .num{font-size:clamp(1.2rem,5vw,2rem);font-weight:bold;text-shadow:0 1px 2px #0006}
+  .door .sub{display:block;font-size:.65rem;opacity:.85}
+  .door[aria-disabled=true]{filter:grayscale(.45) brightness(.8);cursor:not-allowed}
+  .door.open{background:var(--gold);color:var(--ink);box-shadow:0 3px 0 #8a6a22}
+  .deco{display:grid;place-items:center;font-size:2rem}
+  .big-row{display:flex;justify-content:center;margin-top:var(--gap)}
+  .door.big{width:calc(var(--cell)*3 + var(--gap)*2);border-radius:16px}
+  .door.big .num{font-size:clamp(2.4rem,12vw,4.5rem)}
+  .banner{margin:18px 0;padding:12px 14px;border-left:5px solid var(--green);background:#fff8;border-radius:6px;font-size:.95rem}
+  dialog{border:0;border-radius:14px;max-width:min(640px,92vw);width:100%;padding:0;background:var(--bg)}
+  dialog::backdrop{background:#000a}
+  .dlg{padding:18px}
+  .dlg h2{margin:0 0 8px;color:var(--red)}
+  .video{aspect-ratio:16/9;background:#1b1209;border-radius:8px;display:grid;place-items:center;color:#d9c8ad;text-align:center;padding:12px}
+  .video video{width:100%;height:100%}
+  .close{margin-top:12px;border:0;background:var(--green);color:#fff;padding:8px 16px;border-radius:8px;font:inherit;cursor:pointer}
+  footer{text-align:center;font-size:.8rem;color:var(--brown);padding:0 16px 24px}
+  .voice{margin:10px 0 0;display:flex;gap:8px;align-items:center;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="t-title"></h1>
+  <p id="t-sub"></p>
+  <div class="langs" role="group" aria-label="Sprache / Language / 언어">
+    <button data-lang="de">Deutsch</button><button data-lang="en">English</button><button data-lang="ko">한국어</button>
+  </div>
+</header>
+<main>
+  <div class="banner" id="banner"></div>
+  <div class="grid" id="grid"></div>
+  <div class="big-row" id="big"></div>
+</main>
+<footer id="foot"></footer>
+<dialog id="dlg"><div class="dlg">
+  <h2 id="dlg-title"></h2>
+  <div class="video" id="dlg-video"></div>
+  <div class="voice" id="dlg-voice"></div>
+  <button class="close" id="dlg-close"></button>
+</div></dialog>
+
+<script>
+/* ===== Inhalt: hier später Titel, Videos, Voice-Over je Türchen eintragen ===== */
+const START = new Date(2026, 11, 1);            // 1.12.2026
+const CONTENT = {};                              // z. B. CONTENT[6] = {type:'music', video:{de:'…mp4',ko:'…',en:'…'}}
+const TYPE_BY_DAY = d => (d===6||d===13||d===20) ? 'music' : d===24 ? 'finale' : (d%2===0 ? 'story' : 'song'); // Platzhalter-Verteilung
+// feste, "verteilte" Reihenfolge der Türchen 1–23 (wie beim Schokokalender)
+const ORDER = [17,3,22,9,14,1,20,6,11,23,4,15,8,19,2,13,10,21,5,16,12,18,7];
+
+const I18N = {
+  de:{title:'Adventskalender', sub:'Jeden Tag ein Türchen – mit David Döring',
+      locked:'Dieses Türchen öffnet sich am %d. Dezember.', pre:'Der Kalender startet am 1. Dezember.',
+      buy:'Noch kein Zugang? Hol dir den Adventskalender.', demo:'Demo-Ansicht – Zugang und Videos sind Platzhalter.',
+      song:'Lied', story:'Geschichte', music:'Musikvideo', finale:'Finale', door:'Türchen', soon:'Video folgt', close:'Schließen',
+      voice:'Sprache der Stimme:', foot:'Hinweis: Entwurf. Gewinnspiel-Teilnahmebedingungen und Impressum folgen.'},
+  en:{title:'Advent Calendar', sub:'A new door every day – with David Döring',
+      locked:'This door opens on December %d.', pre:'The calendar starts on December 1st.',
+      buy:'No access yet? Get the Advent calendar.', demo:'Demo view – access and videos are placeholders.',
+      song:'Song', story:'Story', music:'Music video', finale:'Finale', door:'Door', soon:'Video coming soon', close:'Close',
+      voice:'Voice language:', foot:'Note: draft. Prize draw terms and imprint to follow.'},
+  ko:{title:'어드벤트 달력', sub:'매일 한 칸씩 – 데이비드 되링과 함께',
+      locked:'이 문은 12월 %d일에 열립니다.', pre:'달력은 12월 1일에 시작됩니다.',
+      buy:'아직 이용 권한이 없나요? 어드벤트 달력을 받아보세요.', demo:'데모 화면 – 접근 권한과 영상은 자리표시자입니다.',
+      song:'노래', story:'이야기', music:'뮤직비디오', finale:'피날레', door:'문', soon:'영상 준비 중', close:'닫기',
+      voice:'음성 언어:', foot:'안내: 초안입니다. 경품 추첨 약관과 이용 정보는 추후 추가됩니다.'}
+};
+/* TODO Koreanisch von der Übersetzerin prüfen lassen */
+
+const q = new URLSearchParams(location.search);
+let lang = (['de','en','ko'].includes(q.get('lang')) ? q.get('lang') : (localStorage.getItem('lang')||'de'));
+const today = q.get('datum') ? new Date(q.get('datum')+'T12:00:00') : new Date();   // ?datum=2026-12-10 zum Testen
+const unlockedDay = () => today < START ? 0 : (today.getMonth()===11 ? Math.min(today.getDate(),24) : (today.getFullYear()>2026?24:0));
+const t = k => I18N[lang][k];
+
+function doorEl(d){
+  const b = document.createElement('button');
+  const ok = d <= unlockedDay();
+  b.className = 'door' + (d===24?' big':'') + (ok?' open':'');
+  b.setAttribute('aria-disabled', String(!ok));
+  b.setAttribute('aria-label', t('door')+' '+d);
+  b.innerHTML = `<span class="num">${d}</span><span class="sub">${ok ? t(TYPE_BY_DAY(d)) : ''}</span>`;
+  b.onclick = () => ok ? openDoor(d) : alert(today<START ? t('pre') : t('locked').replace('%d', d));
+  return b;
+}
+function render(){
+  document.documentElement.lang = lang;
+  document.title = t('title')+' – David Döring';
+  document.getElementById('t-title').textContent = t('title');
+  document.getElementById('t-sub').textContent = t('sub');
+  document.getElementById('banner').textContent = t('demo');
+  document.getElementById('foot').textContent = t('foot');
+  document.getElementById('dlg-close').textContent = t('close');
+  document.querySelectorAll('.langs button').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.lang===lang)));
+  const g = document.getElementById('grid'); g.replaceChildren();
+  ORDER.forEach(d=>g.appendChild(doorEl(d)));
+  const deco = document.createElement('div'); deco.className='deco'; deco.textContent='🎄'; g.appendChild(deco);
+  const big = document.getElementById('big'); big.replaceChildren(doorEl(24));
+}
+function openDoor(d){
+  const c = CONTENT[d] || {};
+  document.getElementById('dlg-title').textContent = t('door')+' '+d+' – '+t(TYPE_BY_DAY(d));
+  const v = document.getElementById('dlg-video');
+  const src = c.video && (c.video[lang] || c.video.de);
+  v.innerHTML = src ? `<video controls playsinline controlslist="nodownload" src="${src}"></video>` : `<span>${t('soon')}</span>`;
+  document.getElementById('dlg-voice').innerHTML = '';
+  document.getElementById('dlg').showModal();
+}
+document.querySelectorAll('.langs button').forEach(b=>b.onclick=()=>{lang=b.dataset.lang;try{localStorage.setItem('lang',lang)}catch(e){};render()});
+document.getElementById('dlg-close').onclick=()=>document.getElementById('dlg').close();
+render();
+</script>
+</body>
+</html>

@@ -54,3 +54,7 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[2026-10-16_Adventskalender-Antworten-Runde3]]
 - [[Adventskalender-Zeitplan]]
 - [[Adventskalender-Gewinnspiel-Teilnahme]]
+- [[Adventskalender-Recherche-Digistore]]
+- [[Adventskalender-Recherche-GEMA-Higgsfield]]
+- [[Adventskalender-Teilnahmebedingungen-Entwurf]]
+- [[Adventskalender-Seite-Prototyp]]
