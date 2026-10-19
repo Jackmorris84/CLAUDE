@@ -58,3 +58,4 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[Adventskalender-Recherche-GEMA-Higgsfield]]
 - [[Adventskalender-Teilnahmebedingungen-Entwurf]]
 - [[Adventskalender-Seite-Prototyp]]
+- [[Adventskalender-Status-und-ToDos]]
