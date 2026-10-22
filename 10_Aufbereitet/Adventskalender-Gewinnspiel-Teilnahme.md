@@ -48,6 +48,16 @@ Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
 - Mindestalter und erlaubte Länder.
 - Wer prüft die Bedingungen rechtlich?
 
+## Variante B: Kommentar-Verlosung (Erfahrung der Eltern, 2026-10-22)
+Quelle: [[2026-10-22_Adventskalender-Nachricht-Mutter-Gewinnspiel]]
+- Früher lief es so: Aufruf unter einem YouTube-Video („kommentiert, am Tag X wird verlost, unter allen, die kommentiert und abonniert haben“). Bei der Ziehung wurde die Video-Adresse in ein Kommentar-Auswahl-Tool eingegeben, das einen Kommentar zufällig zog, und alles lief live im Stream.
+- Vorteil: bekannt, einfach, keine E-Mail-Adressen vorab nötig. Kontaktdaten (Anschrift) braucht man erst vom Gewinner.
+- Einschränkung: Kommentare lassen sich nicht den Käufern zuordnen (Digistore kennt E-Mail, YouTube nur den Anzeigenamen). Eine Gewichtung für Käufer geht damit nicht.
+- Richtig ist der Hinweis zum Datenschutz: E-Mail-Adressen aus dem Gewinnspiel dürfen nur dafür genutzt werden. Für Newsletter/Funnel braucht es eine eigene, freiwillige Einwilligung.
+- Vorschlag (noch nicht entschieden): **29.11. öffentlich per Kommentar**, **6./13./20.12. nur Käufer**: Teilnahme per Button im Kalender (der Zugang kennt den Käufer schon, keine neuen Daten, Ziehung aus der Käuferliste). Dann braucht es keine Gewichtung. Gewichtung nur, falls die Ziehung am 24.12. für alle offen sein soll.
+- Offen: Welches Tool nutzten die Eltern? Wurde das Abonnement geprüft und wie? Welche Plattform für die Dezember-Ziehungen?
+
 ## Verknüpft mit
 - [[Adventskalender-Planung]]
+- [[2026-10-22_Adventskalender-Nachricht-Mutter-Gewinnspiel]]
 - [[Adventskalender-Zeitplan]]
