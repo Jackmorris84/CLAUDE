@@ -19,7 +19,7 @@ Teilnahme am besten über ein Formular auf der Kalender-Seite mit E-Mail und Bes
 
 ## Gewichtung (2× oder 3×)
 Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
-1. Digistore schickt Käufer automatisch ins Mailtool und setzt dort das Etikett „Käufer“ (z. B. über Brevo, MailerLite oder KlickTipp; Anbindung vorher prüfen).
+1. Der Shop schickt Käufer (per Export oder Anbindung) ins Mailtool und setzt dort das Etikett „Käufer“ (z. B. über Brevo, MailerLite oder KlickTipp; Anbindung vorher prüfen).
 2. Vor der Ziehung: Liste exportieren (E-Mail, bestätigt ja/nein, Käufer ja/nein). Dubletten pro E-Mail zusammenführen.
 3. Lose = 1 für Nicht-Käufer, 2 oder 3 für Käufer. Rückerstattete Käufe zählen nicht als Käufer.
 4. Ziehung live per Skript oder Tabellen-Zufallsfunktion, Bildschirm geteilt, Ergebnis wird protokolliert (Datum, Teilnehmerzahl, Lose, Gewinner). Ich kann das Skript schreiben und testen.
@@ -52,7 +52,7 @@ Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
 Quelle: [[2026-10-22_Adventskalender-Nachricht-Mutter-Gewinnspiel]]
 - Früher lief es so: Aufruf unter einem YouTube-Video („kommentiert, am Tag X wird verlost, unter allen, die kommentiert und abonniert haben“). Bei der Ziehung wurde die Video-Adresse in ein Kommentar-Auswahl-Tool eingegeben, das einen Kommentar zufällig zog, und alles lief live im Stream.
 - Vorteil: bekannt, einfach, keine E-Mail-Adressen vorab nötig. Kontaktdaten (Anschrift) braucht man erst vom Gewinner.
-- Einschränkung: Kommentare lassen sich nicht den Käufern zuordnen (Digistore kennt E-Mail, YouTube nur den Anzeigenamen). Eine Gewichtung für Käufer geht damit nicht.
+- Einschränkung: Kommentare lassen sich nicht den Käufern zuordnen (der Shop kennt die E-Mail, YouTube nur den Anzeigenamen). Eine Gewichtung für Käufer geht damit nicht.
 - Richtig ist der Hinweis zum Datenschutz: E-Mail-Adressen aus dem Gewinnspiel dürfen nur dafür genutzt werden. Für Newsletter/Funnel braucht es eine eigene, freiwillige Einwilligung.
 - Vorschlag (noch nicht entschieden): **29.11. öffentlich per Kommentar**, **6./13./20.12. nur Käufer**: Teilnahme per Button im Kalender (der Zugang kennt den Käufer schon, keine neuen Daten, Ziehung aus der Käuferliste). Dann braucht es keine Gewichtung. Gewichtung nur, falls die Ziehung am 24.12. für alle offen sein soll.
 - Offen: Welches Tool nutzten die Eltern? Wurde das Abonnement geprüft und wie? Welche Plattform für die Dezember-Ziehungen?

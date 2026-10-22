@@ -12,11 +12,11 @@ tags: [adventskalender, status, todo]
 Konzept, Termine, Preis, Ablauf und Gewinnspiel-Idee stehen. Es fehlen vor allem Personen, Dreh-Tage, Songs/Rechte und Budget. Bis zum 15.11. (Videos fertig und Ende Early Bird) sind es ab dem 19.10. noch 27 Tage.
 
 ## Fertig / entschieden
-- Start 1.12.2026, 24 Videos à ca. 3 Min., Zugang per Mail-Link, Digistore, 25 € Early Bird bis 15.11., danach 29 €.
+- Start 1.12.2026, 24 Videos à ca. 3 Min., Zugang per Mail-Link, Zahlung über den Shop, 25 € Early Bird bis 15.11., danach 29 €.
 - Sprachen DE/EN/KO mit Voice-Over DE + KO, Übersetzerin und Freundin für Korea vorhanden. Korea-Kontakte über die Eltern.
 - Gewinnspiel-Konzept (alle kostenlos, Käufer mehr Lose), Ziehung live, Konzertgutschein 1 Jahr/einmal, 40 % CD-Rabatt nur 20.12.
 - Live-Zeit: 8 Uhr oder 10 Uhr Paraguay (12 oder 14 Uhr DE).
-- Vorhanden: Seiten-Prototyp, Ziehungs-Skript, Recherche Digistore/GEMA/Higgsfield, Entwurf Teilnahmebedingungen.
+- Vorhanden: Seiten-Prototyp, Ziehungs-Skript, Recherche GEMA/Higgsfield, Entwurf Teilnahmebedingungen.
 
 ## Blocker (ohne diese Antworten stockt es)
 1. Team und Wochenstunden: wer macht was?
@@ -37,14 +37,14 @@ Konzept, Termine, Preis, Ablauf und Gewinnspiel-Idee stehen. Es fehlen vor allem
 - [ ] Dreh-Tage planen
 - [ ] Songliste (10+4) mit Komponist/Texter/Verlag, danach GEMA/Label anfragen
 - [ ] Budget klären
-- [ ] Digistore-Verkäuferkonto anlegen/prüfen (Freischaltung kann dauern), Auszahlungsfrist prüfen
+- [ ] Shop prüfen: System, digitale Produkte, Mail nach Kauf, Export/Webhook (siehe [[Adventskalender-Shop-Zahlung]])
 - [ ] Rechtsprüfung Gewinnspiel beauftragen
 - [ ] Higgsfield: Bedingungen prüfen, dann Test
 - [ ] Look mit Vater abstimmen
 - [ ] 10 Geschichten-Themen und weiteres Format sammeln
 
 ## To-Dos 26.10.–1.11.
-- [ ] Digistore-Produkt, Preise, Early-Bird-Ende 15.11., Danke-Seite
+- [ ] Shop: Produkt Adventskalender, Preise, Early-Bird-Ende 15.11., Danke-Seite
 - [ ] Unterdomain, Videohoster
 - [ ] Teaser-/Vorverkaufsseite + Mail-Funnel (Mailtool wählen)
 - [ ] Server für Zugangslinks (IPN) – wer baut ihn?
@@ -53,7 +53,7 @@ Konzept, Termine, Preis, Ablauf und Gewinnspiel-Idee stehen. Es fehlen vor allem
 
 ## Was Claude als Nächstes vorbereiten kann
 - Teaser-/Vorverkaufsseite
-- Server-Skelett für Zugangslinks (Digistore-IPN) zum Testen
+- Server-Skelett für Zugangslinks (Shop-Webhook) zum Testen
 - Songtabelle und Anfrage-Mail an GEMA/Label
 - 10 Story-Themen und Format-Ideen, Skript „Brief an die Zuschauer“
 - Drehplan und Checkliste für alle 24 Videos

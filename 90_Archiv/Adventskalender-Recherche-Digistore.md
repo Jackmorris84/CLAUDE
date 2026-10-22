@@ -4,10 +4,12 @@ typ: wissen
 thema: [Adventskalender, Digistore, Technik]
 quelle: "Websuche 2026-10-17 (Digistore24-Hilfe/Dev-Seiten über Suchergebnisse; die Seiten selbst waren aus der Umgebung nicht abrufbar)"
 erstellt: 2026-10-17
-status: roh
-entscheidung: offen
+status: archiviert
+entscheidung: verworfen
 tags: [adventskalender, digistore, recherche]
 ---
+> ⚠️ Archiviert 2026-10-22: Der Verkauf läuft über den eigenen Shop, nicht über Digistore. Diese Recherche gilt nicht mehr. Nur zur Nachvollziehbarkeit aufbewahrt.
+
 ## Kernaussage
 Digistore24 kann nach jeder Zahlung einen Aufruf (IPN/Webhook) an einen eigenen Server schicken. Damit lässt sich pro Käufer ein persönlicher Zugangslink erzeugen und bei Rückerstattung wieder sperren. Gebühren: 7,9 % + 1 € pro Verkauf auf den Bruttopreis. Alles hier ist aus Suchergebnissen, nicht aus dem Konto geprüft.
 
@@ -41,3 +43,4 @@ Die Seite im Ordner `Adventskalender-Seite/` hat die Freischaltung bisher nur au
 ## Verknüpft mit
 - [[Adventskalender-Planung]]
 - [[Adventskalender-Seite-Prototyp]]
+- [[Adventskalender-Shop-Zahlung]]

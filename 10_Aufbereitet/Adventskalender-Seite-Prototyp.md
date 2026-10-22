@@ -17,7 +17,7 @@ Im Repository liegen zwei Bausteine: eine statische Kalenderseite (`Adventskalen
 - Türchen öffnen sich nach Datum (ab 1.12.2026). Zum Testen: `index.html?datum=2026-12-10` und `?lang=ko`.
 - Videos: Platzhalter. Pro Türchen kann später eine Videodatei je Sprache eingetragen werden (Objekt `CONTENT`, Voice-Over DE/KO/EN).
 - Mobil gleiche Ansicht in 4 Spalten, Desktop 6 Spalten. Per Playwright-Screenshot geprüft.
-- ⚠️ Freischaltung läuft nur im Browser und ist **nicht sicher**: Wer die Datei oder die Video-Adresse kennt, sieht alles. Für den Start braucht es serverseitige Prüfung per Token (siehe [[Adventskalender-Recherche-Digistore]]).
+- ⚠️ Freischaltung läuft nur im Browser und ist **nicht sicher**: Wer die Datei oder die Video-Adresse kennt, sieht alles. Für den Start braucht es serverseitige Prüfung per Token (siehe [[Adventskalender-Shop-Zahlung]]).
 - ⚠️ Die Verteilung Lied/Geschichte/Musikvideo auf die Türchen ist nur ein Platzhalter: Musikvideo an den drei Sonntagen 6./13./20.12., Türchen 24 = Finale.
 
 ## Ziehungs-Skript
@@ -35,5 +35,5 @@ Im Repository liegen zwei Bausteine: eine statische Kalenderseite (`Adventskalen
 
 ## Verknüpft mit
 - [[Adventskalender-Planung]]
-- [[Adventskalender-Recherche-Digistore]]
+- [[Adventskalender-Shop-Zahlung]]
 - [[Adventskalender-Gewinnspiel-Teilnahme]]

@@ -9,12 +9,12 @@ entscheidung: offen
 tags: [adventskalender, planung]
 ---
 ## Kernaussage
-Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.2026, Zugang per Mail-Link, täglich ein Türchen frei (alte bleiben offen). Digistore-Zahlung. Sprachen DE (Standard), EN, KO. Gewinnspiel für Käufer, Finale am 24.12.
+Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.2026, Zugang per Mail-Link, täglich ein Türchen frei (alte bleiben offen). Zahlung über den eigenen Shop. Sprachen DE (Standard), EN, KO. Gewinnspiel für Käufer, Finale am 24.12.
 
 ## Entschieden (laut Jannik)
 - Start **1.12.2026**; alles Material fertig bis **2. Novemberwoche (9.–15.11.)**.
 - Preis **25 € Early Bird**, danach **29 €**. **Early Bird endet 15.11.2026**, danach 29 €.
-- Zugang per Mail-Link, kein Login. Zahlung über Digistore.
+- Zugang per Mail-Link, kein Login. Zahlung über den **Shop** (nicht Digistore, laut Jannik 2026-10-22).
 - Türchen: 10 Lieder-Videos (eine Kameraposition) + 10 Geschichten-Videos (David erzählt aus Leben/Kindheit/Weihnachten) + 4 Musikvideos (Higgsfield + echter Dreh) = 24.
 - Musikvideo 1 (1. Advent, 29.11.) läuft **nur auf YouTube als Werbung**, nicht im Kalender. Die übrigen Sonntage (6./13./20.12.) kommt je ein Lied nur für Käufer.
 - Verlosungen: 29.11. unter allen Followern; danach nur unter Käufern. „Ewigkeit“ (CD) an 3 Personen pro Advent; Finale 24.12.
@@ -30,7 +30,7 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Werbung: Instagram, YouTube, TikTok, Facebook, WhatsApp, Newsletter; dauerhaft Kurzvideos; evtl. bezahlte Anzeigen. Mailingliste + Funnel müssen aufgebaut werden.
 
 ## Empfehlung Plattform (Vorschlag)
-- Eigene mobile Webseite auf Unterdomain (z. B. advent.davids-panparadies.de), keine App. Digistore → Mail mit persönlichem Link → serverseitige Freischaltung nach Datum.
+- Eigene mobile Webseite auf Unterdomain (z. B. advent.davids-panparadies.de), keine App. Shop → Mail mit persönlichem Link → serverseitige Freischaltung nach Datum.
 - Videos direkt in der Seite eingebettet (Hoster mit Domain-Schutz) statt reiner YouTube-„nicht gelistet“-Links, die sich weitergeben lassen.
 
 ## Wichtige Hinweise
@@ -45,7 +45,7 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Weiteres Format: Ideen bisher „Weihnachtsbräuche in Südkorea und Deutschland“, „Brief an die Zuschauer“ (gefällt); weitere sammeln.
 - Livestream-Plattform und endgültige Uhrzeit.
 - Anbieter und Teilnahmebedingungen für Gewinnspiel.
-- Rechtliche/steuerliche Klärung Digistore (MwSt.) und Weltversand.
+- Shop-System, Zahlungsanbieter, Umsatzsteuer und Weltversand klären (siehe [[Adventskalender-Shop-Zahlung]]).
 
 ## Verknüpft mit
 - [[2026-10-16_Adventskalender-Rohnotiz]]
@@ -54,7 +54,7 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[2026-10-16_Adventskalender-Antworten-Runde3]]
 - [[Adventskalender-Zeitplan]]
 - [[Adventskalender-Gewinnspiel-Teilnahme]]
-- [[Adventskalender-Recherche-Digistore]]
+- [[Adventskalender-Shop-Zahlung]]
 - [[Adventskalender-Recherche-GEMA-Higgsfield]]
 - [[Adventskalender-Teilnahmebedingungen-Entwurf]]
 - [[Adventskalender-Seite-Prototyp]]

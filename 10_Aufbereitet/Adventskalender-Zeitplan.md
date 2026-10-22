@@ -23,10 +23,10 @@ Vorschlag für einen Wochenplan rückwärts von den festen Terminen. Verantwortl
 | Woche | Fokus | Aufgaben |
 |---|---|---|
 | 1: 16.–25.10. | Entscheidungen | Team/Stunden, Budget, Early-Bird-Ende, Songliste (10+4), GEMA-Anfrage senden, Higgsfield-Trial testen, Look mit Vater klären |
-| 2: 26.10.–1.11. | Vorbereitung | Digistore-Konto/Produkt anlegen, Domain/Unterdomain, Videohoster wählen, Drehplan + Orte, Story-Themen (10) sammeln, Storyboard Musikvideos |
+| 2: 26.10.–1.11. | Vorbereitung | Shop-Produkt anlegen, Domain/Unterdomain, Videohoster wählen, Drehplan + Orte, Story-Themen (10) sammeln, Storyboard Musikvideos |
 | 3: 2.–8.11. | Dreh 1 | 10 Lieder-Videos aufnehmen, Story-Videos beginnen, Website-Grundgerüst |
 | 4: 9.–15.11. | Dreh 2 + Schnitt | Story-Videos fertig, 4 Musikvideos (Dreh + Higgsfield), Schnitt, Thumbnails |
-| 5: 16.–22.11. | Sprachen + Test | Voice-Overs DE/KO, Seite testen (Mail-Link, Freischaltung nach Datum), Digistore-Testkauf, Mail-Funnel, Teilnahmebedingungen |
+| 5: 16.–22.11. | Sprachen + Test | Voice-Overs DE/KO, Seite testen (Mail-Link, Freischaltung nach Datum), Shop-Testkauf, Mail-Funnel, Teilnahmebedingungen |
 | 6: 23.–29.11. | Werbung | Kurzvideos, YouTube-Video 29.11., Verlosung Follower, Live |
 | 7–10: 30.11.–27.12. | Betrieb | Täglich Türchen prüfen, Sonntags-Lives, Verlosungen, Rabatt 20.12., Finale 24.12., Versand der Gewinne |
 
