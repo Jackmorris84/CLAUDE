@@ -47,7 +47,7 @@ Konzept, Termine, Preis, Ablauf und Gewinnspiel-Idee stehen. Es fehlen vor allem
 - [ ] Shop: Produkt Adventskalender, Preise, Early-Bird-Ende 15.11., Danke-Seite
 - [ ] Unterdomain, Videohoster
 - [ ] Teaser-/Vorverkaufsseite + Mail-Funnel (Mailtool wählen)
-- [ ] Server für Zugangslinks (IPN) – wer baut ihn?
+- [ ] Server für Zugangslinks (Shop-Bestellungen) – wer baut ihn?
 - [ ] Storyboards der Musikvideos, Drehplan
 - [ ] Konzertgutschein erstellen (Code, Einlösung)
 
