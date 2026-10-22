@@ -21,7 +21,7 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Live/Verlosung **nicht abends**: Kandidaten **8 Uhr Paraguay = 12 Uhr DE (= 20 Uhr Korea)** oder **10 Uhr Paraguay = 14 Uhr DE (= 22 Uhr Korea)**. ❓ Endgültige Uhrzeit offen. Plattform YouTube oder TikTok (offen). Gilt auch für die Verlosung am 24.12.
 - Gewinnspiel: Alle Follower dürfen teilnehmen, Kalenderkäufer haben **2×/3× höhere Gewinnchance** (❓ Faktor offen).
 - Konzertgutschein: **1 Jahr gültig, nur einmal einlösbar**, gültig für ein beliebiges Konzert.
-- **40 % CD-Rabatt am 4. Advent, 20.12.**, nur auf benannte CDs (Pan Paradies, Hallelujah, Passion). Im Türchen: Shop-Link oder Code. Shop: davids-panparadies.de/cds (❓ Link bestätigen).
+- **40 % CD-Rabatt am 4. Advent, 20.12.**, nur auf benannte CDs (Pan Paradies, Hallelujah, Passion). Im Türchen: Shop-Link oder Code. Shop: https://shop.davids-panparadies.de (laut Notion).
 - Gewinne: 3× Paket mit 6 CDs (Überraschung), Konzertgutschein (Code, gültig für ein beliebiges Konzert, freier Eintritt, zum Mitbringen). CDs genug da, Versand weltweit.
 - Optik: hellbraun, rot, grün (❓ Abstimmung mit Vater).
 - Sprachen: Standard Deutsch; Voice-Overs Deutsch (Jannik) + Koreanisch (Übersetzerin vorhanden) statt reiner Untertitel. Texte/Untertitel Koreanisch: Freundin vorhanden.
@@ -59,3 +59,4 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[Adventskalender-Teilnahmebedingungen-Entwurf]]
 - [[Adventskalender-Seite-Prototyp]]
 - [[Adventskalender-Status-und-ToDos]]
+- [[Adventskalender-Funde-aus-Notion-und-anderen-Chats]]

@@ -12,7 +12,7 @@ tags: [adventskalender, shop, zahlung]
 Der Adventskalender wird über den Shop verkauft, nicht über Digistore (Entscheidung Jannik, 2026-10-22). Die Digistore-Recherche ist nach `90_Archiv/` verschoben. Welches Shop-System der Shop nutzt, ist noch ❓ unklar.
 
 ## Entschieden
-- Zahlung und Verkauf: eigener Shop (CD-Shop unter davids-panparadies.de/cds ❓ Adresse bestätigen).
+- Zahlung und Verkauf: eigener Shop (https://shop.davids-panparadies.de, laut Notion).
 - Preis: 25 € Early Bird bis 15.11., danach 29 €. Zugang per Mail-Link (unverändert).
 
 ## Was sich dadurch ändert
@@ -22,7 +22,7 @@ Der Adventskalender wird über den Shop verkauft, nicht über Digistore (Entsche
 - Digistore-Hinweise zu Widerruf/Lieferung entfallen. Eigene Shop-Bedingungen für digitale Inhalte mit späterer Freischaltung müssen den Verkauf vor dem 1.12. abdecken.
 
 ## Offen / ❓ unklar
-- Welches Shop-System (z. B. WooCommerce, Shopify, anderes)?
+- Welches Shop-System (z. B. WooCommerce, Shopify, anderes)? Der Shop ist unter shop.davids-panparadies.de erreichbar. Jannik: Der Shop kann nach dem Kauf auch eine Mail versenden (22.10.).
 - Kann der Shop digitale Produkte verkaufen und nach dem Kauf eine Mail mit Link senden? Webhook/Export der Käufer?
 - Welche Zahlungsarten und Gebühren, weltweiter Verkauf (Korea)?
 - Early-Bird-Preis zeitgesteuert bis 15.11. (Aktion/Gutschein) möglich?
