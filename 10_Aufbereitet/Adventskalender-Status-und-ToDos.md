@@ -11,6 +11,19 @@ tags: [adventskalender, status, todo]
 ## Kernaussage
 Konzept, Termine, Preis, Ablauf und Gewinnspiel-Idee stehen. Es fehlen vor allem Personen, Dreh-Tage, Songs/Rechte und Budget. Bis zum 15.11. (Videos fertig und Ende Early Bird) sind es ab dem 19.10. noch 27 Tage.
 
+## Aktualisierung 2026-10-23 (Abgleich)
+Noch 23 Tage bis 15.11. (Videos fertig, Early Bird endet), 39 Tage bis zum Start am 1.12.
+
+**Erledigt (Claude/Vault):**
+- [x] Konzept, Preis, Ablauf, Termine festgehalten
+- [x] Verkauf über den Shop (nicht Digistore), Digistore-Recherche archiviert
+- [x] Seiten-Prototyp, Ziehungs-Skript, Recherche GEMA/Higgsfield, Entwurf Teilnahmebedingungen
+- [x] Notion und andere Chats geprüft (Meeting 23.09., TikTok-Seiten)
+
+**Fällig bis So 25.10. (Woche 1), noch nicht bestätigt erledigt:** Team + Stunden, Drehtage, Songliste + GEMA-Anfrage, Budget, Shop prüfen, Rechtsprüfung, Higgsfield, Look, 10 Story-Themen.
+
+**Riskant, wenn es länger liegt:** Drehtage (Engpass), GEMA/Label-Antworten (dauern Wochen), Shop + Teaser-Seite (Vorverkauf muss vor 15.11. starten).
+
 ## Fertig / entschieden
 - Start 1.12.2026, 24 Videos à ca. 3 Min., Zugang per Mail-Link, Zahlung über den Shop, 25 € Early Bird bis 15.11., danach 29 €.
 - Sprachen DE/EN/KO mit Voice-Over DE + KO, Übersetzerin und Freundin für Korea vorhanden. Korea-Kontakte über die Eltern.
