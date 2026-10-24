@@ -54,3 +54,4 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 - Einmal einrichten: Konto verbinden → Flow bauen (Auslöser: Kommentar mit Stichwort unter ausgewählten Reels; Aktion 1: öffentliche Antwort; Aktion 2: Direktnachricht mit Link-Button) → mit einem Testkonto prüfen → scharf schalten.
 - Ab dann antwortet das Tool innerhalb von Sekunden auf jeden passenden Kommentar. Jannik schaut nur gelegentlich in die Statistik und beantwortet Rückfragen von Menschen selbst.
 - ❓ Zu klären: Nachrichten von Nicht-Followern landen oft bei den „Anfragen“. Deshalb unter dem Kommentar der Hinweis „Schau auch bei den Anfragen“.
+- Beschluss Jannik (2026-10-24, später): Ziel der Direktnachricht ist die **Warteliste**. Verkauft wird per Mail, die zweite Mail enthält den Kaufen-Button, sobald der Verkauf läuft. Texte: [[Adventskalender-Kommentar-Automatisierung-Texte]].
