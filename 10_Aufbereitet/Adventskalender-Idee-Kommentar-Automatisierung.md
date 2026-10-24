@@ -72,3 +72,9 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 - Datenschutz: Bei US-Tools Auftragsverarbeitungsvertrag (AVV) abschließen und die Datenschutzerklärung anpassen. ❓ Rechtsprüfung (Nr. 41/42 im Sheet) soll das mit abdecken.
 - Meta-Einschränkung: Außerhalb eines offenen Gesprächsfensters sind Nachrichten begrenzt, kein Tool kann Zustellung garantieren.
 - Empfehlung Claude: Mit einem günstigen Kommentar-zu-DM-Tool starten (ManyChat oder LinkDM), AVV prüfen, Testlauf mit einem privaten Konto. ❓ Entscheidung Jannik.
+
+## Geht es kostenlos? (Websuche 2026-10-24, nicht beim Anbieter geprüft)
+- ManyChat hat einen Gratisplan. Quellen widersprechen sich: Ältere Angaben nennen 1.000 Kontakte, neuere (Preisumstellung März 2026) nur **25 aktive Kontakte**. Jeder Kommentar, der den Auslöser trifft, zählt als Kontakt. Bei Erreichen des Limits stoppt der Versand. Quellen: https://www.replyrush.com/post/manychat-free-plan-changes-explained, https://www.jupiter.co/blog/manychat-for-food-bloggers-worth-it-2026, https://chatarmin.com/blog/manychat-preise
+- Konsequenz: Gratis reicht nur zum Testen. Für die Aktion (mehrere hundert Kommentare) ist ein bezahlter Monat nötig, Größenordnung ab ca. 15 $/Monat. ❓ Aktuellen Preis im Konto unter Settings > Billing prüfen.
+- Kostenlose Handarbeit als Notlösung: Link in der Bio, angepinnter Kommentar mit Hinweis, Kommentare von Hand mit gespeicherten Antworten beantworten (❓ Funktion im Instagram-Postfach prüfen). Das kostet Zeit, die Jannik nicht hat.
+- Empfehlung Claude: Nur einen Monat bezahlen, solange die Reels laufen (Ende Oktober bis Mitte November), danach kündigen. ❓ Entscheidung Jannik.
