@@ -84,3 +84,4 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 
 ## Entscheidung Tool (Jannik, 2026-10-24)
 **Es wird ManyChat genommen.** Vorgehen: Gratis-Konto, Ablauf mit privatem Konto testen, dann einen bezahlten Monat buchen (Preis im Konto prüfen), danach kündigen. AVV mit ManyChat abschließen und Datenschutzerklärung anpassen. Im Google Sheet: Nr. 159 (Einrichtung, Frist Mi 28.10.) und neu Nr. 165 (AVV und Datenschutz, Frist Do 29.10. als Vorschlag ❓).
+- Freigabe (Jannik, 2026-10-24): ManyChat muss von den **Eltern abgesegnet und gekauft** werden, **Deadline So 25.10.** Sheet Nr. 166. Vorher Gratis-Konto anlegen und den Tarif ansehen, damit die Eltern den genauen Preis kennen. ❓ Welcher Tarif und Preis gilt, steht erst im Konto.
