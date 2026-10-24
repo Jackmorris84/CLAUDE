@@ -22,7 +22,7 @@ Der Adventskalender wird über den Shop verkauft, nicht über Digistore (Entsche
 - Digistore-Hinweise zu Widerruf/Lieferung entfallen. Eigene Shop-Bedingungen für digitale Inhalte mit späterer Freischaltung müssen den Verkauf vor dem 1.12. abdecken.
 
 ## Offen / ❓ unklar
-- Welches Shop-System (z. B. WooCommerce, Shopify, anderes)? Der Shop ist unter shop.davids-panparadies.de erreichbar. Jannik: Der Shop kann nach dem Kauf auch eine Mail versenden (22.10.).
+- Shop-System: **WooCommerce** (Jannik, 24.10.). Zu klären: Bestellungen per Webhook/Plugin abrufbar? Brevo-Anbindung für WooCommerce prüfen (❓ nicht nachgeprüft). Der Shop ist unter shop.davids-panparadies.de erreichbar. Jannik: Der Shop kann nach dem Kauf auch eine Mail versenden (22.10.).
 - Kann der Shop digitale Produkte verkaufen und nach dem Kauf eine Mail mit Link senden? Webhook/Export der Käufer?
 - Welche Zahlungsarten und Gebühren, weltweiter Verkauf (Korea)?
 - Early-Bird-Preis zeitgesteuert bis 15.11. (Aktion/Gutschein) möglich?

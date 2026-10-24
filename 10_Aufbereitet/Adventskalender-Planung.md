@@ -19,7 +19,8 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Musikvideo 1 (1. Advent, 29.11.) läuft **nur auf YouTube als Werbung**, nicht im Kalender. Die übrigen Sonntage (6./13./20.12.) kommt je ein Lied nur für Käufer.
 - Verlosungen: 29.11. unter allen Followern; danach nur unter Käufern. „Ewigkeit“ (CD) an 3 Personen pro Advent; Finale 24.12.
 - Live/Verlosung **nicht abends**: Kandidaten **8 Uhr Paraguay = 12 Uhr DE (= 20 Uhr Korea)** oder **10 Uhr Paraguay = 14 Uhr DE (= 22 Uhr Korea)**. ❓ Endgültige Uhrzeit offen. Plattform YouTube oder TikTok (offen). Gilt auch für die Verlosung am 24.12.
-- Gewinnspiel: Alle Follower dürfen teilnehmen, Kalenderkäufer haben **2×/3× höhere Gewinnchance** (❓ Faktor offen).
+- Gewinnspiel: **Veranstalter David Döring**. Lose: **1** (kein Mitglied), **2** (Newsletter abonniert), **3** (Kalender gekauft); wer beides ist, zählt 3 (❓ bestätigen). Teilnahme weltweit, Schwerpunkt **Deutschland, Korea, USA**. ❓ Gilt das für alle Ziehungen (früher: nach dem 29.11. nur Käufer)?
+- Shop-System: **WooCommerce** (Webseite/Shop von David).
 - Konzertgutschein: **1 Jahr gültig, nur einmal einlösbar**, gültig für ein beliebiges Konzert.
 - **40 % CD-Rabatt am 4. Advent, 20.12.**, nur auf benannte CDs (Pan Paradies, Hallelujah, Passion). Im Türchen: Shop-Link oder Code. Shop: https://shop.davids-panparadies.de (laut Notion).
 - Gewinne: 3× Paket mit 6 CDs (Überraschung), Konzertgutschein (Code, gültig für ein beliebiges Konzert, freier Eintritt, zum Mitbringen). CDs genug da, Versand weltweit.
@@ -45,7 +46,8 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Weiteres Format: Ideen bisher „Weihnachtsbräuche in Südkorea und Deutschland“, „Brief an die Zuschauer“ (gefällt); weitere sammeln.
 - Livestream-Plattform und endgültige Uhrzeit.
 - Anbieter und Teilnahmebedingungen für Gewinnspiel.
-- Shop-System, Zahlungsanbieter, Umsatzsteuer und Weltversand klären (siehe [[Adventskalender-Shop-Zahlung]]).
+- Zahlungsanbieter im Shop, Umsatzsteuer und Weltversand klären (siehe [[Adventskalender-Shop-Zahlung]]).
+- Anschrift des Veranstalters/Gewerbes (David Döring) für die Bedingungen.
 
 ## Verknüpft mit
 - [[2026-10-16_Adventskalender-Rohnotiz]]
