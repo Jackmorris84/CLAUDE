@@ -32,6 +32,14 @@ Der Wartelisten-Bonus ist **gestrichen**. Beim Gewinnspiel zählt nur: 1 Los fü
 - **Die Warteliste behält ihren Zweck:** Verkaufsstart-Mail, Early-Bird-Vorteil, Teaser.
 - **Verkaufsstart festlegen** (Vorschlag Anfang November, spätestens 1.11.) und die Warteliste ab dann auf den Shop umleiten.
 
+## Warteliste oder direkt kaufen? (Frage von Jannik, 2026-10-24)
+- **Wenn man schon kaufen kann, braucht es die Warteliste nicht als Hauptweg.** Dann gehört der Kaufen-Button an erste Stelle.
+- **Was die Warteliste dann noch leistet:** Sie fängt Leute auf, die interessiert, aber (noch) nicht zahlungsbereit sind. Ein reiner Kauf-Button verliert diese Adressen. Sie bekommen eine Erinnerung vor dem Ende des Early Birds (15.11.), das ist der Vorteil gegenüber „nur Shop“.
+- **Wann sie sinnvoll ist:** nur solange der Shop noch nicht offen ist (jetzt bis zum Verkaufsstart) und als „Erinnere mich“-Option neben dem Kaufen-Button.
+- **Ohne Warteliste:** Käufer hinterlassen ihre E-Mail beim Kauf, Nicht-Käufer erreicht ihr nur über Social Media und die Altliste.
+- Möglicher Vorverkauf: Der Kalender lässt sich schon vor der Fertigstellung verkaufen, wenn der Starttermin (1.12., täglich ein Türchen) klar im Shop steht. Dann ist die Warteliste nur noch ein Zusatz.
+- ❓ Entscheidung: Wann startet der Verkauf im Shop, und bleibt die Warteliste als „Erinnere mich“ erhalten?
+
 ## Offen / ❓ unklar
 - Wann startet der Verkauf im Shop (WooCommerce)? Davon hängt ab, wann die Warteliste endet.
 
