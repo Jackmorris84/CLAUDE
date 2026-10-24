@@ -56,3 +56,11 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 - ❓ Zu klären: Nachrichten von Nicht-Followern landen oft bei den „Anfragen“. Deshalb unter dem Kommentar der Hinweis „Schau auch bei den Anfragen“.
 - Beschluss Jannik (2026-10-24, später): Ziel der Direktnachricht ist die **Warteliste**. Verkauft wird per Mail, die zweite Mail enthält den Kaufen-Button, sobald der Verkauf läuft. Texte: [[Adventskalender-Kommentar-Automatisierung-Texte]].
 - Beschluss Jannik (2026-10-24): **Ein deutsches Reel und ein Reel mit englischen Untertiteln** (gleiche Aufnahmen). Koreanisch: ein Reel mit koreanischer Übersetzung (Untertitel) kommt dazu, sobald Jannik mit seiner Mutter den Stand bei Herrn Lee geklärt hat. Sheet Nr. 162–164.
+
+## Technik einfach erklärt (Frage von Jannik, 2026-10-24)
+1. David (oder Jannik) erlaubt dem Tool einmalig den Zugriff auf Davids Instagram-Konto über die offizielle Meta-Anmeldung („Mit Instagram verbinden“). Das Tool bekommt dabei einen Schlüssel (Token). Das Passwort bekommt es nicht.
+2. Instagram meldet jeden neuen Kommentar sofort an das Tool (Webhook, wie eine automatische Benachrichtigung).
+3. Das Tool prüft: Steht das Stichwort drin, und gehört der Kommentar zu einem Reel, das im Ablauf eingetragen ist?
+4. Wenn ja, schickt das Tool über die offizielle Instagram-Schnittstelle eine „private Antwort“ auf diesen Kommentar. Die Nachricht kommt vom Konto @daviddoering_, so als hätte David sie geschickt. Zusätzlich schreibt es die öffentliche Antwort unter den Kommentar.
+5. Das passiert auf den Servern des Tools, nicht auf Davids Handy oder Laptop. Es ist erlaubt, weil die Person durch ihren Kommentar um die Nachricht gebeten hat.
+- Grenzen: nur auf Kommentare, nach meinem Kenntnisstand eine Nachricht je Kommentar und nur kurz nach dem Kommentar. ❓ Regeln von Meta und Tool prüfen. Die Verbindung kann ablaufen, dann muss man sich im Tool neu anmelden.
