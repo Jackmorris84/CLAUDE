@@ -63,3 +63,4 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[2026-10-24_Adventskalender-Erledigte-Aufgaben]]
 - [[Adventskalender-Songtabelle]]
 - [[Adventskalender-Drehplan]]
+- [[Adventskalender-Rechtsklaerung-Gewinnspiel]]
