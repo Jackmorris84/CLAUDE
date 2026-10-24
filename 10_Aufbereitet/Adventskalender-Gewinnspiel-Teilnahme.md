@@ -49,7 +49,7 @@ Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
 - Wer prüft die Bedingungen rechtlich?
 
 ## Beschluss 2026-10-24 (zweite Fassung): Lose
-Jeden Advent (29.11., 6.12., 13.12., 20.12.) ein Gewinnspiel für alle, jeder 1 Los. Finale 24.12. für alle, Käufer des Kalenders 3 Lose. Umsetzung: Skript `Gewinnspiel-Tool/ziehung.py` (`--ohne-gewichtung` für die Advents-Ziehungen, `--faktor-newsletter 1` fürs Finale ohne Newsletter-Bonus). ❓ Newsletter-Bonus (2 Lose) streichen? Ohne ihn entfällt die DSGVO-Frage zum Kopplungsverbot.
+Jeden Advent (29.11., 6.12., 13.12., 20.12.) ein Gewinnspiel für alle, jeder 1 Los. Finale 24.12. für alle, Käufer des Kalenders 3 Lose. Umsetzung: Skript `Gewinnspiel-Tool/ziehung.py` (`--ohne-gewichtung` für die Advents-Ziehungen, `--faktor-warteliste 1` fürs Finale ohne Wartelisten-Bonus). ❓ Korrektur 24.10.: der 2-Lose-Bonus gilt der **Warteliste** (nicht dem Newsletter). Gilt er beim Finale noch? Ohne ihn entfällt die DSGVO-Frage zum Kopplungsverbot.
 
 ## Variante B: Kommentar-Verlosung (Erfahrung der Eltern, 2026-10-22)
 Quelle: [[2026-10-22_Adventskalender-Nachricht-Mutter-Gewinnspiel]]

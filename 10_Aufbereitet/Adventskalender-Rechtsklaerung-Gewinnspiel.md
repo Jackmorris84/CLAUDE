@@ -23,7 +23,7 @@ Die Rechtsprüfung muss ein Mensch mit Fachkenntnis machen (Fachanwalt oder spez
 
 ## Entscheidungen, die vor der Beauftragung nötig sind
 - Teilnahme **kostenlos für alle**, Käufer bekommen Bonuslose (Empfehlung) oder Ziehungen nur für Käufer?
-- **Entschieden (24.10., zweite Fassung):** Jeden Advent (29.11., 6.12., 13.12., 20.12.) ein Gewinnspiel für alle (1 Los). Finale 24.12. auch für alle, Käufer 3 Lose. ❓ Newsletter-Bonus (2 Lose) streichen? Weniger rechtliches Risiko ohne ihn.
+- **Entschieden (24.10., zweite Fassung):** Jeden Advent (29.11., 6.12., 13.12., 20.12.) ein Gewinnspiel für alle (1 Los). Finale 24.12. auch für alle, Käufer 3 Lose. ❓ Jannik korrigierte: der frühere „Newsletter“-Bonus (2 Lose) meinte die **Warteliste** für den Adventskalender (Brevo). Gilt er noch beim Finale? Ohne ihn weniger rechtliches Risiko.
 - Teilnahmeweg: Kommentar unter YouTube-Video (29.11.), danach Button im Kalender oder Formular mit E-Mail und Bestätigungslink (Brevo).
 - **Entschieden (24.10.):** weltweit, Schwerpunkt Deutschland, Korea, USA. ❓ Mindestalter.
 - Gewinne: 3× „Ewigkeit“ pro Advent, 3× CD-Paket (6 CDs), Konzertgutschein (1 Jahr, einmal einlösbar, beliebiges Konzert).
@@ -53,7 +53,7 @@ Die Rechtsprüfung muss ein Mensch mit Fachkenntnis machen (Fachanwalt oder spez
 6. Wie muss der Konzertgutschein ausgestaltet sein (Gültigkeit, Absage eines Konzerts, Übertragbarkeit, Haftung)?
 7. Welche Hinweise braucht es zu Plattformen (YouTube, Instagram, TikTok, Meta)?
 8. Welche Dokumentationspflichten gelten für die Ziehung?
-9. (Nur falls der Newsletter-Bonus bleibt) Dürfen wir ein zweites Los für das Newsletter-Abo vergeben, ohne gegen das Kopplungsverbot der DSGVO zu verstoßen?
+9. (Nur falls der Wartelisten-Bonus bleibt) Dürfen wir ein zweites Los für die Anmeldung zur Warteliste (E-Mail-Einwilligung) vergeben, ohne gegen das Kopplungsverbot der DSGVO zu verstoßen?
 10. Gelten für Korea und die USA Besonderheiten (z. B. „no purchase necessary“-Hinweis, Registrierungspflichten, Regeln für Gewinnspiele mit Kaufbezug)?
 11. Dürfen wir die Teilnehmer-E-Mails für Gewinnbenachrichtigung nutzen, und wie holen wir die Newsletter-Einwilligung korrekt ein?
 Frage an Steuerberater: Behandlung der Gewinne bei Käufern und Nicht-Käufern, Umsatzsteuer, Betriebsausgaben.
