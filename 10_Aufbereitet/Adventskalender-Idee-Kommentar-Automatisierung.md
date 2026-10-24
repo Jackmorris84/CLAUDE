@@ -42,3 +42,15 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 - [[Adventskalender-Landingpage-und-Brevo-Mails-DE]]
 - [[Adventskalender-Gesamtplan]]
 - [[Kanaele-Links-und-Impressum]]
+
+## Entscheidungen und Antworten (Jannik, 2026-10-24)
+- Stichwort: **Advent oder Adventskalender**, eines von beiden. Claude-Vorschlag: im Reel „Adventskalender“ sagen und im Tool beide Wörter als Auslöser eintragen (Tools erkennen mehrere Stichwörter). ❓ Jannik wählt.
+- Davids Instagram ist ein **Creator-Konto**, mit **Facebook verbunden**. Voraussetzung ist damit nach Janniks Angabe erfüllt (❓ im Tool prüfen).
+- Texte schreibt Claude, zuerst Deutsch. Englisch: ❓ offen, Frage von Jannik, ob ein eigenes englisches Reel oder KI-Übersetzung.
+- Aufgaben Nr. 157–161 stehen im Google Sheet (Reel-Texte, Hook-Variante, Tool einrichten, Reel drehen, Reel posten).
+
+## Wie die Automatisierung ohne Laptop läuft
+- Das Tool läuft in der Cloud des Anbieters, rund um die Uhr. Es ist mit Davids Instagram-Konto über die offizielle Meta-Anmeldung verbunden. Weder David noch Jannik müssen online sein.
+- Einmal einrichten: Konto verbinden → Flow bauen (Auslöser: Kommentar mit Stichwort unter ausgewählten Reels; Aktion 1: öffentliche Antwort; Aktion 2: Direktnachricht mit Link-Button) → mit einem Testkonto prüfen → scharf schalten.
+- Ab dann antwortet das Tool innerhalb von Sekunden auf jeden passenden Kommentar. Jannik schaut nur gelegentlich in die Statistik und beantwortet Rückfragen von Menschen selbst.
+- ❓ Zu klären: Nachrichten von Nicht-Followern landen oft bei den „Anfragen“. Deshalb unter dem Kommentar der Hinweis „Schau auch bei den Anfragen“.
