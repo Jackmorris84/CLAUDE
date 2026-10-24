@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """Gewichtete Verlosung. Jede E-Mail zaehlt einmal.
 
-Lose: Kaeufer des Kalenders 3, alle anderen 1; nur im Finale zaehlt die Warteliste 2 (--modus advent|finale, Faktoren einstellbar).
+Lose: Kaeufer des Kalenders 2, alle anderen 1 (Warteliste und CD-Kauf geben keinen Bonus).
 Wer beides ist, bekommt nur den hoechsten Wert (nicht addiert).
 
 CSV-Spalten (Kopfzeile noetig): email, bestaetigt (ja/nein), kaeufer (ja/nein), warteliste (ja/nein, optional; alte Spalte 'newsletter' wird auch gelesen)
-Advents-Ziehung (29.11., 6.12., 13.12., 20.12.): python3 ziehung.py teilnehmer.csv --gewinner 3 --modus advent --log ziehung_2026-12-06.json
-  -> Kaeufer 3 Lose, alle anderen 1 (Warteliste zaehlt nicht).
-Finale 24.12.: python3 ziehung.py teilnehmer.csv --gewinner 3 --modus finale --log ziehung_2026-12-24.json
-  -> Kaeufer 3 Lose, Warteliste 2 Lose, alle anderen 1.
+Jede Ziehung (29.11., 6.12., 13.12., 20.12., 24.12.): python3 ziehung.py teilnehmer.csv --gewinner 3 --log ziehung_2026-12-06.json
+  -> Kaeufer 2 Lose, alle anderen 1.
 Mit --nur-kaeufer werden nur Kaeufer gezogen. --seed macht die Ziehung nachvollziehbar.
 """
 import argparse, csv, json, secrets, random, sys
@@ -50,17 +48,12 @@ def ziehe(personen, anzahl, f_kaeufer, f_news, seed):
 def main():
     a = argparse.ArgumentParser()
     a.add_argument("csv"); a.add_argument("--gewinner", type=int, default=3)
-    a.add_argument("--faktor-kaeufer", type=int, default=3, help="Lose pro Kaeufer")
-    a.add_argument("--faktor-warteliste", type=int, default=2, help="Lose pro Wartelisten-Mitglied")
-    a.add_argument("--modus", choices=["advent", "finale"], help="advent: Kaeufer 3, Warteliste 1; finale: Kaeufer 3, Warteliste 2")
+    a.add_argument("--faktor-kaeufer", type=int, default=2, help="Lose pro Kaeufer")
+    a.add_argument("--faktor-warteliste", type=int, default=1, help="Lose pro Wartelisten-Mitglied")
     a.add_argument("--ohne-gewichtung", action="store_true", help="alle haben 1 Los")
     a.add_argument("--nur-kaeufer", action="store_true"); a.add_argument("--seed")
     a.add_argument("--log")
     o = a.parse_args()
-    if o.modus == "advent":
-        o.faktor_kaeufer, o.faktor_warteliste = 3, 1
-    elif o.modus == "finale":
-        o.faktor_kaeufer, o.faktor_warteliste = 3, 2
     if o.ohne_gewichtung:
         o.faktor_kaeufer = o.faktor_warteliste = 1
     seed = o.seed or secrets.token_hex(8)

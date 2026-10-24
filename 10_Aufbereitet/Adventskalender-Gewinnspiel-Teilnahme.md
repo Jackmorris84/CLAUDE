@@ -18,8 +18,8 @@ Teilnahme am besten über ein Formular auf der Kalender-Seite mit E-Mail und Bes
 - Newsletter-Einwilligung getrennt und freiwillig anbieten, nicht als Pflicht zur Teilnahme (Datenschutz, DSGVO).
 
 ## Gewichtung (2× oder 3×)
-Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
-1. Der Shop schickt Käufer (per Export oder Anbindung) ins Mailtool und setzt dort das Etikett „Käufer“ (Mailtool ist Brevo (Warteliste steht); Anbindung an den Shop vorher prüfen).
+Jede bestätigte Person hat 1 Los. Käufer des Kalenders bekommen 2 Lose.
+1. Der Shop schickt Käufer (per Export oder Anbindung) ins Mailtool und setzt dort das Etikett „Käufer“ (Mailtool ist Brevo; Anbindung an den Shop vorher prüfen).
 2. Vor der Ziehung: Liste exportieren (E-Mail, bestätigt ja/nein, Käufer ja/nein). Dubletten pro E-Mail zusammenführen.
 3. Lose = 1 für Nicht-Käufer, 2 oder 3 für Käufer. Rückerstattete Käufe zählen nicht als Käufer.
 4. Ziehung live per Skript oder Tabellen-Zufallsfunktion, Bildschirm geteilt, Ergebnis wird protokolliert (Datum, Teilnehmerzahl, Lose, Gewinner). Ich kann das Skript schreiben und testen.
@@ -30,7 +30,7 @@ Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
 - Zeitraum und Ziehungstermine (29.11., 6.12., 13.12., 20.12., 24.12.).
 - Wer darf mitmachen (Alter, Wohnsitz; da weltweit versandt wird: Länderliste, Zoll, ggf. Ausschlüsse). ❓ Mindestalter und Länder klären.
 - Wie man teilnimmt, Bestätigungslink, Frist.
-- Käufer-Bonus offen und verständlich erklären (z. B. „Käufer des Adventskalenders erhalten 3 Lose statt 1“).
+- Käufer-Bonus offen und verständlich erklären („Käufer des Adventskalenders erhalten 2 Lose statt 1“).
 - Gewinne: 3× CD-Paket (6 CDs), CD „Ewigkeit“ (3 pro Advent), Konzertgutschein (1 Jahr gültig, nur einmal einlösbar, gültig für ein beliebiges Konzert).
 - Ziehung (Zufall, live, Gewichtung), Benachrichtigung per E-Mail, Frist zur Antwort (z. B. 7 Tage), sonst Nachrücker.
 - Versand (weltweit, wer trägt Zoll/Steuern) und Gutscheineinlösung.
@@ -49,11 +49,10 @@ Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
 - Wer prüft die Bedingungen rechtlich?
 
 ## Beschluss 2026-10-24 (Endfassung): Lose
-- **Advents-Ziehungen** (29.11., 6.12., 13.12., 20.12., je 3× „Ewigkeit“): für alle, Käufer 3 Lose, alle anderen 1 Los. Die Warteliste zählt hier nicht (Jannik, 24.10.: sie spielt nur am 24.12. eine Rolle).
-- **Warteliste:** läuft schon vor dem Start und endet am 29./30.11. (❓ genaues Datum).
-- **Weihnachts-Ziehung 24.12.:** für alle, 1 Los, Warteliste 2 Lose, Käufer 3 Lose (höchster Wert zählt).
-- Umsetzung: Brevo-Kontakte mit Etikett „Warteliste“ und „Käufer“ (Kauf über WooCommerce), Skript `Gewinnspiel-Tool/ziehung.py --modus advent|finale`, Spalten `kaeufer` und `warteliste`.
-- ❓ Wartelisten-Bonus (nur 24.12.) mit der Kanzlei klären (DSGVO-Freiwilligkeit).
+- **Alle Ziehungen** (29.11., 6.12., 13.12., 20.12., 24.12.) für alle: 1 Los, 2 Lose mit Kalenderkauf.
+- **Kein Bonus** für Warteliste, CD-Kauf oder Newsletter (Jannik, 24.10.: Warteliste fällt beim Gewinnspiel weg).
+- Umsetzung: Brevo/WooCommerce-Etikett „Käufer“, Skript `Gewinnspiel-Tool/ziehung.py` (Standard: Käufer 2, sonst 1), Spalten `email, bestaetigt, kaeufer`.
+- Offen für die Kanzlei: Zweites Los für Käufer als Kaufanreiz (Glücksspielrecht). Der DSGVO-Punkt zum Wartelisten-Bonus entfällt.
 
 ## Variante B: Kommentar-Verlosung (Erfahrung der Eltern, 2026-10-22)
 Quelle: [[2026-10-22_Adventskalender-Nachricht-Mutter-Gewinnspiel]]

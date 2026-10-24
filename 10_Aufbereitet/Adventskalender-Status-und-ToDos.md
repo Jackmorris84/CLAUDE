@@ -83,7 +83,7 @@ Noch 23 Tage bis 15.11. (Videos fertig, Early Bird endet), 39 Tage bis zum Start
 - [~] Songliste (10+4) mit Komponist/Texter/Verlag, danach GEMA/Label anfragen (Tabelle und Mail-Entwurf: [[Adventskalender-Songtabelle]]; weitere Lieder fehlen noch)
 - [ ] Budget klären
 - [ ] Shop prüfen: System, digitale Produkte, Mail nach Kauf, Export/Webhook (siehe [[Adventskalender-Shop-Zahlung]])
-- [~] Rechtsprüfung Gewinnspiel beauftragen (Veranstalter David Döring, WooCommerce, Lose 1/2/3, Länder weltweit: im Briefing eingetragen) (Vorgehen, Briefing, Fragen: [[Adventskalender-Rechtsklaerung-Gewinnspiel]])
+- [~] Rechtsprüfung Gewinnspiel beauftragen (Veranstalter David Döring, WooCommerce, Lose 1 (alle) / 2 (Kalenderkauf), Länder weltweit: im Briefing eingetragen) (Vorgehen, Briefing, Fragen: [[Adventskalender-Rechtsklaerung-Gewinnspiel]])
 - [ ] Higgsfield: Bedingungen prüfen, dann Test
 - [ ] Look mit Vater abstimmen
 - [ ] 10 Geschichten-Themen und weiteres Format sammeln

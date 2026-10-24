@@ -17,9 +17,9 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Zugang per Mail-Link, kein Login. Zahlung über den **Shop** (nicht Digistore, laut Jannik 2026-10-22).
 - Türchen: 10 Lieder-Videos (eine Kameraposition) + 10 Geschichten-Videos (David erzählt aus Leben/Kindheit/Weihnachten) + 4 Musikvideos (Higgsfield + echter Dreh) = 24.
 - Musikvideo 1 (1. Advent, 29.11.) läuft **nur auf YouTube als Werbung**, nicht im Kalender. Die übrigen Sonntage (6./13./20.12.) kommt je ein Lied nur für Käufer.
-- Verlosungen: **jeden Advent (29.11., 6.12., 13.12., 20.12.) ein Gewinnspiel für alle**, „Ewigkeit“ (CD) an 3 Personen pro Advent; **Käufer 3 Lose, alle anderen 1 Los, die Warteliste zählt hier nicht**. **Weihnachts-Gewinnspiel 24.12. für alle: 1 Los normal, 2 Lose Warteliste, 3 Lose Käufer** (die Warteliste läuft schon vor dem Start und endet am 29./30.11.; sie spielt nur am 24.12. eine Rolle) (Beschluss Jannik 2026-10-24, ersetzt „nach dem 29.11. nur Käufer“).
+- Verlosungen: **jeden Advent (29.11., 6.12., 13.12., 20.12.) und am 24.12. ein Gewinnspiel für alle**; „Ewigkeit“ (CD) an 3 Personen pro Advent. **Lose: 1 Los für alle, 2 Lose mit Kalenderkauf** (Warteliste und CD-Kauf geben keinen Bonus; Beschluss Jannik 2026-10-24, ersetzt alle früheren Lose-Modelle).
 - Live/Verlosung **nicht abends**: Kandidaten **8 Uhr Paraguay = 12 Uhr DE (= 20 Uhr Korea)** oder **10 Uhr Paraguay = 14 Uhr DE (= 22 Uhr Korea)**. ❓ Endgültige Uhrzeit offen. Plattform YouTube oder TikTok (offen). Gilt auch für die Verlosung am 24.12.
-- Gewinnspiel: **Veranstalter David Döring**. Lose Advents-Ziehungen: Käufer 3, alle anderen 1. Lose 24.12.: 1 / 2 (Warteliste) / 3 (Käufer), höchster Wert zählt. Teilnahme weltweit, Schwerpunkt **Deutschland, Korea, USA**.
+- Gewinnspiel: **Veranstalter David Döring**. Lose: 1 (alle), 2 (Kalenderkauf). Teilnahme weltweit, Schwerpunkt **Deutschland, Korea, USA**.
 - Shop-System: **WooCommerce** (Webseite/Shop von David).
 - Konzertgutschein: **1 Jahr gültig, nur einmal einlösbar**, gültig für ein beliebiges Konzert.
 - **40 % CD-Rabatt am 4. Advent, 20.12.**, nur auf benannte CDs (Pan Paradies, Hallelujah, Passion). Im Türchen: Shop-Link oder Code. Shop: https://shop.davids-panparadies.de (laut Notion).
@@ -69,3 +69,4 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[2026-10-24_Adventskalender-Beschluss-Gewinnspiel-Modell]]
 - [[2026-10-24_Adventskalender-Beschluss-Lose-final]]
 - [[Adventskalender-Warteliste-Prinzip]]
+- [[2026-10-24_Adventskalender-Beschluss-Lose-einfach-zweifach]]

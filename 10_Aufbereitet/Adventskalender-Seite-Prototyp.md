@@ -22,9 +22,9 @@ Im Repository liegen zwei Bausteine: eine statische Kalenderseite (`Adventskalen
 
 ## Ziehungs-Skript
 - Eingabe: CSV mit `email, bestaetigt, kaeufer`. Dubletten werden zusammengeführt, unbestätigte Adressen ignoriert.
-- Lose: `--modus advent` = Käufer 3, alle anderen 1; `--modus finale` = Käufer 3, Warteliste 2, alle anderen 1 (höchster Wert zählt). Weitere Optionen: `--gewinner`, `--faktor-kaeufer`, `--faktor-warteliste`, `--ohne-gewichtung`, `--nur-kaeufer`, `--seed`, `--log`. CSV-Spalten `email, bestaetigt, kaeufer, warteliste`.
+- Lose: Standard Käufer 2, alle anderen 1. Optionen: `--gewinner`, `--faktor-kaeufer`, `--nur-kaeufer`, `--ohne-gewichtung`, `--seed`, `--log`. CSV-Spalten `email, bestaetigt, kaeufer` (eine Spalte `warteliste` wird ignoriert, wenn `--faktor-warteliste` 1 bleibt).
 - Pro Person nur ein Gewinn. Ergebnis (Seed, Teilnehmerzahl, Lose, Gewinner, Zeit) wird als JSON protokolliert.
-- Test (30.000 Ziehungen, je ein Teilnehmer pro Stufe): Finale 1 : 1,97 : 2,93, Advent Warteliste = normal (1 : 1 : 2,9). Passt zu 1/2/3 bzw. 1/1/3.
+- Test (30.000 Ziehungen, je ein Teilnehmer pro Stufe): Käufer 2,0-mal so oft wie normale Teilnehmer.
 - Beispieldatei: `Gewinnspiel-Tool/beispiel_teilnehmer.csv`.
 
 ## Offen / ❓ unklar

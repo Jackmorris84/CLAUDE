@@ -24,13 +24,15 @@ Ablauf: Eintragen → Teaser-Mails → Verkaufsstart-Mail → Kauf (Early Bird) 
 - Rechtlich: Ein Los für die Anmeldung zu einer Mailingliste kann wie ein Preis für die E-Mail-Einwilligung wirken (Kopplungsverbot DSGVO). Je weniger solche Boni, desto einfacher die Prüfung.
 - Zeitlich unscharf: Warteliste soll bis 29./30.11. laufen, der Verkauf (Early Bird) aber schon vor dem 15.11. Die Warteliste endet sinnvoll mit dem Verkaufsstart, nicht erst am 30.11.
 
-## Empfehlung (Vorschlag, noch nicht entschieden)
-- **Wartelisten-Bonus streichen.** 24.12.: 1 Los für alle, 3 Lose für Käufer. Advents-Ziehungen unverändert (Käufer 3, alle anderen 1).
+## Entscheidung (Jannik, 2026-10-24)
+Der Wartelisten-Bonus ist **gestrichen**. Beim Gewinnspiel zählt nur: 1 Los für alle, 2 Lose mit Kalenderkauf. Die folgende Empfehlung bleibt für die Warteliste selbst gültig.
+
+## Empfehlung (Vorschlag)
+- **Wartelisten-Bonus streichen** (erledigt).
 - **Die Warteliste behält ihren Zweck:** Verkaufsstart-Mail, Early-Bird-Vorteil, Teaser.
 - **Verkaufsstart festlegen** (Vorschlag Anfang November, spätestens 1.11.) und die Warteliste ab dann auf den Shop umleiten.
 
 ## Offen / ❓ unklar
-- Bleibt der Wartelisten-Bonus (2 Lose am 24.12.) oder fällt er weg?
 - Wann startet der Verkauf im Shop (WooCommerce)? Davon hängt ab, wann die Warteliste endet.
 
 ## Verknüpft mit
