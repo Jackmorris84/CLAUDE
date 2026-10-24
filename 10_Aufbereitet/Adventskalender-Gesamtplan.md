@@ -40,3 +40,6 @@ Bezahlte Werbung war bisher nicht eingeplant. Budget, Kanäle und Messgrößen s
 - [[Adventskalender-Planung]]
 - [[Adventskalender-Tagesplan]]
 - [[Adventskalender-Status-und-ToDos]]
+
+## Google Sheet (Stand 2026-10-24)
+Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn gemeinsam bearbeiten. Der Upload scheiterte: „The caller does not have permission“ (Google-Drive-Connector darf in dieser Sitzung keine Dateien anlegen). Für Bearbeitung durch Claude fehlt zusätzlich der Google-Sheets-Connector. Bis dahin gilt die Excel-Datei `Adventskalender-Gesamtplan.xlsx` im Vault. ❓ Freigabe der Connectoren durch Jannik, E-Mail-Adresse der Mutter für die Freigabe.
