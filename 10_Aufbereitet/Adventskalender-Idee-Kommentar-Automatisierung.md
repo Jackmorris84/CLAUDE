@@ -78,3 +78,6 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 - Konsequenz: Gratis reicht nur zum Testen. Für die Aktion (mehrere hundert Kommentare) ist ein bezahlter Monat nötig, Größenordnung ab ca. 15 $/Monat. ❓ Aktuellen Preis im Konto unter Settings > Billing prüfen.
 - Kostenlose Handarbeit als Notlösung: Link in der Bio, angepinnter Kommentar mit Hinweis, Kommentare von Hand mit gespeicherten Antworten beantworten (❓ Funktion im Instagram-Postfach prüfen). Das kostet Zeit, die Jannik nicht hat.
 - Empfehlung Claude: Nur einen Monat bezahlen, solange die Reels laufen (Ende Oktober bis Mitte November), danach kündigen. ❓ Entscheidung Jannik.
+
+## Empfehlung Tool (Claude, 2026-10-24) – ❓ Entscheidung Jannik offen
+**ManyChat für einen Monat.** Gründe: verbreitet (viele Anleitungen), Instagram und Facebook in einem Tool, AVV wird angeboten, monatlich kündbar, keine Programmierung. Wechsel auf ein EU-Tool (Chatarmin, Superchat) nur, wenn die Rechtsprüfung die US-Übermittlung als Problem sieht. LinkDM/InstantDM nur, wenn ManyChat im Test nicht funktioniert oder zu teuer ist. Vor dem Zahlen: Gratis-Testlauf, Preis im Konto prüfen.
