@@ -64,3 +64,11 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 4. Wenn ja, schickt das Tool über die offizielle Instagram-Schnittstelle eine „private Antwort“ auf diesen Kommentar. Die Nachricht kommt vom Konto @daviddoering_, so als hätte David sie geschickt. Zusätzlich schreibt es die öffentliche Antwort unter den Kommentar.
 5. Das passiert auf den Servern des Tools, nicht auf Davids Handy oder Laptop. Es ist erlaubt, weil die Person durch ihren Kommentar um die Nachricht gebeten hat.
 - Grenzen: nur auf Kommentare, nach meinem Kenntnisstand eine Nachricht je Kommentar und nur kurz nach dem Kommentar. ❓ Regeln von Meta und Tool prüfen. Die Verbindung kann ablaufen, dann muss man sich im Tool neu anmelden.
+
+## Welche Tools gibt es? (Websuche 2026-10-24, nicht beim Anbieter geprüft)
+- **ManyChat**: bekanntestes Tool, US-Firma, Preis laut Ratgeber ab ca. 15 $/Monat, Abrechnung nach Anzahl der Kontakte. Quelle: https://ki-spot.de/manychat-alternative/
+- **LinkDM, InstantDM**: reine Kommentar-zu-Direktnachricht-Tools. **Chatfuel, Inrō**: mehr Funktionen für Instagram. **DM Champ**: ab ca. 59 $ einmalig, laut Ratgeber. Quelle: https://www.inro.social/blog/manychat-competitors-alternatives
+- **Chatarmin, Superchat**: nach einem Ratgeber mit Servern in der EU, Superchat ab ca. 89 €/Monat. ❓ nur eine Quelle, beim Anbieter bestätigen.
+- Datenschutz: Bei US-Tools Auftragsverarbeitungsvertrag (AVV) abschließen und die Datenschutzerklärung anpassen. ❓ Rechtsprüfung (Nr. 41/42 im Sheet) soll das mit abdecken.
+- Meta-Einschränkung: Außerhalb eines offenen Gesprächsfensters sind Nachrichten begrenzt, kein Tool kann Zustellung garantieren.
+- Empfehlung Claude: Mit einem günstigen Kommentar-zu-DM-Tool starten (ManyChat oder LinkDM), AVV prüfen, Testlauf mit einem privaten Konto. ❓ Entscheidung Jannik.
