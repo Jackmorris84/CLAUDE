@@ -48,8 +48,8 @@ Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
 - Mindestalter und erlaubte Länder.
 - Wer prüft die Bedingungen rechtlich?
 
-## Beschluss 2026-10-24: Lose
-Kein Mitglied 1 Los, Newsletter-Abo 2 Lose, Kalender gekauft 3 Lose (höchster Wert, nicht addiert). Umsetzung: Brevo-Kontakte mit Etikett „Newsletter“ und „Käufer“ (Kauf über WooCommerce), Skript `Gewinnspiel-Tool/ziehung.py` mit Spalten `kaeufer` und `newsletter`. ❓ Newsletter-Bonus mit Kanzlei klären (DSGVO-Freiwilligkeit). ❓ Gilt das für alle Ziehungen?
+## Beschluss 2026-10-24 (zweite Fassung): Lose
+Jeden Advent (29.11., 6.12., 13.12., 20.12.) ein Gewinnspiel für alle, jeder 1 Los. Finale 24.12. für alle, Käufer des Kalenders 3 Lose. Umsetzung: Skript `Gewinnspiel-Tool/ziehung.py` (`--ohne-gewichtung` für die Advents-Ziehungen, `--faktor-newsletter 1` fürs Finale ohne Newsletter-Bonus). ❓ Newsletter-Bonus (2 Lose) streichen? Ohne ihn entfällt die DSGVO-Frage zum Kopplungsverbot.
 
 ## Variante B: Kommentar-Verlosung (Erfahrung der Eltern, 2026-10-22)
 Quelle: [[2026-10-22_Adventskalender-Nachricht-Mutter-Gewinnspiel]]

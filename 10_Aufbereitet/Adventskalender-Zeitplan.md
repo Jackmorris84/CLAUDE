@@ -15,9 +15,9 @@ Vorschlag für einen Wochenplan rückwärts von den festen Terminen. Verantwortl
 - 9.–15.11.: alle 24 Videos fertig
 - 29.11. (So): 1. Advent – Musikvideo 1 auf YouTube, Verlosung unter Followern, Live (12 oder 14 Uhr DE)
 - 1.12. (Di): Kalender startet, Türchen 1
-- 6.12. / 13.12. (So): Live, Verlosung 3× Ewigkeit unter Käufern, Lied-Türchen
+- 6.12. / 13.12. (So): Live, Verlosung 3× Ewigkeit für alle, Lied-Türchen
 - 20.12. (So): 4. Advent – Live, Verlosung, 40 % CD-Rabatt (nur dieser Tag)
-- 24.12. (Do): Türchen 24 (dreifach groß), Finale-Verlosung (Pakete + Konzertgutschein)
+- 24.12. (Do): Türchen 24 (dreifach groß), Finale-Verlosung für alle (Käufer 3 Lose; Pakete + Konzertgutschein)
 
 ## Wochenplan (Entwurf)
 | Woche | Fokus | Aufgaben |

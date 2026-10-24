@@ -17,9 +17,9 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Zugang per Mail-Link, kein Login. Zahlung über den **Shop** (nicht Digistore, laut Jannik 2026-10-22).
 - Türchen: 10 Lieder-Videos (eine Kameraposition) + 10 Geschichten-Videos (David erzählt aus Leben/Kindheit/Weihnachten) + 4 Musikvideos (Higgsfield + echter Dreh) = 24.
 - Musikvideo 1 (1. Advent, 29.11.) läuft **nur auf YouTube als Werbung**, nicht im Kalender. Die übrigen Sonntage (6./13./20.12.) kommt je ein Lied nur für Käufer.
-- Verlosungen: 29.11. unter allen Followern; danach nur unter Käufern. „Ewigkeit“ (CD) an 3 Personen pro Advent; Finale 24.12.
+- Verlosungen: **jeden Advent (29.11., 6.12., 13.12., 20.12.) ein Gewinnspiel für alle** (gleiche Chance), „Ewigkeit“ (CD) an 3 Personen pro Advent. **Finale 24.12. ebenfalls für alle, Kalenderkäufer haben die dreifache Chance** (Beschluss Jannik 2026-10-24, ersetzt „nach dem 29.11. nur Käufer“).
 - Live/Verlosung **nicht abends**: Kandidaten **8 Uhr Paraguay = 12 Uhr DE (= 20 Uhr Korea)** oder **10 Uhr Paraguay = 14 Uhr DE (= 22 Uhr Korea)**. ❓ Endgültige Uhrzeit offen. Plattform YouTube oder TikTok (offen). Gilt auch für die Verlosung am 24.12.
-- Gewinnspiel: **Veranstalter David Döring**. Lose: **1** (kein Mitglied), **2** (Newsletter abonniert), **3** (Kalender gekauft); wer beides ist, zählt 3 (❓ bestätigen). Teilnahme weltweit, Schwerpunkt **Deutschland, Korea, USA**. ❓ Gilt das für alle Ziehungen (früher: nach dem 29.11. nur Käufer)?
+- Gewinnspiel: **Veranstalter David Döring**. Advents-Ziehungen: alle 1 Los. Finale 24.12.: alle dabei, Käufer 3 Lose (Newsletter-Bonus 2 Lose ❓ entfällt oder bleibt?). Teilnahme weltweit, Schwerpunkt **Deutschland, Korea, USA**.
 - Shop-System: **WooCommerce** (Webseite/Shop von David).
 - Konzertgutschein: **1 Jahr gültig, nur einmal einlösbar**, gültig für ein beliebiges Konzert.
 - **40 % CD-Rabatt am 4. Advent, 20.12.**, nur auf benannte CDs (Pan Paradies, Hallelujah, Passion). Im Türchen: Shop-Link oder Code. Shop: https://shop.davids-panparadies.de (laut Notion).
@@ -66,3 +66,4 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[Adventskalender-Drehplan]]
 - [[Adventskalender-Rechtsklaerung-Gewinnspiel]]
 - [[Kanaele-Links-und-Impressum]]
+- [[2026-10-24_Adventskalender-Beschluss-Gewinnspiel-Modell]]

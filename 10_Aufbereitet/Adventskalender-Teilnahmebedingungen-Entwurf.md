@@ -18,9 +18,9 @@ Arbeitsentwurf für die Teilnahmebedingungen. Eckige Klammern sind Platzhalter o
 
 **§ 3 Teilnahme** – Die Teilnahme ist kostenlos und ohne Kauf möglich. Teilnehmen kann man über das Teilnahmeformular auf [Adresse] mit Name und E-Mail-Adresse. Die Teilnahme gilt erst, wenn die E-Mail-Adresse über den Bestätigungslink in der Bestätigungsmail bestätigt wurde. Pro Person zählt nur eine E-Mail-Adresse.
 
-**§ 4 Lose** – Jede bestätigte Teilnahme erhält 1 Los. Wer den Newsletter abonniert hat, erhält 2 Lose. Wer den Adventskalender gekauft hat, erhält 3 Lose. Die Lose werden nicht addiert, es zählt der höchste Wert. Maßgeblich ist die E-Mail-Adresse der Teilnahme bzw. Bestellung. Bei Rückerstattung oder Rückbuchung entfällt der Käufer-Bonus. Das Newsletter-Abo ist freiwillig und getrennt von der Teilnahme.
+**§ 4 Lose** – Bei den Ziehungen am 29.11., 06.12., 13.12. und 20.12. hat jede bestätigte Teilnahme 1 Los. Bei der Ziehung am 24.12. haben alle bestätigten Teilnehmer 1 Los, Käufer des Adventskalenders 3 Lose. [❓ Newsletter-Bonus von 2 Losen: streichen oder behalten?] Maßgeblich ist die E-Mail-Adresse der Teilnahme bzw. Bestellung. Bei Rückerstattung oder Rückbuchung entfällt der Käufer-Bonus.
 
-**§ 5 Zeitraum und Ziehungen** – Teilnahmeschluss und Ziehung jeweils am: 29.11.2026, 06.12.2026, 13.12.2026, 20.12.2026 und 24.12.2026, [Uhrzeit, MEZ] live auf [YouTube/TikTok]. [❓ Gilt die Gewichtung bei allen Ziehungen? Sind einzelne Ziehungen nur für Käufer?]
+**§ 5 Zeitraum und Ziehungen** – Teilnahmeschluss und Ziehung jeweils am: 29.11.2026, 06.12.2026, 13.12.2026, 20.12.2026 und 24.12.2026, [Uhrzeit, MEZ] live auf [YouTube/TikTok]. Alle Ziehungen stehen allen offen.
 
 **§ 6 Gewinne** – 29.11./06.12./13.12./20.12.: je 3 Exemplare der CD „Ewigkeit“ (pro Advent). 24.12.: 3 Pakete mit je 6 CDs (Inhalt wird nicht vorab genannt) und 2 × 2 Konzertkarten in Form eines Gutscheins. Der Gutschein ist 1 Jahr gültig, einmal einlösbar, gilt für ein beliebiges Konzert des Veranstalters und wird am Einlass mit Code vorgezeigt. Eine Barauszahlung ist ausgeschlossen. [❓ Übertragbarkeit]
 

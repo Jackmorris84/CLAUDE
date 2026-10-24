@@ -5,7 +5,8 @@ Lose: Kaeufer des Kalenders 3, Newsletter-Abonnenten 2, alle anderen 1 (Faktoren
 Wer beides ist, bekommt nur den hoechsten Wert (nicht addiert).
 
 CSV-Spalten (Kopfzeile noetig): email, bestaetigt (ja/nein), kaeufer (ja/nein), newsletter (ja/nein, optional)
-Beispiel: python3 ziehung.py teilnehmer.csv --gewinner 3 --log ziehung_2026-12-06.json
+Advents-Ziehung (alle gleich): python3 ziehung.py teilnehmer.csv --gewinner 3 --ohne-gewichtung --log ziehung_2026-12-06.json
+Finale 24.12. (Kaeufer 3 Lose): python3 ziehung.py teilnehmer.csv --gewinner 3 --faktor-newsletter 1 --log ziehung_2026-12-24.json
 Mit --nur-kaeufer werden nur Kaeufer gezogen. --seed macht die Ziehung nachvollziehbar.
 """
 import argparse, csv, json, secrets, random, sys
@@ -49,9 +50,12 @@ def main():
     a.add_argument("csv"); a.add_argument("--gewinner", type=int, default=3)
     a.add_argument("--faktor-kaeufer", type=int, default=3, help="Lose pro Kaeufer")
     a.add_argument("--faktor-newsletter", type=int, default=2, help="Lose pro Newsletter-Abonnent")
+    a.add_argument("--ohne-gewichtung", action="store_true", help="alle haben 1 Los (Advents-Ziehungen)")
     a.add_argument("--nur-kaeufer", action="store_true"); a.add_argument("--seed")
     a.add_argument("--log")
     o = a.parse_args()
+    if o.ohne_gewichtung:
+        o.faktor_kaeufer = o.faktor_newsletter = 1
     seed = o.seed or secrets.token_hex(8)
     p = lade(o.csv, o.nur_kaeufer)
     if not p:
