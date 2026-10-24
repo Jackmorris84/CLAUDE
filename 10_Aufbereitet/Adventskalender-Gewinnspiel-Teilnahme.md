@@ -49,7 +49,8 @@ Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
 - Wer prüft die Bedingungen rechtlich?
 
 ## Beschluss 2026-10-24 (Endfassung): Lose
-- **Advents-Ziehungen** (29.11., 6.12., 13.12., 20.12., je 3× „Ewigkeit“): für alle, Käufer 3 Lose, alle anderen 1 Los. Die Warteliste zählt hier nicht.
+- **Advents-Ziehungen** (29.11., 6.12., 13.12., 20.12., je 3× „Ewigkeit“): für alle, Käufer 3 Lose, alle anderen 1 Los. Die Warteliste zählt hier nicht (Jannik, 24.10.: sie spielt nur am 24.12. eine Rolle).
+- **Warteliste:** läuft schon vor dem Start und endet am 29./30.11. (❓ genaues Datum).
 - **Weihnachts-Ziehung 24.12.:** für alle, 1 Los, Warteliste 2 Lose, Käufer 3 Lose (höchster Wert zählt).
 - Umsetzung: Brevo-Kontakte mit Etikett „Warteliste“ und „Käufer“ (Kauf über WooCommerce), Skript `Gewinnspiel-Tool/ziehung.py --modus advent|finale`, Spalten `kaeufer` und `warteliste`.
 - ❓ Wartelisten-Bonus (nur 24.12.) mit der Kanzlei klären (DSGVO-Freiwilligkeit).
