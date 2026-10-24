@@ -18,13 +18,14 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Türchen: 10 Lieder-Videos (eine Kameraposition) + 10 Geschichten-Videos (David erzählt aus Leben/Kindheit/Weihnachten) + 4 Musikvideos (Higgsfield + echter Dreh) = 24.
 - Musikvideo 1 (1. Advent, 29.11.) läuft **nur auf YouTube als Werbung**, nicht im Kalender. Die übrigen Sonntage (6./13./20.12.) kommt je ein Lied nur für Käufer.
 - Verlosungen: **jeden Advent (29.11., 6.12., 13.12., 20.12.) und am 24.12. ein Gewinnspiel für alle**; „Ewigkeit“ (CD) an 3 Personen pro Advent. **Lose: 1 Los für alle, 2 Lose mit Kalenderkauf** (Warteliste und CD-Kauf geben keinen Bonus; Beschluss Jannik 2026-10-24, ersetzt alle früheren Lose-Modelle).
-- Live/Verlosung **nicht abends**: Kandidaten **8 Uhr Paraguay = 12 Uhr DE (= 20 Uhr Korea)** oder **10 Uhr Paraguay = 14 Uhr DE (= 22 Uhr Korea)**. ❓ Endgültige Uhrzeit offen. Plattform YouTube oder TikTok (offen). Gilt auch für die Verlosung am 24.12.
-- Gewinnspiel: **Veranstalter David Döring**. Lose: 1 (alle), 2 (Kalenderkauf). Teilnahme weltweit, Schwerpunkt **Deutschland, Korea, USA**.
+- Live/Verlosung **nicht abends**: Kandidaten **8 Uhr Paraguay = 12 Uhr DE (= 20 Uhr Korea)** oder **10 Uhr Paraguay = 14 Uhr DE (= 22 Uhr Korea)**. **Entschieden 24.10.: Live auf YouTube, 14 Uhr deutsche Zeit (10 Uhr Paraguay, 22 Uhr Korea).**
+- Gewinnspiel: **Veranstalter David Döring**. Lose: 1 (alle), 2 (Kalenderkauf). **Mindestalter 18. Teilnahmeländer: Deutschland, Niederlande, Tschechien, Frankreich, Schweiz, Österreich, Luxemburg, Belgien, Südkorea, USA und Paraguay** (Jannik 24.10., statt „weltweit“). Kauf zählt ab Verkaufsstart bis zum Beginn der jeweiligen Ziehung (❓ bestätigen).
 - Shop-System: **WooCommerce** (Webseite/Shop von David).
 - Konzertgutschein: **1 Jahr gültig, nur einmal einlösbar**, gültig für ein beliebiges Konzert.
 - **40 % CD-Rabatt am 4. Advent, 20.12.**, nur auf benannte CDs (Pan Paradies, Hallelujah, Passion). Im Türchen: Shop-Link oder Code. Shop: https://shop.davids-panparadies.de (laut Notion).
 - Gewinne: 3× Paket mit 6 CDs (Überraschung), Konzertgutschein (Code, gültig für ein beliebiges Konzert, freier Eintritt, zum Mitbringen). CDs genug da, Versand weltweit.
 - Optik: hellbraun, rot, grün (❓ Abstimmung mit Vater).
+- Videoformat **16:9**. Türchen 24: Breite dreifach. Schnitt: **Jannik + Videoagent**. Team: Jannik 20 Std./Woche (Social Media, Warteliste, Website/Shop, Konzerte, Schnitt), Mutter Videodreh, Vater vor der Kamera, Eltern zusammen ca. 10 Std./Woche. Englische und koreanische Fassung für alle Videos, die keine Musik sind (Geschichten u. ä.).
 - Sprachen: Standard Deutsch; Voice-Overs Deutsch (Jannik) + Koreanisch (Übersetzerin vorhanden) statt reiner Untertitel. Texte/Untertitel Koreanisch: Freundin vorhanden.
 - Korea: abgehakt, private/geschäftliche Kontakte der Eltern verbreiten in ihrer Community.
 - Higgsfield: für Musikvideos; Jannik testet Kurz-Trial (ca. 3 Tage / 3 €). Anleitung gewünscht.
@@ -41,10 +42,9 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Konzertgutschein: Codeerzeugung und Einlösung am Einlass festlegen.
 
 ## Offen / ❓ unklar
-- Budget, Team und Wochenstunden, Aufgabenverteilung.
+- Gesamtbudget und Werbebudget (Jannik fragt nach); bezahlte Werbekanäle.
 - GEMA/Cover-Rechte, Playbacks, Songauswahl (10 Lieder + 4 Musikvideos), Skript/Storyboard.
 - Weiteres Format: Ideen bisher „Weihnachtsbräuche in Südkorea und Deutschland“, „Brief an die Zuschauer“ (gefällt); weitere sammeln.
-- Livestream-Plattform und endgültige Uhrzeit.
 - Anbieter und Teilnahmebedingungen für Gewinnspiel.
 - Zahlungsanbieter im Shop, Umsatzsteuer und Weltversand klären (siehe [[Adventskalender-Shop-Zahlung]]).
 
@@ -76,3 +76,4 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[Adventskalender-Landingpage-und-Brevo-Mails-DE]]
 - [[2026-10-24_Adventskalender-Antworten-Launch]]
 - [[Adventskalender-Gesamtplan]]
+- [[2026-10-24_Adventskalender-Antworten-Offene-Fragen]]

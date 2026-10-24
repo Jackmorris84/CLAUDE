@@ -40,7 +40,7 @@ Danach: Voice-Overs Deutsch/Koreanisch (16.–22.11.), Seitentest, Shop-Testkauf
 - [ ] Geschnitten, Ton gemischt
 - [ ] Voice-Over Deutsch
 - [ ] Voice-Over Koreanisch
-- [ ] Englisch (Untertitel/Voice-Over ❓)
+- [ ] Englisch und Koreanisch nur für Videos, die keine Musik sind (Geschichten u. ä.)
 - [ ] Thumbnail
 - [ ] Im Hoster hochgeladen und im Kalender eingetragen
 
@@ -90,7 +90,8 @@ Die Zuordnung der drei gedrehten Lieder zu Türchen ist ein Vorschlag. Den echte
 - Davids Dreh-Tage, Ort (Studio Paraguay?), Kamerateam.
 - Format 16:9 oder hochkant.
 - Titelliste der restlichen Lieder.
-- Wer schneidet (Jannik? Videoagent?) und wie viel Zeit pro Video.
+- Zeit pro Video (Schnitt: Jannik + Videoagent).
+- Dreh: Mutter filmt, Vater vor der Kamera, zusammen ca. 10 Std./Woche. Termine fehlen.
 
 ## Verknüpft mit
 - [[Adventskalender-Songtabelle]]

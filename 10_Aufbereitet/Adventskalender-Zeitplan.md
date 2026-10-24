@@ -13,7 +13,7 @@ Vorschlag für einen Wochenplan rückwärts von den festen Terminen. Verantwortl
 
 ## Feste Termine
 - 9.–15.11.: alle 24 Videos fertig
-- 29.11. (So): 1. Advent – Musikvideo 1 auf YouTube, Verlosung unter Followern, Live (12 oder 14 Uhr DE)
+- 29.11. (So): 1. Advent – Musikvideo 1 auf YouTube, Verlosung unter Followern, Live auf YouTube um 14 Uhr DE
 - 1.12. (Di): Kalender startet, Türchen 1
 - 6.12. / 13.12. (So): Live, Verlosung 3× Ewigkeit für alle (Käufer 2 Lose), Lied-Türchen
 - 20.12. (So): 4. Advent – Live, Verlosung, 40 % CD-Rabatt (nur dieser Tag)

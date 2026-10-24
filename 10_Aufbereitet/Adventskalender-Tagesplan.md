@@ -21,6 +21,11 @@ Jannik will jeden Tag gesagt bekommen, was zu tun ist und was Claude von ihm bra
 - Konzertdaten 2027: stehen auf der Homepage davids-panparadies.de. **Claude kann die Homepage nicht aufrufen** (Netzwerk blockiert) und hat keine Termine gefunden. Jannik kopiert den Text der Konzertseite in den Chat.
 - Landingpage-Link/Text: Jannik fragt an und schickt es.
 
+## Team (24.10.)
+- Jannik, ca. 20 Std./Woche: Social Media, Warteliste, Website/Shop, Konzerte, Videoschnitt (mit Videoagent).
+- Mutter: Videodreh. Vater (David): vor der Kamera. Eltern zusammen ca. 10 Std./Woche.
+- ❓ Kapazität ist knapp: 24 Videos, tägliche Posts und Shop-Aufbau in 3 Wochen. Videoagent für Rohschnitt, Vorlagen für Titel/Untertitel nutzen.
+
 ## Kalendereinträge in Janniks Google-Kalender (24.10. angelegt)
 - Mo 26.10.: Mama erinnern (Mr. Lee, Korea-Community)
 - Do 29.10.: DEADLINE Adventskalender im Shop kaufbar

@@ -25,7 +25,7 @@ Die Rechtsprüfung muss ein Mensch mit Fachkenntnis machen (Fachanwalt oder spez
 - Teilnahme **kostenlos für alle**, Käufer bekommen Bonuslose (Empfehlung) oder Ziehungen nur für Käufer?
 - **Entschieden (24.10., Endfassung):** Gewinnspiele am 29.11., 6.12., 13.12., 20.12. und 24.12. für alle: 1 Los, mit Kalenderkauf 2 Lose. Warteliste und CD-Kauf geben keinen Bonus.
 - Teilnahmeweg: Kommentar unter YouTube-Video (29.11.), danach Button im Kalender oder Formular mit E-Mail und Bestätigungslink (Brevo).
-- **Entschieden (24.10.):** weltweit, Schwerpunkt Deutschland, Korea, USA. ❓ Mindestalter.
+- **Entschieden (24.10.):** Mindestalter 18. Teilnahmeländer: Deutschland, Niederlande, Tschechien, Frankreich, Schweiz, Österreich, Luxemburg, Belgien, Südkorea, USA und Paraguay. Zur Frage „muss man alle Länder einzeln nennen?“: Man kann „weltweit“ schreiben, aber eine feste Länderliste ist für Versand, Zoll und Landesrecht sicherer. ❓ Kanzlei bestätigt die Liste.
 - Gewinne: 3× „Ewigkeit“ pro Advent, 3× CD-Paket (6 CDs), Konzertgutschein (1 Jahr, einmal einlösbar, beliebiges Konzert).
 
 ## Was Fachleute laut Suchergebnissen typischerweise prüfen
@@ -37,9 +37,9 @@ Die Rechtsprüfung muss ein Mensch mit Fachkenntnis machen (Fachanwalt oder spez
 
 ## Briefing für die Kanzlei (zum Kopieren)
 > **Projekt:** Online-Adventskalender „David’s Panparadies“, Veranstalter David Döring, Start 01.12.2026, 24 Videos hinter einer Bezahlschranke (25 € Early Bird bis 15.11., danach 29 €), Verkauf über WooCommerce, Mailtool Brevo.
-> **Gewinnspiel:** Fünf Ziehungen (29.11., 06.12., 13.12., 20.12., 24.12.2026), live auf [YouTube/TikTok] im Stream. Gewinne: je Advent 3× CD „Ewigkeit“; am 24.12. 3 CD-Pakete (6 CDs) und Konzertgutscheine (1 Jahr gültig, einmal einlösbar, für ein beliebiges Konzert des Veranstalters).
+> **Gewinnspiel:** Fünf Ziehungen (29.11., 06.12., 13.12., 20.12., 24.12.2026), live auf YouTube um 14:00 Uhr MEZ im Stream. Gewinne: je Advent 3× CD „Ewigkeit“; am 24.12. 3 CD-Pakete (6 CDs) und Konzertgutscheine (1 Jahr gültig, einmal einlösbar, für ein beliebiges Konzert des Veranstalters).
 > **Teilnahme:** [Kommentar unter YouTube-Video / Formular mit E-Mail und Bestätigungslink]. Teilnahme kostenlos für alle, 1 Los pro Person, 2 Lose für Käufer des Kalenders. Ziehung aus Liste per Zufallsverfahren, protokolliert.
-> **Teilnehmer:** weltweit, vor allem Deutschland, Korea, USA, ab [18] Jahren. Versand der Gewinne weltweit.
+> **Teilnehmer:** ab 18 Jahren aus Deutschland, Niederlande, Tschechien, Frankreich, Schweiz, Österreich, Luxemburg, Belgien, Südkorea, USA und Paraguay. Versand der Gewinne weltweit.
 > **Daten:** Name, E-Mail, bei Gewinnern Anschrift. Newsletter freiwillig und getrennt. Datenlöschung nach Abschluss.
 > **Anlagen:** Entwurf Teilnahmebedingungen, Ablaufbeschreibung.
 > **Bitte prüfen:** siehe Fragenliste.
@@ -49,7 +49,7 @@ Die Rechtsprüfung muss ein Mensch mit Fachkenntnis machen (Fachanwalt oder spez
 2. Sind die Teilnahmebedingungen vollständig und wirksam? Welche Pflichtangaben fehlen?
 3. Wie müssen Bedingungen und Datenschutzhinweis eingebunden werden (Link, Haken, Vorab-Hinweis im Video)?
 4. Ist die Kommentar-Ziehung auf YouTube (und ggf. Instagram/TikTok) mit Abo-/Folge-Pflicht zulässig?
-5. Dürfen wir weltweit Gewinne versenden und Teilnehmer aus allen Ländern zulassen, oder sollen wir Länder ausschließen?
+5. Passt die Länderliste (Deutschland, Niederlande, Tschechien, Frankreich, Schweiz, Österreich, Luxemburg, Belgien, Südkorea, USA, Paraguay) rechtlich, auch für Versand und Zoll?
 6. Wie muss der Konzertgutschein ausgestaltet sein (Gültigkeit, Absage eines Konzerts, Übertragbarkeit, Haftung)?
 7. Welche Hinweise braucht es zu Plattformen (YouTube, Instagram, TikTok, Meta)?
 8. Welche Dokumentationspflichten gelten für die Ziehung?
@@ -68,7 +68,7 @@ Frage an Steuerberater: Behandlung der Gewinne bei Käufern und Nicht-Käufern, 
 ## Offen / ❓ unklar
 - Veranstalter ist David Döring (Gewerbe laut Impressum von davids-panparadies.de). Anschrift und Kontakt: siehe [[Kanaele-Links-und-Impressum]] (David Döring, Davids Panparadies, Heilerbergstr. 24, 51709 Marienheide, info@davids-panparadies.de).
 - Kommentar-Auswahl-Tool: Datenschutz des Tools prüfen (Name noch offen).
-- Welche Länder erlaubt sind.
+
 
 ## Verknüpft mit
 - [[Adventskalender-Teilnahmebedingungen-Entwurf]]
