@@ -27,7 +27,7 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Sprachen: Standard Deutsch; Voice-Overs Deutsch (Jannik) + Koreanisch (Übersetzerin vorhanden) statt reiner Untertitel. Texte/Untertitel Koreanisch: Freundin vorhanden.
 - Korea: abgehakt, private/geschäftliche Kontakte der Eltern verbreiten in ihrer Community.
 - Higgsfield: für Musikvideos; Jannik testet Kurz-Trial (ca. 3 Tage / 3 €). Anleitung gewünscht.
-- Werbung: Instagram, YouTube, TikTok, Facebook, WhatsApp, Newsletter; dauerhaft Kurzvideos; evtl. bezahlte Anzeigen. Mailingliste + Funnel müssen aufgebaut werden.
+- Werbung: Instagram, YouTube, TikTok, Facebook, WhatsApp, Newsletter; dauerhaft Kurzvideos; evtl. bezahlte Anzeigen. Mailingliste + Funnel: Brevo, Warteliste angelegt (24.10.); Altliste darf mit Konzertinfos 2027 + Warteliste-Hinweis angeschrieben werden.
 
 ## Empfehlung Plattform (Vorschlag)
 - Eigene mobile Webseite auf Unterdomain (z. B. advent.davids-panparadies.de), keine App. Shop → Mail mit persönlichem Link → serverseitige Freischaltung nach Datum.
@@ -60,3 +60,4 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[Adventskalender-Seite-Prototyp]]
 - [[Adventskalender-Status-und-ToDos]]
 - [[Adventskalender-Funde-aus-Notion-und-anderen-Chats]]
+- [[2026-10-24_Adventskalender-Erledigte-Aufgaben]]

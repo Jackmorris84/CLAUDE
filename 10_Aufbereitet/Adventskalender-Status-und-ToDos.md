@@ -11,6 +11,23 @@ tags: [adventskalender, status, todo]
 ## Kernaussage
 Konzept, Termine, Preis, Ablauf und Gewinnspiel-Idee stehen. Es fehlen vor allem Personen, Dreh-Tage, Songs/Rechte und Budget. Bis zum 15.11. (Videos fertig und Ende Early Bird) sind es ab dem 19.10. noch 27 Tage.
 
+## Aktualisierung 2026-10-24 (von Jannik gemeldet)
+Quelle: [[2026-10-24_Adventskalender-Erledigte-Aufgaben]]. Noch 22 Tage bis 15.11., 38 Tage bis 1.12.
+
+**Erledigt (Jannik):**
+- [x] Website-Warteliste erstellt und freigeschaltet
+- [x] Brevo-Mail-Warteliste erstellt (Mailtool = Brevo)
+- [x] 3 Videos gedreht: „I will follow him“, „Herbei, oh ihr Gläubigen“, „Fill my cup, Lord“ (3 von 24, 21 offen)
+- [x] YouTube-Kommentar-Auswahl-Tool ausgesucht (❓ Name/Link noch eintragen)
+- [x] Gewerbemeldebestätigung für TikTok besorgt
+- [x] Altliste geprüft: Newsletter an die Altliste mit Infos zu Konzerten 2027 und Hinweis auf die Adventskalender-Warteliste ist möglich
+
+**Angefangen:** Cron-Job auf der Website möglich, noch nicht aktiviert (❓ wofür: tägliche Freischaltung/Mail?).
+
+**Dadurch erledigt oder teilweise erledigt in den To-Dos:** Mailtool wählen (Brevo), Teaser-/Vorverkaufsseite (Warteliste als Vorstufe), Dreh-Tage (3 Videos gedreht, Rest offen).
+
+**Neue Fragen:** Die gedrehten Lieder stehen nicht auf der ursprünglichen Liedliste. Rechte für „I will follow him“ und „Fill my cup, Lord“ vermutlich nötig, Playback eigen oder fremd? (siehe [[Adventskalender-Recherche-GEMA-Higgsfield]]).
+
 ## Aktualisierung 2026-10-23 (Abgleich)
 Noch 23 Tage bis 15.11. (Videos fertig, Early Bird endet), 39 Tage bis zum Start am 1.12.
 
@@ -47,7 +64,7 @@ Noch 23 Tage bis 15.11. (Videos fertig, Early Bird endet), 39 Tage bis zum Start
 
 ## To-Dos bis 25.10.
 - [ ] Team + Stunden festlegen
-- [ ] Dreh-Tage planen
+- [~] Dreh-Tage planen (3 von 24 Videos gedreht)
 - [ ] Songliste (10+4) mit Komponist/Texter/Verlag, danach GEMA/Label anfragen
 - [ ] Budget klären
 - [ ] Shop prüfen: System, digitale Produkte, Mail nach Kauf, Export/Webhook (siehe [[Adventskalender-Shop-Zahlung]])
@@ -59,7 +76,7 @@ Noch 23 Tage bis 15.11. (Videos fertig, Early Bird endet), 39 Tage bis zum Start
 ## To-Dos 26.10.–1.11.
 - [ ] Shop: Produkt Adventskalender, Preise, Early-Bird-Ende 15.11., Danke-Seite
 - [ ] Unterdomain, Videohoster
-- [ ] Teaser-/Vorverkaufsseite + Mail-Funnel (Mailtool wählen)
+- [~] Teaser-/Vorverkaufsseite (Warteliste steht) + Mail-Funnel (Mailtool: Brevo, Warteliste steht)
 - [ ] Server für Zugangslinks (Shop-Bestellungen) – wer baut ihn?
 - [ ] Storyboards der Musikvideos, Drehplan
 - [ ] Konzertgutschein erstellen (Code, Einlösung)

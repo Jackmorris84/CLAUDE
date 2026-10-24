@@ -19,7 +19,7 @@ Teilnahme am besten über ein Formular auf der Kalender-Seite mit E-Mail und Bes
 
 ## Gewichtung (2× oder 3×)
 Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
-1. Der Shop schickt Käufer (per Export oder Anbindung) ins Mailtool und setzt dort das Etikett „Käufer“ (z. B. über Brevo, MailerLite oder KlickTipp; Anbindung vorher prüfen).
+1. Der Shop schickt Käufer (per Export oder Anbindung) ins Mailtool und setzt dort das Etikett „Käufer“ (Mailtool ist Brevo (Warteliste steht); Anbindung an den Shop vorher prüfen).
 2. Vor der Ziehung: Liste exportieren (E-Mail, bestätigt ja/nein, Käufer ja/nein). Dubletten pro E-Mail zusammenführen.
 3. Lose = 1 für Nicht-Käufer, 2 oder 3 für Käufer. Rückerstattete Käufe zählen nicht als Käufer.
 4. Ziehung live per Skript oder Tabellen-Zufallsfunktion, Bildschirm geteilt, Ergebnis wird protokolliert (Datum, Teilnehmerzahl, Lose, Gewinner). Ich kann das Skript schreiben und testen.
