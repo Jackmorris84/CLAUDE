@@ -79,8 +79,8 @@ Noch 23 Tage bis 15.11. (Videos fertig, Early Bird endet), 39 Tage bis zum Start
 
 ## To-Dos bis 25.10.
 - [ ] Team + Stunden festlegen
-- [~] Dreh-Tage planen (3 von 24 Videos gedreht)
-- [ ] Songliste (10+4) mit Komponist/Texter/Verlag, danach GEMA/Label anfragen
+- [~] Dreh-Tage planen (3 von 24 Videos gedreht; Plan: [[Adventskalender-Drehplan]])
+- [~] Songliste (10+4) mit Komponist/Texter/Verlag, danach GEMA/Label anfragen (Tabelle und Mail-Entwurf: [[Adventskalender-Songtabelle]]; weitere Lieder fehlen noch)
 - [ ] Budget klären
 - [ ] Shop prüfen: System, digitale Produkte, Mail nach Kauf, Export/Webhook (siehe [[Adventskalender-Shop-Zahlung]])
 - [ ] Rechtsprüfung Gewinnspiel beauftragen

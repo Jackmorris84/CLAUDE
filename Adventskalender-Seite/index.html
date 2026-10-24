@@ -73,7 +73,7 @@
 /* ===== Inhalt: hier später Titel, Videos, Voice-Over je Türchen eintragen ===== */
 const START = new Date(2026, 11, 1);            // 1.12.2026
 const CONTENT = {};                              // z. B. CONTENT[6] = {type:'music', video:{de:'…mp4',ko:'…',en:'…'}}
-const TYPE_BY_DAY = d => (d===6||d===13||d===20) ? 'music' : d===24 ? 'finale' : (d%2===0 ? 'story' : 'song'); // Platzhalter-Verteilung
+const TYPE_BY_DAY = d => [6,13,20].includes(d) ? 'music' : d===24 ? 'finale' : ([2,4,8,10,12,14,16,18,22,23].includes(d) ? 'story' : 'song'); // Vorschlag: 10 Lieder, 10 Geschichten, 3 Musikvideos + Finale
 // feste, "verteilte" Reihenfolge der Türchen 1–23 (wie beim Schokokalender)
 const ORDER = [17,3,22,9,14,1,20,6,11,23,4,15,8,19,2,13,10,21,5,16,12,18,7];
 
