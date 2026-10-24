@@ -9,7 +9,7 @@ entscheidung: offen
 tags: [stammdaten, kanaele, impressum]
 ---
 ## Kernaussage
-Sammelstelle für alle Kanal-Links und die Gewerbe-/Impressumsdaten von David Döring. Die Kanalliste stammt aus Notion. Das Impressum steht auf davids-panparadies.de, der Text ist **noch nicht in diesem Vault**, weil ich die Webseite von hier nicht aufrufen kann und er in Notion und Drive nicht gefunden wurde.
+Sammelstelle für alle Kanal-Links und die Gewerbe-/Impressumsdaten von David Döring. Die Kanalliste stammt aus Notion. Das Impressum von davids-panparadies.de ist unten eingetragen.
 
 ## Kanäle (Stand 03.10.2026)
 | Plattform | Handle | Link |
@@ -27,15 +27,21 @@ Sammelstelle für alle Kanal-Links und die Gewerbe-/Impressumsdaten von David D�
 - Hinweis: Captions und Texte immer aus Davids Ich-Perspektive. Auf TikTok/Instagram ist nur der Bio-Link klickbar.
 
 ## Impressum / Gewerbe (Veranstalter des Gewinnspiels: David Döring)
-Quelle: Impressum auf https://www.davids-panparadies.de (laut Jannik, 2026-10-24). Gewerbemeldebestätigung für TikTok liegt vor.
-- Name: David Döring
-- Anschrift: ❓ aus dem Impressum eintragen
-- Kontakt (E-Mail, Telefon): ❓
-- Gewerbe/Rechtsform: ❓
-- Umsatzsteuer-ID: ❓
-- Verantwortlich für Inhalte: ❓
+Quelle: Impressum von https://www.davids-panparadies.de, von Jannik am 2026-10-24 eingefügt (Wortlaut übernommen). Gewerbemeldebestätigung für TikTok liegt vor.
 
-**Bitte hier den Impressum-Text einfügen** (einmal kopieren und mir senden), dann trage ich ihn ein und übernehme die Daten in die Teilnahmebedingungen und das Briefing an die Kanzlei.
+**Anbieter / Redaktionell verantwortlich**
+- David Döring, „Davids Panparadies“
+- Heilerbergstr. 24, 51709 Marienheide
+
+**Kontakt**
+- Telefon: 0 156 | 78 218 765
+- E-Mail: info@davids-panparadies.de
+
+**Umsatzsteuer-ID** (gemäß § 27 a Umsatzsteuergesetz): DE28 4050580
+
+**Verbraucherstreitbeilegung/Universalschlichtungsstelle:** Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+❓ Zu prüfen: Die USt-ID steht mit Leerzeichen („DE28 4050580“) und hat nach DE nur 9 Stellen als Ziffernfolge. Prüfen, ob die Nummer im Impressum der Webseite genau so steht (deutsche USt-IDs haben DE plus 9 Ziffern).
 
 ## Verknüpft mit
 - [[Adventskalender-Funde-aus-Notion-und-anderen-Chats]]

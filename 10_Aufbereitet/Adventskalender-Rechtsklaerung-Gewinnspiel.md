@@ -66,7 +66,7 @@ Frage an Steuerberater: Behandlung der Gewinne bei Käufern und Nicht-Käufern, 
 - [ ] Konzertgutschein-Regeln aufschreiben
 
 ## Offen / ❓ unklar
-- Veranstalter ist David Döring (Gewerbe laut Impressum von davids-panparadies.de). ❓ Anschrift und Gewerbedaten hier eintragen, siehe [[Kanaele-Links-und-Impressum]].
+- Veranstalter ist David Döring (Gewerbe laut Impressum von davids-panparadies.de). Anschrift und Kontakt: siehe [[Kanaele-Links-und-Impressum]] (David Döring, Davids Panparadies, Heilerbergstr. 24, 51709 Marienheide, info@davids-panparadies.de).
 - Kommentar-Auswahl-Tool: Datenschutz des Tools prüfen (Name noch offen).
 - Welche Länder erlaubt sind.
 

@@ -41,7 +41,7 @@ Hinweis: Im Kalender sind nur 10 Lied-Videos und 4 Musikvideos vorgesehen (siehe
 > Betreff: Anfrage Lizenz für Musikvideos auf eigener Webseite (kostenpflichtiger Adventskalender)
 >
 > Guten Tag,
-> wir sind [Name, Firma, Adresse, Kundennummer falls vorhanden]. Wir produzieren einen Online-Adventskalender mit 24 Videos (je ca. 3 Minuten), in denen David Döring Titel auf der Panflöte spielt. Die Videos sind nach Kauf für Kunden auf unserer Webseite abrufbar, einzelne Videos laufen zusätzlich auf YouTube. Es handelt sich um [eigene Aufnahmen / Aufnahmen mit eigenem Playback].
+> wir sind David Döring, Davids Panparadies, Heilerbergstr. 24, 51709 Marienheide, info@davids-panparadies.de [GEMA-Kundennummer falls vorhanden]. Wir produzieren einen Online-Adventskalender mit 24 Videos (je ca. 3 Minuten), in denen David Döring Titel auf der Panflöte spielt. Die Videos sind nach Kauf für Kunden auf unserer Webseite abrufbar, einzelne Videos laufen zusätzlich auf YouTube. Es handelt sich um [eigene Aufnahmen / Aufnahmen mit eigenem Playback].
 > Bitte teilen Sie uns mit, welche Lizenz wir dafür benötigen, welche Angaben Sie je Titel brauchen und mit welchen Kosten wir rechnen müssen. Die Titelliste (mit Komponist und Texter) liegt bei.
 > Der Start ist am 01.12.2026, wir bitten daher um zeitnahe Rückmeldung.
 > Mit freundlichen Grüßen [Name]

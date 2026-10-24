@@ -47,7 +47,6 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - Livestream-Plattform und endgültige Uhrzeit.
 - Anbieter und Teilnahmebedingungen für Gewinnspiel.
 - Zahlungsanbieter im Shop, Umsatzsteuer und Weltversand klären (siehe [[Adventskalender-Shop-Zahlung]]).
-- Anschrift des Veranstalters/Gewerbes (David Döring) für die Bedingungen.
 
 ## Verknüpft mit
 - [[2026-10-16_Adventskalender-Rohnotiz]]

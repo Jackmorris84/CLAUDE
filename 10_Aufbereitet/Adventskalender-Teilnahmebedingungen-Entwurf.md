@@ -12,7 +12,7 @@ tags: [adventskalender, gewinnspiel, entwurf]
 Arbeitsentwurf für die Teilnahmebedingungen. Eckige Klammern sind Platzhalter oder ❓ offene Entscheidungen. Vor der Veröffentlichung von einer Rechtsperson prüfen lassen.
 
 ## Entwurf
-**§ 1 Veranstalter** – David Döring [Anschrift/E-Mail laut Impressum von davids-panparadies.de ❓ eintragen], im Folgenden „Veranstalter“. Das Gewinnspiel steht in keiner Verbindung zu Instagram, TikTok, YouTube/Google oder Meta und wird von diesen weder gesponsert noch unterstützt.
+**§ 1 Veranstalter** – David Döring, „Davids Panparadies“, Heilerbergstr. 24, 51709 Marienheide, E-Mail: info@davids-panparadies.de, im Folgenden „Veranstalter“. Das Gewinnspiel steht in keiner Verbindung zu Instagram, TikTok, YouTube/Google oder Meta und wird von diesen weder gesponsert noch unterstützt.
 
 **§ 2 Teilnahmeberechtigung** – Teilnehmen kann jede natürliche Person ab [18] Jahren weltweit, vor allem aus Deutschland, Korea und den USA [❓ rechtlich prüfen, ob für Korea und die USA Besonderheiten gelten]. Ausgeschlossen sind Mitarbeitende des Veranstalters und ihre Angehörigen sowie Personen, die sich durch Mehrfach-Anmeldungen, automatisierte Anmeldungen oder falsche Angaben einen Vorteil verschaffen.
 
