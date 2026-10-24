@@ -9,7 +9,7 @@ entscheidung: offen
 tags: [adventskalender, launch, shop, warteliste, checkliste]
 ---
 ## Kernaussage
-Verkauf und Warteliste starten **sofort bzw. nächste Woche**, nicht erst Anfang November. Der Kalender wird schon vor Fertigstellung verkauft (Vorverkauf, Start der Türchen am 1.12.). Die Warteliste bleibt als „Erinnere mich“-Option. Early Bird 25 € bis 15.11., ab 16.11. 29,99 € (❓ früher 29 € genannt).
+Verkauf und Warteliste starten **sofort bzw. nächste Woche**, nicht erst Anfang November. Der Kalender wird schon vor Fertigstellung verkauft (Vorverkauf, Start der Türchen am 1.12.). Die Warteliste bleibt als „Erinnere mich“-Option. Early Bird 25 € bis 15.11., ab 16.11. 29,99 € (bestätigt).
 
 ## Beschluss (Jannik, 2026-10-24)
 - Anfang November als Verkaufsstart ist zu spät.
@@ -54,7 +54,6 @@ Schon da: Seite freigeschaltet, Brevo-Liste (laut Jannik 24.10.).
 
 ## Was Claude von Jannik braucht
 1. **Verkaufsstart-Datum** bestätigen (Vorschlag: Kaufen-Button spätestens Do 29.10.).
-2. **Preis ab 16.11.:** 29,99 € oder 29 €?
 3. **Zugang:** Gibt es schon ein Plugin für Mitgliederbereich/Zeitfreischaltung im WordPress/WooCommerce? Wer hat Admin-Zugang und baut es?
 4. **Zahlungsarten** im Shop (PayPal, Karte, …) und ob weltweit verkauft wird.
 5. **Landingpage:** Link oder Text der jetzigen Warteliste-Seite, damit ich Texte anpasse.

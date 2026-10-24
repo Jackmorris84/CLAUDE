@@ -13,7 +13,7 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 
 ## Entschieden (laut Jannik)
 - Start **1.12.2026**; alles Material fertig bis **2. Novemberwoche (9.–15.11.)**.
-- Preis **25 € Early Bird bis 15.11.2026**, ab 16.11. **29,99 €** (Jannik 24.10.; früher 29 € genannt, ❓ bestätigen). Verkauf **sofort/nächste Woche** (nicht erst Anfang November), Warteliste bleibt als „Erinnere mich“.
+- Preis **25 € Early Bird bis 15.11.2026**, ab 16.11. **29,99 €** (bestätigt 24.10.). Verkauf im Shop spätestens **Do 29.10.**, Zahlung per PayPal über den Shop. Verkauf **sofort/nächste Woche** (nicht erst Anfang November), Warteliste bleibt als „Erinnere mich“.
 - Zugang per Mail-Link, kein Login. Zahlung über den **Shop** (nicht Digistore, laut Jannik 2026-10-22).
 - Türchen: 10 Lieder-Videos (eine Kameraposition) + 10 Geschichten-Videos (David erzählt aus Leben/Kindheit/Weihnachten) + 4 Musikvideos (Higgsfield + echter Dreh) = 24.
 - Musikvideo 1 (1. Advent, 29.11.) läuft **nur auf YouTube als Werbung**, nicht im Kalender. Die übrigen Sonntage (6./13./20.12.) kommt je ein Lied nur für Käufer.
@@ -72,3 +72,6 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[2026-10-24_Adventskalender-Beschluss-Lose-einfach-zweifach]]
 - [[Adventskalender-Launch-Warteliste-und-Verkauf]]
 - [[2026-10-24_Adventskalender-Beschluss-Verkauf-und-Warteliste]]
+- [[Adventskalender-Tagesplan]]
+- [[Adventskalender-Landingpage-und-Brevo-Mails-DE]]
+- [[2026-10-24_Adventskalender-Antworten-Launch]]

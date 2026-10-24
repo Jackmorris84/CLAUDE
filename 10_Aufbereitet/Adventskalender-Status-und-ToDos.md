@@ -11,6 +11,10 @@ tags: [adventskalender, status, todo]
 ## Kernaussage
 Konzept, Termine, Preis, Ablauf und Gewinnspiel-Idee stehen. Es fehlen vor allem Personen, Dreh-Tage, Songs/Rechte und Budget. Bis zum 15.11. (Videos fertig und Ende Early Bird) sind es ab dem 19.10. noch 27 Tage.
 
+## Heute/Tagesplan (Stand 2026-10-24)
+Jannik will täglich Druck: Scheduled Task „Adventskalender Tages-Druck“ (täglich 8:52 Uhr Berlin). Grundlage: [[Adventskalender-Tagesplan]]. Harte Termine: Do 29.10. Verkauf live, So 15.11. Early Bird endet, Di 1.12. Start. Preis ab 16.11.: 29,99 €.
+**Blocker diese Woche:** Zugangssystem (Plugin oder Server, wer baut es), Landingpage-Link/Text, Absender in Brevo, Liedliste und GEMA-Anfrage, Konzertseiten-Text, Teaser-Ausschnitte. **Neu:** Videos für USA/Korea (Englisch/Koreanisch) jetzt planen. Mama wegen Mr. Lee erinnern (Kalender Mo 26.10.).
+
 ## Plan 26.10.–1.11. (Entwurf, Stand 2026-10-24)
 Noch 22 Tage bis 15.11., 38 Tage bis 1.12. Von 24 Videos sind 3 gedreht.
 
