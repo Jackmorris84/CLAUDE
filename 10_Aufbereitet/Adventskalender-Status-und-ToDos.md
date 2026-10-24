@@ -11,6 +11,21 @@ tags: [adventskalender, status, todo]
 ## Kernaussage
 Konzept, Termine, Preis, Ablauf und Gewinnspiel-Idee stehen. Es fehlen vor allem Personen, Dreh-Tage, Songs/Rechte und Budget. Bis zum 15.11. (Videos fertig und Ende Early Bird) sind es ab dem 19.10. noch 27 Tage.
 
+## Plan 26.10.–1.11. (Entwurf, Stand 2026-10-24)
+Noch 22 Tage bis 15.11., 38 Tage bis 1.12. Von 24 Videos sind 3 gedreht.
+
+| Tag | Aufgabe | Wer |
+|---|---|---|
+| Sa 24.–So 25.10. | Offen aus Woche 1: Team/Stunden, Budget, Songliste, Shop-Check, Look | Jannik/Eltern |
+| Mo 26.10. | Songtabelle + Anfrage-Mail GEMA/Label raus; Drehplan für 21 Videos | Claude, Jannik schickt Mail |
+| Di 27.10. | Shop-Produkt anlegen (Preis, Freischalttermine, Early Bird bis 15.11.), Waitlist-Mails in Brevo | Jannik, Claude Texte |
+| Mi 28.10. | Newsletter an Altliste (Konzerte 2027 + Warteliste) | Claude Entwurf, Jannik sendet |
+| Do 29.10. | Unterdomain + Videohoster; 10 Story-Themen; Skript „Brief an die Zuschauer“ | Jannik, Claude |
+| Fr 30.10. | Server für Zugangslinks klären (wer baut ihn?), Cron-Job zweckbestimmen | Jannik |
+| Sa 31.10.–So 1.11. | Drehen laut Plan; Higgsfield-Test; Rechtsprüfung Gewinnspiel beauftragt | Jannik/Eltern |
+
+Überfällig ab Mo 26.10., wenn nicht erledigt: Team/Stunden, Budget, Songliste + GEMA-Anfrage, Shop prüfen, Rechtsprüfung, Higgsfield, Look, Story-Themen.
+
 ## Aktualisierung 2026-10-24 (von Jannik gemeldet)
 Quelle: [[2026-10-24_Adventskalender-Erledigte-Aufgaben]]. Noch 22 Tage bis 15.11., 38 Tage bis 1.12.
 
