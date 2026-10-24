@@ -81,3 +81,6 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 
 ## Empfehlung Tool (Claude, 2026-10-24) – ❓ Entscheidung Jannik offen
 **ManyChat für einen Monat.** Gründe: verbreitet (viele Anleitungen), Instagram und Facebook in einem Tool, AVV wird angeboten, monatlich kündbar, keine Programmierung. Wechsel auf ein EU-Tool (Chatarmin, Superchat) nur, wenn die Rechtsprüfung die US-Übermittlung als Problem sieht. LinkDM/InstantDM nur, wenn ManyChat im Test nicht funktioniert oder zu teuer ist. Vor dem Zahlen: Gratis-Testlauf, Preis im Konto prüfen.
+
+## Entscheidung Tool (Jannik, 2026-10-24)
+**Es wird ManyChat genommen.** Vorgehen: Gratis-Konto, Ablauf mit privatem Konto testen, dann einen bezahlten Monat buchen (Preis im Konto prüfen), danach kündigen. AVV mit ManyChat abschließen und Datenschutzerklärung anpassen. Im Google Sheet: Nr. 159 (Einrichtung, Frist Mi 28.10.) und neu Nr. 165 (AVV und Datenschutz, Frist Do 29.10. als Vorschlag ❓).
