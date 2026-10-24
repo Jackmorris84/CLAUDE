@@ -18,7 +18,7 @@ Arbeitsentwurf für die Teilnahmebedingungen. Eckige Klammern sind Platzhalter o
 
 **§ 3 Teilnahme** – Die Teilnahme ist kostenlos und ohne Kauf möglich. Teilnehmen kann man über das Teilnahmeformular auf [Adresse] mit Name und E-Mail-Adresse. Die Teilnahme gilt erst, wenn die E-Mail-Adresse über den Bestätigungslink in der Bestätigungsmail bestätigt wurde. Pro Person zählt nur eine E-Mail-Adresse.
 
-**§ 4 Lose** – Bei den Ziehungen am 29.11., 06.12., 13.12. und 20.12. hat jede bestätigte Teilnahme 1 Los. Bei der Ziehung am 24.12. haben alle bestätigten Teilnehmer 1 Los, Käufer des Adventskalenders 3 Lose. [❓ Wartelisten-Mitglieder (Warteliste für den Adventskalender): 2 Lose beim Finale, ja oder nein?] Maßgeblich ist die E-Mail-Adresse der Teilnahme bzw. Bestellung. Bei Rückerstattung oder Rückbuchung entfällt der Käufer-Bonus.
+**§ 4 Lose** – Bei den Ziehungen am 29.11., 06.12., 13.12. und 20.12. hat jede bestätigte Teilnahme 1 Los. Käufer des Adventskalenders haben 3 Lose. Bei der Ziehung am 24.12. hat jede bestätigte Teilnahme 1 Los, wer auf der Warteliste für den Adventskalender steht 2 Lose und wer den Adventskalender gekauft hat 3 Lose. Die Lose werden nicht addiert, es zählt der höchste Wert. Maßgeblich ist die E-Mail-Adresse der Teilnahme bzw. Bestellung. Bei Rückerstattung oder Rückbuchung entfällt der Käufer-Bonus. [❓ Zeitpunkt, bis zu dem Kauf bzw. Wartelisten-Eintrag zählen: bis zum Ziehungstag 12 Uhr?]
 
 **§ 5 Zeitraum und Ziehungen** – Teilnahmeschluss und Ziehung jeweils am: 29.11.2026, 06.12.2026, 13.12.2026, 20.12.2026 und 24.12.2026, [Uhrzeit, MEZ] live auf [YouTube/TikTok]. Alle Ziehungen stehen allen offen.
 
