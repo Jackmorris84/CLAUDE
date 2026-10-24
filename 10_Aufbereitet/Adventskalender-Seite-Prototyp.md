@@ -12,7 +12,7 @@ tags: [adventskalender, website, prototyp]
 Im Repository liegen zwei Bausteine: eine statische Kalenderseite (`Adventskalender-Seite/index.html`) als Layout-Prototyp und ein Ziehungs-Skript (`Gewinnspiel-Tool/ziehung.py`). Beides ist Entwurf, nichts davon ist live.
 
 ## Kalenderseite
-- 23 Türchen in fester, gemischter Reihenfolge wie beim Schokokalender, darunter Türchen 24 in dreifacher Breite und Höhe. Farben hellbraun/rot/grün (❓ mit Vater klären).
+- 23 Türchen in fester, gemischter Reihenfolge wie beim Schokokalender, darunter Türchen 24 in dreifacher Breite, Höhe wie die anderen (Jannik 24.10.). Farben hellbraun/rot/grün (❓ mit Vater klären).
 - Sprachen Deutsch, Englisch, Koreanisch per Schalter. Koreanische Texte sind von mir, ❓ von der Übersetzerin prüfen lassen.
 - Türchen öffnen sich nach Datum (ab 1.12.2026). Zum Testen: `index.html?datum=2026-12-10` und `?lang=ko`.
 - Videos: Platzhalter. Pro Türchen kann später eine Videodatei je Sprache eingetragen werden (Objekt `CONTENT`, Voice-Over DE/KO/EN).
@@ -29,7 +29,6 @@ Im Repository liegen zwei Bausteine: eine statische Kalenderseite (`Adventskalen
 
 ## Offen / ❓ unklar
 - Türchen-Verteilung: 10 Lieder + 10 Geschichten + 4 Musikvideos = 24. Aber das 1. Musikvideo (29.11.) liegt vor dem Start und nur auf YouTube. Was ist dann das vierte Musikvideo im Kalender? (Vorschlag: 6.12., 13.12., 20.12. und 24.12.)
-- Dreifache Größe: Breite und Höhe (wie jetzt) oder Fläche?
 - Wer hostet die Videos (Bunny/Vimeo oder eigener Server)?
 - Domain: Unterdomain von davids-panparadies.de.
 

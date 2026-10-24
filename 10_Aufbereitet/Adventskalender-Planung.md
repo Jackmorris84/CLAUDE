@@ -25,7 +25,7 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - **40 % CD-Rabatt am 4. Advent, 20.12.**, nur auf benannte CDs (Pan Paradies, Hallelujah, Passion). Im Türchen: Shop-Link oder Code. Shop: https://shop.davids-panparadies.de (laut Notion).
 - Gewinne: 3× Paket mit 6 CDs (Überraschung), Konzertgutschein (Code, gültig für ein beliebiges Konzert, freier Eintritt, zum Mitbringen). CDs genug da, Versand weltweit.
 - Optik: hellbraun, rot, grün (❓ Abstimmung mit Vater).
-- Videoformat **16:9**. Türchen 24: Breite dreifach. Schnitt: **Jannik + Videoagent**. Team: Jannik 20 Std./Woche (Social Media, Warteliste, Website/Shop, Konzerte, Schnitt), Mutter Videodreh, Vater vor der Kamera, Eltern zusammen ca. 10 Std./Woche. Englische und koreanische Fassung für alle Videos, die keine Musik sind (Geschichten u. ä.).
+- Videoformat **16:9**. Türchen 24: Breite dreifach, Höhe gleich. Schnitt: **Jannik + Videoagent**. Team: Jannik 20 Std./Woche (Social Media, Warteliste, Website/Shop, Konzerte, Schnitt), Mutter Videodreh, Vater vor der Kamera, Eltern zusammen ca. 10 Std./Woche. Englische und koreanische Fassung für alle Videos, die keine Musik sind (Geschichten u. ä.).
 - Sprachen: Standard Deutsch; Voice-Overs Deutsch (Jannik) + Koreanisch (Übersetzerin vorhanden) statt reiner Untertitel. Texte/Untertitel Koreanisch: Freundin vorhanden.
 - Korea: abgehakt, private/geschäftliche Kontakte der Eltern verbreiten in ihrer Community.
 - Higgsfield: für Musikvideos; Jannik testet Kurz-Trial (ca. 3 Tage / 3 €). Anleitung gewünscht.

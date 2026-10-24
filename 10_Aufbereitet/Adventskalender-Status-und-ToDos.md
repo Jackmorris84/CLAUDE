@@ -80,7 +80,7 @@ Noch 23 Tage bis 15.11. (Videos fertig, Early Bird endet), 39 Tage bis zum Start
 - Türchen 4. Musikvideo: Vorschlag 6.12., 13.12., 20.12. + Finale am 24.12.
 - Faktor 2× oder 3×; Gewichtung bei allen Ziehungen oder nur 29.11./24.12.?
 - Live-Uhrzeit endgültig und Plattform (YouTube/TikTok).
-- Dreifache Größe von Türchen 24: Breite/Höhe oder Fläche?
+- Türchen 24 (erledigt): Breite dreifach, Höhe gleich.
 - Videohoster, Unterdomain, Look (mit Vater).
 - Mindestalter und Länder fürs Gewinnspiel.
 
