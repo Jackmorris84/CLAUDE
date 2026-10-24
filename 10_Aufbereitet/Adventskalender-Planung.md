@@ -77,3 +77,6 @@ Digitaler Adventskalender: 24 Türchen = 24 Videos à ca. 3 Min., Start 1.12.202
 - [[2026-10-24_Adventskalender-Antworten-Launch]]
 - [[Adventskalender-Gesamtplan]]
 - [[2026-10-24_Adventskalender-Antworten-Offene-Fragen]]
+
+## Arbeitsregel Google Sheet (2026-10-24)
+Das Google Sheet ist der Maßstab für Aufgaben und Status. Änderungen dort werden in den Vault übernommen, Details in [[Adventskalender-Gesamtplan]].

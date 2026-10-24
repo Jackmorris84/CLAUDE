@@ -114,3 +114,6 @@ Noch 23 Tage bis 15.11. (Videos fertig, Early Bird endet), 39 Tage bis zum Start
 ## Verknüpft mit
 - [[Adventskalender-Planung]]
 - [[Adventskalender-Zeitplan]]
+
+## Hinweis (2026-10-24)
+Aufgaben und Status führt das Google Sheet, nicht diese Notiz. Abgleich und Regel: [[Adventskalender-Gesamtplan]].
