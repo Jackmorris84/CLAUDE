@@ -58,3 +58,6 @@ Standard-Reels beginnen laut („Hey, ich bin David“). Dieses beginnt **leise*
 - [[Adventskalender-Idee-Kommentar-Automatisierung]]
 - [[Adventskalender-Landingpage-und-Brevo-Mails-DE]]
 - [[Adventskalender-Gesamtplan]]
+
+## Sprachfassungen (Beschluss Jannik, 2026-10-24)
+Deutsches Reel (Original) plus ein Reel mit englischen Untertiteln. Koreanische Fassung mit Übersetzung folgt nach Klärung mit Herrn Lee (über Janniks Mutter). Untertitel-Texte schreibt Claude, die koreanische Fassung prüft eine Übersetzerin ([[Adventskalender-Gesamtplan]], Nr. 162–164).

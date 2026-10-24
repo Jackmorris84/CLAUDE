@@ -55,3 +55,4 @@ Jannik-Idee: In Reels steht „Kommentiere ADVENT“. Eine Automatisierung erken
 - Ab dann antwortet das Tool innerhalb von Sekunden auf jeden passenden Kommentar. Jannik schaut nur gelegentlich in die Statistik und beantwortet Rückfragen von Menschen selbst.
 - ❓ Zu klären: Nachrichten von Nicht-Followern landen oft bei den „Anfragen“. Deshalb unter dem Kommentar der Hinweis „Schau auch bei den Anfragen“.
 - Beschluss Jannik (2026-10-24, später): Ziel der Direktnachricht ist die **Warteliste**. Verkauft wird per Mail, die zweite Mail enthält den Kaufen-Button, sobald der Verkauf läuft. Texte: [[Adventskalender-Kommentar-Automatisierung-Texte]].
+- Beschluss Jannik (2026-10-24): **Ein deutsches Reel und ein Reel mit englischen Untertiteln** (gleiche Aufnahmen). Koreanisch: ein Reel mit koreanischer Übersetzung (Untertitel) kommt dazu, sobald Jannik mit seiner Mutter den Stand bei Herrn Lee geklärt hat. Sheet Nr. 162–164.
