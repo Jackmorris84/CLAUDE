@@ -44,3 +44,4 @@ Geprüft wurden Notion und die anderen Chats. Der Adventskalender kommt nur in N
 - [[Adventskalender-Planung]]
 - [[Adventskalender-Zeitplan]]
 - [[Adventskalender-Status-und-ToDos]]
+- Kanäle, Links und Impressum: [[Kanaele-Links-und-Impressum]]

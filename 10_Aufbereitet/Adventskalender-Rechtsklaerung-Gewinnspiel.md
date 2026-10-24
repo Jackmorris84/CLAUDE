@@ -23,9 +23,9 @@ Die Rechtsprüfung muss ein Mensch mit Fachkenntnis machen (Fachanwalt oder spez
 
 ## Entscheidungen, die vor der Beauftragung nötig sind
 - Teilnahme **kostenlos für alle**, Käufer bekommen Bonuslose (Empfehlung) oder Ziehungen nur für Käufer?
-- Faktor der Bonuslose (2× oder 3×) und welche Ziehungen (29.11., 6.12., 13.12., 20.12., 24.12.).
+- **Entschieden (24.10.):** Lose 1 (kein Mitglied) / 2 (Newsletter) / 3 (Kauf). ❓ Welche Ziehungen: alle fünf (29.11., 6.12., 13.12., 20.12., 24.12.) für alle?
 - Teilnahmeweg: Kommentar unter YouTube-Video (29.11.), danach Button im Kalender oder Formular mit E-Mail und Bestätigungslink (Brevo).
-- Mindestalter, erlaubte Länder, Versand weltweit?
+- **Entschieden (24.10.):** weltweit, Schwerpunkt Deutschland, Korea, USA. ❓ Mindestalter.
 - Gewinne: 3× „Ewigkeit“ pro Advent, 3× CD-Paket (6 CDs), Konzertgutschein (1 Jahr, einmal einlösbar, beliebiges Konzert).
 
 ## Was Fachleute laut Suchergebnissen typischerweise prüfen
@@ -36,10 +36,10 @@ Die Rechtsprüfung muss ein Mensch mit Fachkenntnis machen (Fachanwalt oder spez
 - **Steuer:** Gewinne aus Verlosungen sind beim Empfänger meist nicht steuerpflichtig. Läuft das Gewinnspiel aber im Rahmen eines bestehenden Vertragsverhältnisses (Käufer des Kalenders), kann der Gewinn eine **Betriebseinnahme** sein. ❓ Steuerberater fragen, auch zu Umsatzsteuer und Abzug der Preise als Betriebsausgaben.
 
 ## Briefing für die Kanzlei (zum Kopieren)
-> **Projekt:** Online-Adventskalender „David’s Panparadies“, Start 01.12.2026, 24 Videos hinter einer Bezahlschranke (Einzelpreis 25 € Early Bird bis 15.11., danach 29 €), Verkauf über [Shop-System], Mailtool Brevo.
+> **Projekt:** Online-Adventskalender „David’s Panparadies“, Veranstalter David Döring, Start 01.12.2026, 24 Videos hinter einer Bezahlschranke (25 € Early Bird bis 15.11., danach 29 €), Verkauf über WooCommerce, Mailtool Brevo.
 > **Gewinnspiel:** Fünf Ziehungen (29.11., 06.12., 13.12., 20.12., 24.12.2026), live auf [YouTube/TikTok] im Stream. Gewinne: je Advent 3× CD „Ewigkeit“; am 24.12. 3 CD-Pakete (6 CDs) und Konzertgutscheine (1 Jahr gültig, einmal einlösbar, für ein beliebiges Konzert des Veranstalters).
-> **Teilnahme:** [Kommentar unter YouTube-Video / Formular mit E-Mail und Bestätigungslink]. Teilnahme kostenlos für alle, Käufer des Kalenders erhalten [2/3] Lose statt einem. Ziehung aus Liste per Zufallsverfahren, protokolliert.
-> **Teilnehmer:** weltweit [oder Länderliste], ab [18] Jahren. Versand der Gewinne weltweit.
+> **Teilnahme:** [Kommentar unter YouTube-Video / Formular mit E-Mail und Bestätigungslink]. Teilnahme kostenlos für alle, Lose: 1 für jeden, 2 für Newsletter-Abonnenten, 3 für Käufer des Kalenders (höchster Wert zählt). Ziehung aus Liste per Zufallsverfahren, protokolliert.
+> **Teilnehmer:** weltweit, vor allem Deutschland, Korea, USA, ab [18] Jahren. Versand der Gewinne weltweit.
 > **Daten:** Name, E-Mail, bei Gewinnern Anschrift. Newsletter freiwillig und getrennt. Datenlöschung nach Abschluss.
 > **Anlagen:** Entwurf Teilnahmebedingungen, Ablaufbeschreibung.
 > **Bitte prüfen:** siehe Fragenliste.
@@ -53,7 +53,9 @@ Die Rechtsprüfung muss ein Mensch mit Fachkenntnis machen (Fachanwalt oder spez
 6. Wie muss der Konzertgutschein ausgestaltet sein (Gültigkeit, Absage eines Konzerts, Übertragbarkeit, Haftung)?
 7. Welche Hinweise braucht es zu Plattformen (YouTube, Instagram, TikTok, Meta)?
 8. Welche Dokumentationspflichten gelten für die Ziehung?
-9. Dürfen wir die Teilnehmer-E-Mails für Gewinnbenachrichtigung nutzen, und wie holen wir die Newsletter-Einwilligung korrekt ein?
+9. Dürfen wir ein zweites Los für das Newsletter-Abo vergeben, ohne gegen das Kopplungsverbot der DSGVO zu verstoßen?
+10. Gelten für Korea und die USA Besonderheiten (z. B. „no purchase necessary“-Hinweis, Registrierungspflichten, Regeln für Gewinnspiele mit Kaufbezug)?
+11. Dürfen wir die Teilnehmer-E-Mails für Gewinnbenachrichtigung nutzen, und wie holen wir die Newsletter-Einwilligung korrekt ein?
 Frage an Steuerberater: Behandlung der Gewinne bei Käufern und Nicht-Käufern, Umsatzsteuer, Betriebsausgaben.
 
 ## Selbst jetzt schon erledigen (ohne Anwalt)
@@ -64,7 +66,7 @@ Frage an Steuerberater: Behandlung der Gewinne bei Käufern und Nicht-Käufern, 
 - [ ] Konzertgutschein-Regeln aufschreiben
 
 ## Offen / ❓ unklar
-- Wer ist Veranstalter (Gewerbe, Person) und mit welcher Anschrift?
+- Veranstalter ist David Döring (Gewerbe laut Impressum von davids-panparadies.de). ❓ Anschrift und Gewerbedaten hier eintragen, siehe [[Kanaele-Links-und-Impressum]].
 - Kommentar-Auswahl-Tool: Datenschutz des Tools prüfen (Name noch offen).
 - Welche Länder erlaubt sind.
 

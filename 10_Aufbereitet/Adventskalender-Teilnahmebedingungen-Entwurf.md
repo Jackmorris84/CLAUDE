@@ -12,13 +12,13 @@ tags: [adventskalender, gewinnspiel, entwurf]
 Arbeitsentwurf für die Teilnahmebedingungen. Eckige Klammern sind Platzhalter oder ❓ offene Entscheidungen. Vor der Veröffentlichung von einer Rechtsperson prüfen lassen.
 
 ## Entwurf
-**§ 1 Veranstalter** – [Name, Anschrift, E-Mail], im Folgenden „Veranstalter“. Das Gewinnspiel steht in keiner Verbindung zu Instagram, TikTok, YouTube/Google oder Meta und wird von diesen weder gesponsert noch unterstützt.
+**§ 1 Veranstalter** – David Döring [Anschrift/E-Mail laut Impressum von davids-panparadies.de ❓ eintragen], im Folgenden „Veranstalter“. Das Gewinnspiel steht in keiner Verbindung zu Instagram, TikTok, YouTube/Google oder Meta und wird von diesen weder gesponsert noch unterstützt.
 
-**§ 2 Teilnahmeberechtigung** – Teilnehmen kann jede natürliche Person ab [18] Jahren mit Wohnsitz in [❓ Länder]. Ausgeschlossen sind Mitarbeitende des Veranstalters und ihre Angehörigen sowie Personen, die sich durch Mehrfach-Anmeldungen, automatisierte Anmeldungen oder falsche Angaben einen Vorteil verschaffen.
+**§ 2 Teilnahmeberechtigung** – Teilnehmen kann jede natürliche Person ab [18] Jahren weltweit, vor allem aus Deutschland, Korea und den USA [❓ rechtlich prüfen, ob für Korea und die USA Besonderheiten gelten]. Ausgeschlossen sind Mitarbeitende des Veranstalters und ihre Angehörigen sowie Personen, die sich durch Mehrfach-Anmeldungen, automatisierte Anmeldungen oder falsche Angaben einen Vorteil verschaffen.
 
 **§ 3 Teilnahme** – Die Teilnahme ist kostenlos und ohne Kauf möglich. Teilnehmen kann man über das Teilnahmeformular auf [Adresse] mit Name und E-Mail-Adresse. Die Teilnahme gilt erst, wenn die E-Mail-Adresse über den Bestätigungslink in der Bestätigungsmail bestätigt wurde. Pro Person zählt nur eine E-Mail-Adresse.
 
-**§ 4 Bonus für Käufer des Adventskalenders** – Wer den Adventskalender gekauft hat, erhält [zwei / drei] Lose statt einem. Maßgeblich ist die bei der Bestellung angegebene E-Mail-Adresse. Bei Rückerstattung oder Rückbuchung entfällt der Bonus.
+**§ 4 Lose** – Jede bestätigte Teilnahme erhält 1 Los. Wer den Newsletter abonniert hat, erhält 2 Lose. Wer den Adventskalender gekauft hat, erhält 3 Lose. Die Lose werden nicht addiert, es zählt der höchste Wert. Maßgeblich ist die E-Mail-Adresse der Teilnahme bzw. Bestellung. Bei Rückerstattung oder Rückbuchung entfällt der Käufer-Bonus. Das Newsletter-Abo ist freiwillig und getrennt von der Teilnahme.
 
 **§ 5 Zeitraum und Ziehungen** – Teilnahmeschluss und Ziehung jeweils am: 29.11.2026, 06.12.2026, 13.12.2026, 20.12.2026 und 24.12.2026, [Uhrzeit, MEZ] live auf [YouTube/TikTok]. [❓ Gilt die Gewichtung bei allen Ziehungen? Sind einzelne Ziehungen nur für Käufer?]
 

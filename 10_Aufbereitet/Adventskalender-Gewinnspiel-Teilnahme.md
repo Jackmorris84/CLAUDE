@@ -48,6 +48,9 @@ Jede bestätigte Person hat 1 Los. Käufer bekommen 2 oder 3 Lose.
 - Mindestalter und erlaubte Länder.
 - Wer prüft die Bedingungen rechtlich?
 
+## Beschluss 2026-10-24: Lose
+Kein Mitglied 1 Los, Newsletter-Abo 2 Lose, Kalender gekauft 3 Lose (höchster Wert, nicht addiert). Umsetzung: Brevo-Kontakte mit Etikett „Newsletter“ und „Käufer“ (Kauf über WooCommerce), Skript `Gewinnspiel-Tool/ziehung.py` mit Spalten `kaeufer` und `newsletter`. ❓ Newsletter-Bonus mit Kanzlei klären (DSGVO-Freiwilligkeit). ❓ Gilt das für alle Ziehungen?
+
 ## Variante B: Kommentar-Verlosung (Erfahrung der Eltern, 2026-10-22)
 Quelle: [[2026-10-22_Adventskalender-Nachricht-Mutter-Gewinnspiel]]
 - Früher lief es so: Aufruf unter einem YouTube-Video („kommentiert, am Tag X wird verlost, unter allen, die kommentiert und abonniert haben“). Bei der Ziehung wurde die Video-Adresse in ein Kommentar-Auswahl-Tool eingegeben, das einen Kommentar zufällig zog, und alles lief live im Stream.
