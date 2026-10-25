@@ -9,7 +9,7 @@ entscheidung: offen
 tags: [adventskalender, texte, instagram, warteliste, automatisierung]
 ---
 ## Kernaussage
-Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur den Wartelisten-Link (Beschluss Jannik, 2026-10-24). Verkauft wird danach per Mail. Sobald der Kalender kaufbar ist (spätestens Do 29.10.), enthält die zweite Mail den Kaufen-Button. Platzhalter https://www.davids-panparadies.de/adventskalender-warteliste/ = Wartelisten-Link, ❓ liegt noch nicht vor (Sheet Nr. 13).
+Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur den Wartelisten-Link (Beschluss Jannik, 2026-10-24). Verkauft wird danach per Mail. Sobald der Kalender kaufbar ist (spätestens Do 29.10.), enthält die zweite Mail den Kaufen-Button. Wartelisten-Link (von Jannik, 2026-10-25): https://www.davids-panparadies.de/adventskalender-warteliste/ (eingetragen in die Texte unten). ❓ Link zur Datenschutzerklärung fehlt noch.
 
 ## Reel-Beschreibung (Caption)
 > Wann hat dich Weihnachten zuletzt wirklich berührt? 🎄
@@ -40,7 +40,7 @@ Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur
 - Direktnachricht: „Hi {Vorname}, so glad you’re here! 🎄 Here is your link to the waiting list for my Advent calendar: https://www.davids-panparadies.de/adventskalender-warteliste/ Enter your name and email and confirm the mail you’ll receive. Warm regards, David“
 
 ## Prüfen
-- ❓ Wartelisten-Link und Datenschutz-Link einsetzen.
+- ❓ Datenschutz-Link einsetzen (Wartelisten-Link ist eingetragen).
 - ❓ Ob die Direktnachricht-Texte mit den Regeln von Meta und dem gewählten Tool vereinbar sind, im Tool prüfen.
 - ❓ Texte mit David abstimmen (Ich-Form, seine Worte).
 - Im Reel und in der Nachricht kein Wort zu Gewinnspiel/Verlosung.
