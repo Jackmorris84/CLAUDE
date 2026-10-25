@@ -47,3 +47,6 @@ Quelle: Impressum von https://www.davids-panparadies.de, von Jannik am 2026-10-2
 - [[Adventskalender-Funde-aus-Notion-und-anderen-Chats]]
 - [[Adventskalender-Teilnahmebedingungen-Entwurf]]
 - [[Adventskalender-Rechtsklaerung-Gewinnspiel]]
+
+## Warteliste (2026-10-25, von Jannik)
+https://www.davids-panparadies.de/adventskalender-warteliste/ (Sheet Nr. 13 erledigt). ❓ Claude kann die Seite nicht öffnen (Netzwerk), Inhalt ungeprüft.

@@ -9,7 +9,7 @@ entscheidung: offen
 tags: [adventskalender, texte, instagram, warteliste, automatisierung]
 ---
 ## Kernaussage
-Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur den Wartelisten-Link (Beschluss Jannik, 2026-10-24). Verkauft wird danach per Mail. Sobald der Kalender kaufbar ist (spätestens Do 29.10.), enthält die zweite Mail den Kaufen-Button. Platzhalter [LINK] = Wartelisten-Link, ❓ liegt noch nicht vor (Sheet Nr. 13).
+Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur den Wartelisten-Link (Beschluss Jannik, 2026-10-24). Verkauft wird danach per Mail. Sobald der Kalender kaufbar ist (spätestens Do 29.10.), enthält die zweite Mail den Kaufen-Button. Platzhalter https://www.davids-panparadies.de/adventskalender-warteliste/ = Wartelisten-Link, ❓ liegt noch nicht vor (Sheet Nr. 13).
 
 ## Reel-Beschreibung (Caption)
 > Wann hat dich Weihnachten zuletzt wirklich berührt? 🎄
@@ -24,7 +24,7 @@ Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur
 
 ## Direktnachricht (Button: „Zur Warteliste“)
 > Hallo {Vorname}, schön, dass du da bist! 🎄
-> Hier ist dein Link zur Warteliste für meinen Adventskalender: [LINK]
+> Hier ist dein Link zur Warteliste für meinen Adventskalender: https://www.davids-panparadies.de/adventskalender-warteliste/
 > Trag dich mit Name und E-Mail ein und bestätige die Mail, die du von mir bekommst. Dann sagt dir mein Team Bescheid, sobald es losgeht, und du kannst dir deinen Zugang sichern.
 > Vom 1. bis 24. Dezember öffnet sich jeden Tag ein Türchen.
 > Herzliche Grüße, David
@@ -37,7 +37,7 @@ Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur
 
 ## Englische Fassung (Entwurf, ❓ nur falls ein englisches Reel gedreht wird)
 - Caption: „When did Christmas last truly touch you? 🎄 From 1 to 24 December a new door opens every day: a song, a story from me, or a music video. Want to join? Comment **Adventskalender** and I’ll send you the link to the waiting list.“
-- Direktnachricht: „Hi {Vorname}, so glad you’re here! 🎄 Here is your link to the waiting list for my Advent calendar: [LINK] Enter your name and email and confirm the mail you’ll receive. Warm regards, David“
+- Direktnachricht: „Hi {Vorname}, so glad you’re here! 🎄 Here is your link to the waiting list for my Advent calendar: https://www.davids-panparadies.de/adventskalender-warteliste/ Enter your name and email and confirm the mail you’ll receive. Warm regards, David“
 
 ## Prüfen
 - ❓ Wartelisten-Link und Datenschutz-Link einsetzen.
