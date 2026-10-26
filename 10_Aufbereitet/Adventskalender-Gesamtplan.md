@@ -60,3 +60,9 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 - ❓ unklar: Nr. 17 ist erledigt, aber im Vault steht nicht, wofür er sich entschieden hat (Plugin oder eigener Server, wer baut). Jannik soll es nennen. Nr. 43: welche Videos EN/KO bekommen, steht ebenfalls nicht im Vault. Nr. 22: ob Mama bereits mit Mr. Lee gesprochen hat, ist offen (Aufgabe war „erinnern“).
 - Nr. 151 (Live-Replay) im Sheet ist bereits korrekt: 14 Uhr DE = 22 Uhr Korea.
 - Weiter offen und heute fällig (So 25.10.): Nr. 11 Liedliste, 12 Konzertseiten-Text, 13 Landingpage-Link, 14 Homepage-Zugriff.
+
+## Stand laut Sheet (abgeglichen 2026-10-26)
+- Erledigt: 17 von 166. Neu seit 24.10.: Nr. 13 (Wartelisten-Link geliefert, https://www.davids-panparadies.de/adventskalender-warteliste/). Korrektur: Claude hatte am 25.10. irrtümlich gemeint, die Zeile sei falsch eingetragen. Nr. 13 steht richtig auf „erledigt“, Nr. 14 (Konzertseiten-Text, Homepage-Zugriff) ist weiter offen.
+- Überfällig (4): Nr. 11 Liedliste, Nr. 12 Konzertseiten-Text, Nr. 14 Homepage-Zugriff/Konzerttext, Nr. 166 ManyChat von den Eltern absegnen und kaufen (Frist war 25.10.).
+- Heute fällig (26.10.): Nr. 16, 18, 19, 20, 21, 157, 158, 163.
+- Keine Rückmeldung von Jannik bis zum Morgen des 26.10. zu: Mr. Lee (Nr. 163), ManyChat-Kauf, Stichwort, Datenschutz-Link, Zugangssystem-Entscheidung (Nr. 17, Inhalt unbekannt).
