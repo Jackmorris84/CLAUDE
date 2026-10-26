@@ -66,3 +66,4 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 - Überfällig (4): Nr. 11 Liedliste, Nr. 12 Konzertseiten-Text, Nr. 14 Homepage-Zugriff/Konzerttext, Nr. 166 ManyChat von den Eltern absegnen und kaufen (Frist war 25.10.).
 - Heute fällig (26.10.): Nr. 16, 18, 19, 20, 21, 157, 158, 163.
 - Keine Rückmeldung von Jannik bis zum Morgen des 26.10. zu: Mr. Lee (Nr. 163), ManyChat-Kauf, Stichwort, Datenschutz-Link, Zugangssystem-Entscheidung (Nr. 17, Inhalt unbekannt).
+- 2026-10-26 (Jannik): Zugang für Nr. 17/18 (Shop-Admin, WordPress/WooCommerce) hat **Janniks Mama**. ❓ Weiter offen: Plugin oder eigener Server, wer baut. Nr. 21 (GEMA-Lizenz) hat Claude übernommen: [[Adventskalender-GEMA-Lizenz-Webseite]].
