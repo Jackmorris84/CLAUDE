@@ -97,3 +97,16 @@ Die Zuordnung der drei gedrehten Lieder zu Türchen ist ein Vorschlag. Den echte
 - [[Adventskalender-Songtabelle]]
 - [[Adventskalender-Status-und-ToDos]]
 - [[Adventskalender-Zeitplan]]
+
+## Geschichten-Ideen von Jannik (aus dem Chat „Videoagenten-Training für Schnitt-Vorlieben“, 2026-10-26)
+Gefunden im Chat https://claude.ai/code/session_011Bnf8aqvJzu89yEH7Thjgm (dort Mockup v1 des Formats mit 4 Bildtypen, Plan für 11 Videos). Janniks Liste, Titel und Namen noch offen:
+1. Oma in den Himmel getragen
+2. Erstes Weihnachten in Deutschland
+3. Erstes Weihnachtslied
+4. Traktorreifen-Schlittenfahrt
+5. Edward-Simoni-Konzert (vorspielen für Edward Simoni) ❓ Rechte/Inhalt klären
+6. Weihnachtsinterview (eigene Fragen)
+7. Kölner Weihnachtsmarkt mit Rudi
+8. Erstes Weihnachten in Paraguay
+- Jannik: Name und Branding braucht es nicht. Untertitel schreibt Jannik selbst. Intro muss noch aufgenommen werden. Rohdateien liegen auf dem Laptop (Videoagent läuft dort).
+- Bezug Sheet: Nr. 33 (10 Geschichten-Themen festlegen). Diese 8 ersetzen/ergänzen die Vorschläge oben. ❓ 2 weitere Themen fehlen.
