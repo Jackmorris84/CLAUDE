@@ -33,3 +33,9 @@ Das Chat-Limit (Kontextfenster) und das Wochenlimit sind zwei verschiedene Dinge
 - Fixe Kosten senken: Connectors pro Projekt nur die nötigen aktivieren; `CLAUDE.md` kurz halten.
 - Modell für Routine (Notizen, Umformulieren) kleiner wählen (`/model`).
 - Videoschnitt lokal: Skripte in Dateien speichern und ausführen, Videos nicht in den Chat laden, nur einzelne Standbilder ansehen.
+
+## Beobachtung aus Screenshot (2026-10-27)
+- In einem Auftrag (Whisper-Transkription, Skill `/instagram-agent:ig-caption`, Upload-Ordner, 4 Caption-Dateien, Lint, Cover.jpg lesen) wurde der Chat dreimal komprimiert (88k, 87,8k, 89,4k gespart), danach „Kontextfenster war voll".
+- Heißt: Nach jeder Komprimierung füllt sich der Chat sofort wieder. ❓ unklar: Ursache (Skill-Anweisungen, Connectors, Transkript-Ausgabe, Modus „Hoch"), nur mit `/context` prüfbar.
+- Der Hintergrund-Task „Lint the Instagram caption" schlug fehl und kann durch Wiederholungen weitere Tokens kosten.
+- Maßnahmen: Aufgabe in getrennte Chats teilen (Transkript, Captions, Upload); Aufwand von „Hoch" auf Mittel stellen; Skill-/Plugin-Größe mit `/context` prüfen; Caption-Regeln als Vault-Notiz statt jedes Mal im Chat.
