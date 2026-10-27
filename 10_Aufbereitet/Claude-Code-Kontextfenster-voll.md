@@ -24,3 +24,12 @@ Das Chat-Limit (Kontextfenster) und das Wochenlimit sind zwei verschiedene Dinge
 
 ## Verknüpft mit
 - [[KI-Regeln]]
+
+## Tokens sparen mit dem Vault (Ergänzung 2026-10-27)
+- Der Vault spart nur Tokens, wenn Claude wenig davon liest: erst ein Index, dann nur die passende Notiz.
+- Index-Datei mit einer Zeile pro Notiz (Titel, Stichwort, Pfad) anlegen und in `KI-Regeln.md` verlinken.
+- Suche per Stichwort statt Ordner komplett lesen; `Prompts/` und `00_Inbox` nur auf Anweisung lesen.
+- Pro Aufgabe ein frischer Chat: Ergebnis als Notiz in den Vault, dann `/clear`. Der Vault ist das Gedächtnis, nicht der Chat.
+- Fixe Kosten senken: Connectors pro Projekt nur die nötigen aktivieren; `CLAUDE.md` kurz halten.
+- Modell für Routine (Notizen, Umformulieren) kleiner wählen (`/model`).
+- Videoschnitt lokal: Skripte in Dateien speichern und ausführen, Videos nicht in den Chat laden, nur einzelne Standbilder ansehen.
