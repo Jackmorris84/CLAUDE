@@ -4,11 +4,14 @@
   "private": true,
   "type": "module",
   "description": "Rohvideos rein, fertiges Reel raus: Agents geben Schritt für Schritt weiter (Transkript, Schnitt, Untertitel, Ton, Prüfung, Paket).",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "test": "node --test \"test/*.test.mjs\"",
     "start": "node src/server.mjs",
-    "job": "node src/cli.mjs"
+    "job": "node src/cli.mjs",
+    "test:e2e": "node test/e2e/server.e2e.mjs"
   },
   "dependencies": {
     "@fontsource/playfair-display": "5.2.8",

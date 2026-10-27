@@ -1,0 +1,140 @@
+{
+  "runde": 2,
+  "bestanden": true,
+  "befunde": [
+    {
+      "id": "format",
+      "ok": true,
+      "wert": "1080×1920 30 fps h264/aac",
+      "soll": "1080×1920 30 fps h264/aac",
+      "schwere": "fehler",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "dauer",
+      "ok": true,
+      "wert": 18.6,
+      "soll": 18.55,
+      "schwere": "fehler",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "av_synchron",
+      "ok": true,
+      "wert": 18.6,
+      "soll": 18.6,
+      "schwere": "fehler",
+      "hinweis": "Bild- und Tondauer weichen ab",
+      "korrektur": null
+    },
+    {
+      "id": "lautheit",
+      "ok": true,
+      "wert": "-14.4 LUFS",
+      "soll": "-14 ± 1",
+      "schwere": "fehler",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "spitzenpegel",
+      "ok": true,
+      "wert": "-1.4 dBFS",
+      "soll": "≤ -1",
+      "schwere": "fehler",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "keine_luecken",
+      "ok": true,
+      "wert": "keine",
+      "soll": "keine Stille über 0,45 s",
+      "schwere": "fehler",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "kein_schwarzbild",
+      "ok": true,
+      "wert": "keins",
+      "soll": "nur Endkarte schwarz",
+      "schwere": "fehler",
+      "hinweis": "Schwarzbild im Inhalt (z. B. am Anfang des Rohvideos)",
+      "korrektur": null
+    },
+    {
+      "id": "untertitel_regeln",
+      "ok": true,
+      "wert": "ok",
+      "soll": "Regeln aus Stil",
+      "schwere": "fehler",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "woerter_gedeckt",
+      "ok": true,
+      "wert": "43/44",
+      "soll": "≥ 97 %",
+      "schwere": "warnung",
+      "hinweis": "Richtig",
+      "korrektur": null
+    },
+    {
+      "id": "sicherheitsband",
+      "ok": true,
+      "wert": "1040–1159 px",
+      "soll": "168–1330 px",
+      "schwere": "fehler",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "hook_frueh",
+      "ok": true,
+      "wert": "0.15 s",
+      "soll": "≤ 1,5 s",
+      "schwere": "warnung",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "laenge_reel",
+      "ok": true,
+      "wert": "18.6 s",
+      "soll": "≤ 90 s",
+      "schwere": "warnung",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "dateigroesse",
+      "ok": true,
+      "wert": "34.3 MB",
+      "soll": "≤ 100 MB",
+      "schwere": "warnung",
+      "hinweis": null,
+      "korrektur": null
+    },
+    {
+      "id": "wortzeiten_echt",
+      "ok": false,
+      "wert": "Näherung aus Text",
+      "soll": "echte Wortzeiten (Spracherkennung)",
+      "schwere": "warnung",
+      "hinweis": "Untertitel können leicht versetzt sein. Mit faster-whisper neu transkribieren.",
+      "korrektur": null
+    }
+  ],
+  "korrekturen": [],
+  "offen": [],
+  "menschlichePruefung": [
+    "Kontaktbogen ansehen: /home/user/CLAUDE/Render-Dienst/test-output/job2/07-pruefung/kontaktbogen-2.jpg",
+    "Zweimal am Handy ansehen, mit und ohne Ton.",
+    "Passt der Ton (Stimme klar, nichts schneidet Wörter an)?"
+  ],
+  "sichtpruefung": "nicht durchgeführt (kein ANTHROPIC_API_KEY)"
+}

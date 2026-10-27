@@ -50,18 +50,18 @@ export function wendeKorrekturenAn(ctx, korrekturen, stil) {
   };
   for (const k of korrekturen) {
     if (k.art === "schnitt_enger") {
-      const alt = { ...stil.schnitt, ...(ctx.schnittUeberschreiben ?? {}) };
+      const alt = { ...stil.schnitt, ...(ctx.auftrag?.optionen?.schnitt ?? {}), ...(ctx.schnittUeberschreiben ?? {}) };
       ctx.schnittUeberschreiben = { pauseMin: Math.max(0.25, +(alt.pauseMin * 0.75).toFixed(2)), halteLuecke: Math.max(0.12, +(alt.halteLuecke * 0.8).toFixed(2)) };
       markiere("schnitt", `Schnitt enger: Pausen ab ${ctx.schnittUeberschreiben.pauseMin} s kürzen, Luft ${ctx.schnittUeberschreiben.halteLuecke} s`);
     } else if (k.art === "ton") {
-      const alt = { ...stil.ton, ...(ctx.tonUeberschreiben ?? {}) };
+      const alt = { ...stil.ton, ...(ctx.auftrag?.optionen?.ton ?? {}), ...(ctx.tonUeberschreiben ?? {}) };
       const aus = { ...alt };
       if (k.abweichung) aus.zielLufs = +(alt.zielLufs - Math.max(-2, Math.min(2, k.abweichung * 0.9))).toFixed(2);
       if (k.extraSenken) aus.spitzeDb = +(alt.spitzeDb - 0.5).toFixed(2);
       ctx.tonUeberschreiben = { zielLufs: aus.zielLufs, spitzeDb: aus.spitzeDb };
       markiere("ton", `Ton neu: Ziel ${aus.zielLufs} LUFS, Spitze ${aus.spitzeDb} dB`);
     } else if (k.art === "untertitel_ruhiger") {
-      const alt = { ...stil.untertitel, ...(ctx.untertitelUeberschreiben ?? {}) };
+      const alt = { ...stil.untertitel, ...(ctx.auftrag?.optionen?.untertitel ?? {}), ...(ctx.untertitelUeberschreiben ?? {}) };
       ctx.untertitelUeberschreiben = { maxWoerter: Math.max(2, alt.maxWoerter - 1), luecke: 0.25 };
       markiere("untertitel", `Untertitel ruhiger: höchstens ${ctx.untertitelUeberschreiben.maxWoerter} Wörter`);
     }

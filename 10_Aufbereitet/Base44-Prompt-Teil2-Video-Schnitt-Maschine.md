@@ -41,8 +41,12 @@ Erweitere meine App „Adventskalender Post-Studio“ um eine Video-Schnitt-Masc
 
 # 2. Zwei Teile (wichtig)
 Base44 selbst rechnet kein Video. Baue deshalb eine saubere Schnittstelle zu einem externen Render-Dienst:
-- Backend-Funktion `startRender`: schickt an die Render-URL (aus Einstellungen, Geheimnis „RENDER_API_KEY“) einen Auftrag: Liste der Rohvideo-URLs (signierte Download-Links), Schnittplan (JSON, siehe 4) und Stil (siehe 5).
-- Backend-Funktion `renderStatus` / Webhook: Status (wartet, transkribiert, schneidet, zeichnet, mastert, fertig, Fehler) und Fortschritt in Prozent, am Ende URLs für `final.mp4`, `cover.jpg`, `words.json`, `schnittliste.json`.
+- Der Render-Dienst ist schon gebaut (Ordner `Render-Dienst/` im Repository) und spricht diese HTTP-Schnittstelle. Basis-URL aus den Einstellungen (Feld „Render-URL“), Geheimnis „RENDER_API_KEY“, jeder Aufruf mit Header `Authorization: Bearer <RENDER_API_KEY>`:
+  - Backend-Funktion `startRender`: `POST {Render-URL}/jobs` mit JSON `{ "id": "tuer-01", "tuer": 1, "wunsch": "...", "idee": "...", "clips": [{ "id": "clip1", "url": "<https-Download-Link, bis 300 MB>" }], "optionen": {...}, "kopfkarte": {"label":"TÜR 1","zeile":"..."}, "endkarte": {"text":"..."}, "thumbnailText": "...", "webhook": {"url": "<URL der App>", "schluessel": "..."} }`. Antwort 202.
+  - Backend-Funktion `renderStatus`: `GET {Render-URL}/jobs/<id>` liefert `status` (wartet, laeuft, fertig, pruefen, fehler), `stufe` (transkript, schnitt, untertitel, ton, render, export, pruefung, paket), `fortschritt`, `runden` (Prüf- und Überarbeitungsrunden), `offen` und `ergebnis`. Zusätzlich meldet der Dienst am Ende per Webhook.
+  - Transkript zum Korrigieren: `GET /jobs/<id>/transkript`. Korrekturen und neu rechnen: `POST /jobs/<id>/neu` mit `{ "korrekturen": {"clip1": {"3": "Zartes"}}, "schluesselwoerter": ["Sturm"], "ab": "untertitel" }`.
+  - Dateien: `GET /jobs/<id>/dateien` und `GET /jobs/<id>/datei/06-export/final.mp4` (auch `08-paket/thumbnail.jpg`, `08-paket/paket.md`, `06-export/untertitel.srt`, `99-zusammenfassung.md`, `07-pruefung/kontaktbogen-1.jpg`). Videos nicht in Base44 speichern, nur mit Ablaufzeit verlinken oder streamen.
+  - Die Texte des Pakets (Hook, Titel, Captions, angepinnter Kommentar) erzeugt der Render-Dienst selbst mit meinen Skills, sobald dort ein `ANTHROPIC_API_KEY` gesetzt ist. Lies sie aus `08-paket/*.json` und zeige sie in den Tabs.
 - Zeige in der App einen Auftrags-Verlauf mit Status, Dauer und Fehlertext. Wenn die Render-URL fehlt, zeige einen klaren Hinweis „Render-Dienst nicht verbunden“ und erlaube trotzdem alles andere (Texte, Hooks, Pakete).
 - Der Render-Dienst benutzt FFmpeg für Schnitt, Zusammensetzen und Ton und HyperFrames (HTML/CSS/GSAP, Frame für Frame) für Untertitel, Kopfkarte, Endkarte und Intro. Dafür baue ich ihn separat. Die App muss nur die Schnittstelle sauber sprechen.
 

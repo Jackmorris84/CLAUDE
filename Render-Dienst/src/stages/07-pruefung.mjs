@@ -1,6 +1,7 @@
 // Agent 7: Prüfer. Misst das fertige Video gegen den Stil und die Regeln. Liefert Befunde und, wo möglich,
 // eine Korrektur, die der Überarbeiter (Orchestrator) automatisch anwendet. Prüft nur, was messbar ist,
 // und sagt ausdrücklich, was ein Mensch ansehen muss (Kontaktbogen).
+import { mkdir } from "node:fs/promises";
 import { leseJson, schreibeJson, run, probe, stillen, schwarzbilder, lautheit, runde } from "../util.mjs";
 import { pruefeUntertitel } from "../lib/captions.mjs";
 import { frageClaude, hatClaude } from "../lib/claude.mjs";
@@ -11,6 +12,7 @@ export const ordner = "07-pruefung";
 export async function laufe(ctx) {
   const { stil, auftrag, pfad, log } = ctx;
   const runde_ = ctx.runde ?? 1;
+  await mkdir(pfad(ordner), { recursive: true });
   const final = pfad("06-export", "final.mp4");
   const schnitt = await leseJson(pfad("02-schnitt", "schnittliste.json"));
   const untertitel = await leseJson(pfad("03-untertitel", "untertitel.json"));
