@@ -74,3 +74,8 @@ Hashtags (wenige): `#Weihnachten #Panflöte #Überraschung`
 
 ## Verknüpft mit
 - [[Adventskalender]] (❓ unklar: Notiz existiert noch nicht im Vault)
+
+## Thumbnail / Cover
+Datei: `10_Aufbereitet/Thumbnails/Thumbnail_Werbung_v3_1080x1920.jpg` (9:16, aus dem Video bei Sekunde 6, mit Text „Eine Überraschung für euch / Seid bereit…“).
+- Instagram, TikTok, Facebook: als eigenes Cover hochladen (oder das Cover im Editor wählen).
+- YouTube Shorts: kein eigenes Thumbnail möglich, Vorschaubild kommt aus dem Video.
