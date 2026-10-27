@@ -39,3 +39,22 @@ Das Chat-Limit (Kontextfenster) und das Wochenlimit sind zwei verschiedene Dinge
 - Heißt: Nach jeder Komprimierung füllt sich der Chat sofort wieder. ❓ unklar: Ursache (Skill-Anweisungen, Connectors, Transkript-Ausgabe, Modus „Hoch"), nur mit `/context` prüfbar.
 - Der Hintergrund-Task „Lint the Instagram caption" schlug fehl und kann durch Wiederholungen weitere Tokens kosten.
 - Maßnahmen: Aufgabe in getrennte Chats teilen (Transkript, Captions, Upload); Aufwand von „Hoch" auf Mittel stellen; Skill-/Plugin-Größe mit `/context` prüfen; Caption-Regeln als Vault-Notiz statt jedes Mal im Chat.
+
+## /context-Auswertung (Screenshot, 2026-10-27)
+Fenster 128k, belegt 108,6k (85 %).
+| Posten | Tokens |
+|---|---|
+| Messages | 41,2k |
+| MCP tools (geladen) | 22k |
+| System tools | 21,1k |
+| Skills | 10k |
+| System prompt | 9,7k |
+| MCP server instructions | 2,3k |
+| Memory files | 2,3k |
+| Autocompact buffer (reserviert) | 33k |
+| MCP tools deferred (kostet nichts) | 469,9k, 603 Tools |
+
+- Fester Block vor der ersten Nachricht: ca. 67k (MCP 22k, System tools 21k, Skills 10k, Prompt 9,7k, Rest 4,6k). Dazu 33k Puffer. Nutzbar für den eigentlichen Chat bleiben ca. 28k von 128k.
+- Deshalb komprimiert der Chat nach kurzer Arbeit, obwohl das Wochenlimit frei ist.
+- Stellschrauben: geladene MCP-Tools (22k) und Skills (10k) senken; System tools und Prompt sind fest.
+- ❓ unklar: ob sich die 22k MCP-Tools nach `/clear` verringern (evtl. nur im Chat geladene Tools). Nach `/clear` erneut `/context` prüfen.
