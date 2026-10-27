@@ -1,0 +1,21 @@
+{
+  "name": "adventskalender-gold",
+  "hinweis": "Werte aus Werbung_v3.mp4 gemessen oder geschätzt. Geschätzt (bitte prüfen): Gold, Schrift, Position der Kopfkarte, Intro-Dauer.",
+  "canvas": { "breite": 1080, "hoehe": 1920, "fps": 30 },
+  "farben": {
+    "gold": "#E8C675",
+    "text": "#FFFFFF",
+    "pille": "rgba(40,22,14,0.78)",
+    "karte": "rgba(40,22,14,0.72)",
+    "hintergrund": "#0b0504",
+    "schimmer": "rgba(150,20,20,0.55)"
+  },
+  "schrift": { "familie": "AdvSerif" },
+  "untertitel": { "oben": 1040, "groesse": 54, "maxWoerter": 3, "minSichtbar": 0.4, "luecke": 0.3, "nachlauf": 0.2 },
+  "intro": { "dauer": 3.0, "startSkalierung": 0.9 },
+  "kopfkarte": { "label": "MEIN PROJEKT", "zeile": "Eine Überraschung für euch", "von": 0.2, "bis": 3.2, "links": 80, "oben": 190 },
+  "endkarte": { "text": "Seid bereit…", "dauer": 2.4 },
+  "sicherheitsband": { "oben": 168, "unten": 1330 },
+  "schnitt": { "pauseMin": 0.4, "halteLuecke": 0.2, "anfangsLuft": 0.1, "endLuft": 0.25 },
+  "ton": { "zielLufs": -14, "spitzeDb": -1, "toleranzLu": 1 }
+}
