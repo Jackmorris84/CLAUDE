@@ -67,3 +67,11 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 - Heute fällig (26.10.): Nr. 16, 18, 19, 20, 21, 157, 158, 163.
 - Keine Rückmeldung von Jannik bis zum Morgen des 26.10. zu: Mr. Lee (Nr. 163), ManyChat-Kauf, Stichwort, Datenschutz-Link, Zugangssystem-Entscheidung (Nr. 17, Inhalt unbekannt).
 - 2026-10-26 (Jannik): Zugang für Nr. 17/18 (Shop-Admin, WordPress/WooCommerce) hat **Janniks Mama**. ❓ Weiter offen: Plugin oder eigener Server, wer baut. Nr. 21 (GEMA-Lizenz) hat Claude übernommen: [[Adventskalender-GEMA-Lizenz-Webseite]].
+
+## Stand laut Sheet (abgeglichen 2026-10-27)
+- Erledigt: 25 von 166 (gestern 17). Neu: Nr. 11 Liedliste, 12 Konzertseiten-Text, 16 Dreh-Termine, 18 Admin-Zugang/Umsetzer, 19 Brevo-Absender, 26 Produkt im Shop angelegt, 27 PayPal geprüft, 32 Kapazität geprüft. ❓ Zu Nr. 11, 12, 16, 17, 18, 19: Janniks Angaben sind im Chat nicht angekommen, der Inhalt fehlt im Vault.
+- Nr. 3 geändert: **5 Lieder aufgenommen** (Herbei o ihr Gläubigen, Fill my cup Lord, I will follow Him, In der Weihnachtsbäckerei, O du fröhliche), vorher 3. ❓ Songtabelle und Drehplan nachziehen.
+- In Arbeit: Nr. 21 (GEMA, Claude), Nr. 41 Rechtsprüfung beauftragen (Zuständig jetzt: **Mama**), Nr. 70.
+- Überfällig (7): Nr. 14, 20, 21, 157, 158, 163, 166.
+- Heute fällig (27.10.): Nr. 24, 25, 28, 29, 30, 31.
+- Morgen (28.10.) fällig: u. a. Nr. 33–45, darunter 36 Bestellmail, 37 Landingpage, 38 Brevo-Mails.
