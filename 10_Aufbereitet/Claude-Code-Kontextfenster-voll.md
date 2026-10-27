@@ -58,3 +58,21 @@ Fenster 128k, belegt 108,6k (85 %).
 - Deshalb komprimiert der Chat nach kurzer Arbeit, obwohl das Wochenlimit frei ist.
 - Stellschrauben: geladene MCP-Tools (22k) und Skills (10k) senken; System tools und Prompt sind fest.
 - ❓ unklar: ob sich die 22k MCP-Tools nach `/clear` verringern (evtl. nur im Chat geladene Tools). Nach `/clear` erneut `/context` prüfen.
+
+## Messung im neuen Chat (2026-10-27, ersetzt die Unsicherheit oben)
+Neuer Chat, Messages 10 Tokens: belegt 70,3k von 128k (55 %).
+| Posten | Tokens |
+|---|---|
+| MCP tools (geladen) | 22,1k |
+| System tools | 21,1k |
+| Skills | 10k |
+| System prompt | 9,7k |
+| MCP server instructions | 5,1k |
+| Memory files | 2,3k |
+| Autocompact buffer | 33k |
+| Frei | 24,8k |
+
+- Die 22k MCP-Tools sind also Grundlast und nicht erst im Chat geladen. Vor der ersten Nachricht sind 70,3k belegt, dazu 33k Puffer, frei bleiben nur 24,8k.
+- Eine einzelne Nachricht mit größerer Tool-Ausgabe (Dateien lesen, Vault durchsuchen, Transkript, PDF) füllt das und löst die Komprimierung aus.
+- Hebel: MCP tools + Instructions = 27,2k und Skills = 10k, zusammen 37,2k. Ohne sie wären ca. 62k frei. System tools und Prompt (30,8k) sind fest.
+- Nächster Schritt: In `/context` die Zeile „MCP-Tools" aufklappen (578 Tools) und sehen, welche Server die 22k belegen; diese abschalten.
