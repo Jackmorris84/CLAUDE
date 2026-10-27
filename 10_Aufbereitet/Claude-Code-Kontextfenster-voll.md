@@ -76,3 +76,10 @@ Neuer Chat, Messages 10 Tokens: belegt 70,3k von 128k (55 %).
 - Eine einzelne Nachricht mit größerer Tool-Ausgabe (Dateien lesen, Vault durchsuchen, Transkript, PDF) füllt das und löst die Komprimierung aus.
 - Hebel: MCP tools + Instructions = 27,2k und Skills = 10k, zusammen 37,2k. Ohne sie wären ca. 62k frei. System tools und Prompt (30,8k) sind fest.
 - Nächster Schritt: In `/context` die Zeile „MCP-Tools" aufklappen (578 Tools) und sehen, welche Server die 22k belegen; diese abschalten.
+
+## MCP-Tool-Liste (Auswertung, 2026-10-27)
+Die aufgeklappte Liste zeigt alle 578 Tools (ca. 485k Tokens), geladene und deferred gemischt. Welche davon die 22,1k geladenen sind, steht nicht darin.
+- Größte Server (Summe grob geschätzt, nicht exakt gerechnet): Higgsfield (ca. 150 Tools, >100k), Notion (ca. 70 Tools, ca. 85k), vidIQ (ca. 90 Tools, ca. 95k), danach Gmail, ccd_*, computer-use, firecrawl, Fish Audio, Kalender, Chrome.
+- Größte Einzeltools: vidIQ „Generate Motion Graphic Video" 26,1k, Notion „Query data sources" 12,3k, vidIQ „Channel Search" 8,1k, Notion „Query meeting notes" 5,8k.
+- Vorgehen: unnötige Server ganz abschalten (Higgsfield, vidIQ, Fish Audio, Notion, Sheets, firecrawl, Browser/computer-use, wenn nicht gebraucht), danach `/context` prüfen, bis „MCP tools" und „MCP server instructions" klein sind.
+- ❓ unklar: Ob jeder abgeschaltete Server die geladenen 22,1k senkt, zeigt nur die Messung nach dem Abschalten.
