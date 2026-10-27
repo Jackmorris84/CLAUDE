@@ -2,7 +2,7 @@
 titel: "Base44-Prompt: Adventskalender Post-Studio"
 typ: prompt
 thema: [Adventskalender, Base44, Social Media]
-quelle: "Teaser Werbung_v3.mp4 und Notiz Post-Werbung-v3-Teaser"
+quelle: "Teaser Werbung_v3.mp4, Notiz Post-Werbung-v3-Teaser, 12 yt-Skills (00_Inbox/yt-skills)"
 erstellt: 2026-10-27
 status: roh
 entscheidung: offen
@@ -41,6 +41,38 @@ Sobald Video und Idee da sind, startet der Bot und liefert:
 7. **Upload-Checkliste**: pro Plattform kurze Schritte und die Reihenfolge (TikTok, Instagram, YouTube Shorts, Facebook), plus Hinweis, nicht ins untere Drittel der Videos zu schreiben (Untertitel liegen dort).
 8. **Untertitel (optional)**: auf Wunsch eine SRT-Datei aus dem Transkript. Stil der eingebrannten Untertitel siehe Abschnitt 3.
 
+# 2b. Die Agents (meine bestehenden YouTube-Skills, auf Reels/Shorts übertragen)
+Baue für jeden Schritt einen eigenen Agent mit eigenem Prompt. Im Chat sage ich z. B. „/hook“, „/shorts“ oder „/titel“, oder der Bot ruft sie selbst in dieser Reihenfolge auf. Jeder Agent schreibt sein Ergebnis in ein eigenes Feld der Tür (Dateien-Prinzip: der nächste Agent liest das Feld des vorherigen, nichts hängt nur im Chat).
+
+Reihenfolge je Tür: **Hook → Skript/Beats → Shorts-Schnitt → Titel & Thumbnail → SEO/Caption → Kommentare (nach dem Posten)**
+
+| Agent | Befehl | Aufgabe (aus meinem Skill) | Wichtigste Regeln |
+|---|---|---|---|
+| Hook-Agent | /hook | Aus der Idee 5 Hooks nach den 21 Formeln (Datenbank „Hook-Formeln“) schreiben, mit dem Hook-Score bewerten, die besten 2 mit Wertung zeigen. Nie nur einen Hook abgeben. | Die ersten 15 Sekunden müssen 3 Dinge tun: den Titel bestätigen, eine Frage öffnen, die Auszahlung beweisen. Kein „Hallo, ich bin…“, kein Abo-Aufruf im Hook. |
+| Skript-Agent | /skript | Hook, Wendepunkt (Sek. 15–45), Beats, Auszahlung, Schluss. Pro Beat „[ON SCREEN: …]“, Laufzeit bei 150 Wörtern/Minute. | Pro Beat eine Idee. Genau eine Bitte am Schluss (bei den Türen standardmäßig keine, siehe Stil). |
+| Shorts-Agent | /shorts | Aus einem längeren Video (z. B. Konzert, Making-of) die Momente finden, die ohne Kontext funktionieren: 20–55 s, vollständiger Gedanke am Anfang, Wendung, Schluss mit einer Zeile. Top 5 mit Zeitcode und erster Zeile. | Pro Short NEUE erste Zeile (durch Hook-Score), Text im Bild für die ersten 2 Sekunden in anderen Worten als gesprochen, Loop-Punkt, Hinweis zum Zuschnitt auf 9:16. |
+| Paket-Agent | /titel | Titel und Thumbnail als EIN Paar. 10 Titel schreiben, prüfen, die besten 3 mit Wertung zeigen, für den Sieger das Thumbnail-Briefing. | Titel max. 60 Zeichen (Suche), 40 (Handy-Feed), beides melden. Thumbnail max. 3 Wörter und darf den Titel nicht wiederholen. Zahl, Name oder Datum schlägt Adjektive. Höchstens 2 Wörter in Großbuchstaben. |
+| SEO-Agent | /seo | Beschreibung, Tags, Caption für Instagram/TikTok/Facebook/YouTube. | Die ersten zwei Zeilen sind das Einzige, was gelesen wird. Maximal 15 Tags, nur zur Eindeutigkeit. Vorher 3 Suchanfragen formulieren, die das Video gewinnen soll, und prüfen, dass Titel und erste Zeilen deren Wörter enthalten. |
+| Kapitel-Agent (nur bei längeren Videos) | /kapitel | Kapitel aus dem Transkript. | Erster Eintrag 00:00, mindestens 3, je mindestens 10 s, Titel mit 3–5 Wörtern als Versprechen. Ungültige Listen melden. |
+| Kommentar-Agent | /kommentar | Eingefügte Kommentare sortieren: Fragen, Korrekturen, Lob, Köder (nicht antworten). Antworten unter 30 Wörtern, Antwort im ersten Satz, eine Rückfrage nur wenn echt. Einen Kommentar zum Anpinnen vorschlagen. | Keine Videos versprechen, die nicht abgesprochen sind. Wiederkehrende Fragen als Ideen für spätere Türen merken. |
+| Plan-Agent | /plan | Plan für Wochen bis 24. Dezember: wie viele Stunden habe ich, was ist halb fertig. Tabelle mit Tag, Format, Arbeitstitel, Ein-Satz-Versprechen, was schon da ist, Stundenaufwand und was zuerst gestrichen wird. | Lieber wenige Uploads, die ich schaffe. Wochentag nur nennen, wenn ich ihn aus meinen Analytics gebe, nie annehmen. |
+| Schnitt-Agent | /schnitt | Aus einem Transkript mit Zeitcodes die Schnittliste (Pausen, Füllwörter, Wiederholungen). Fasst kein Video an. | Zeitcodes nie raten. Pausen aus der Mitte kürzen, damit beide Seiten Luft behalten. |
+| Retention-Agent | /retention | Retention-Export (CSV aus YouTube Studio) lesen: Hook-Leck (unter 25 % in 30 s ist gesund), Klippen, Rutsche. Nur das größte Leck + EINE Änderung nennen. | Ist alles gesund, sagen, dass das Video passt und das Paket das Problem ist. |
+| Audit-Agent | /audit | Kanal prüfen: letzte 10 Titel als Menge, Thumbnails in Feed-Größe, erste 15 Sekunden, Rhythmus. | Endet mit EINEM Fix, drei Dingen, die schon funktionieren, und was ich noch NICHT tun soll. Kein Lob, das nicht stimmt. |
+| Viral-Agent (später) | /viral | Erfolgreiche Videos der Nische nach Vielfachem des Kanal-Medians ranken (mindestens 4 Videos je Kanal, nur öffentliche Listen, nie ein eingeloggter Zugang). | Die Formel-Zuordnung ist ein Urteil über den Titel, keine Erklärung, warum das Video lief. Das sagen. |
+
+**Gemeinsame Regeln für ALLE Agents (stehen in jedem Agent-Prompt):**
+1. **Stimme zuerst:** Vor dem Schreiben das „Stimmprofil“ lesen (Einstellungen → Stimme: wie ich auf der Kamera spreche, Wörter, die ich nie benutze, wen ich anspreche, was ich nie behaupte). Gibt es keins, den Agent drei meiner Videos/Texte anfordern lassen, das Profil ableiten und zur Bestätigung speichern. Ein Text in falscher Stimme ist schlechter als keiner.
+2. **Nichts erfinden:** keine Zahl, kein Ergebnis, keine Quelle ohne Beleg. Fehlt eine Zahl, nachfragen oder die Zeile ohne sie schreiben. Fehlende Werte als „Annahme“ kennzeichnen, nie als Tatsache.
+3. **Das Tor:** Nichts wird veröffentlicht. Die App schreibt, ich veröffentliche. Jede Ausgabe endet mit einem kopierbaren Block und der Frage: **„Rausschicken oder ändern?“**
+4. **Keine Überschreibung:** Gibt es für einen Schritt schon ein Ergebnis, fragen: wiederverwenden, neu machen oder überspringen?
+5. **Ein Schritt übersprungen = Lücke sagen:** Wird ein Schritt ausgelassen (z. B. Viral ohne Daten), das oben in der Zusammenfassung der Tür nennen, nicht still weglassen.
+
+**Hook-Score (im Hook-Agent und im Shorts-Agent einbauen):**
+Fünf Eigenschaften je 0–100: Konkretheit (Zahlen, Namen, Daten, keine Füllwörter), Ansprache („du/dein“ in den ersten 6 Wörtern), Einsatz (was kostet es, so weiterzumachen), Neugier (offene Frage, nichts, was sich selbst beantwortet), Kürze (9–24 Wörter ideal). Gesamtwert = 60 % Mittelwert + 40 % schwächster Wert. Bewertung: ab 72 STARK, ab 55 BRAUCHBAR, darunter SCHWACH. Der Agent nennt immer die schwächste Eigenschaft und die Korrektur dazu. Ein hoher Wert ist nie ein Versprechen, ein niedriger ein Grund, nochmal hinzusehen.
+**Wichtig:** Mein Original-Skript `hookscore.py` misst nur ENGLISCH. Deutsche Hooks deshalb nicht direkt bewerten (sonst Unsinnszahlen), sondern: Hook auf Deutsch schreiben, eine treue englische Übersetzung derselben Struktur bewerten lassen, dann den finalen Satz auf Deutsch bauen und beide Fassungen zeigen. Die Zahlen beschreiben die Struktur, nicht den Wortlaut. Bei ruhiger Weihnachts-/Entspannungsmusik ist „Einsatz“ kaum erreichbar: ein erstes SCHWACH ist normal. Nie eine Behauptung erfinden oder ein „Einsatz“-Wort einbauen, nur um die Zahl zu heben. Ehrlich und schwach ist besser als stark auf einer Lüge.
+Lege eine Tabelle „Hook-Formeln“ an und befülle sie mit den 21 Formeln aus meiner hochgeladenen Datei `hooks.json` (id, Name, Form, Beispiel, wann sie scheitert, Erkennungsmuster). Die 5 Hook-Regeln daraus gelten fest: Titel im ersten Satz bestätigen; eine Idee; konkret schlägt groß; angekündigtes Material innerhalb von 20 Sekunden zeigen; nie mit „Wer bin ich“ beginnen.
+
 # 3. Stil-Leitfaden (Standardwerte, in „Stil“ änderbar)
 Ableitung aus meinem ersten Teaser-Video, gilt für ALLE Türen und die Promotion:
 - Format: 1080×1920, hochkant 9:16, ca. 20 bis 40 Sekunden pro Tür-Video.
@@ -74,7 +106,11 @@ Ableitung aus meinem ersten Teaser-Video, gilt für ALLE Türen und die Promotio
 - Dateien: Videos in Base44-Dateispeicher, maximale Größe anzeigen.
 - Nur ich als Nutzer, einfache Anmeldung genügt.
 
+# 5b. Hochladen in die App (von mir, nach dem Bauen)
+Ich lade `hooks.json` hoch (Datenquelle „Hook-Formeln“) und füge mein Stimmprofil (`voice.md`) in Einstellungen → Stimme ein. Die übrigen Regeln stehen schon in den Agent-Prompts oben.
+
 # 6. Später (noch NICHT bauen, nur Platz dafür lassen)
+- Viral-Agent mit eigener Konkurrenz-Liste.
 - Direktes Posten zu TikTok, Instagram, YouTube über verbundene Konten.
 - Kalender mit Veröffentlichungsdatum pro Tür und Erinnerung.
 - Zusätzliche Promo-Typen (Countdown, Rückblick, Story-Ankündigung) im gleichen Stil.
@@ -96,4 +132,5 @@ Ich ein Video und eine Idee in Tür 1 ziehe, mit dem Bot zwei bis drei Mal absti
 
 ## Verknüpft mit
 - [[Post-Werbung-v3-Teaser]]
+- [[YT-Skills-Uebersicht]]
 - [[Adventskalender]] (❓ unklar: Notiz existiert noch nicht im Vault)

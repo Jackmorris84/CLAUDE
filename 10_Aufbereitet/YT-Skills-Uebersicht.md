@@ -9,7 +9,7 @@ entscheidung: offen
 tags: [yt-skills, skills, youtube]
 ---
 ## Kernaussage
-Die selbst erstellten yt-Skills bilden einen Ablauf von Recherche über Plan und Skript bis zum Titel/Thumbnail, dazu Werkzeuge für nach dem Dreh. Bisher geliefert: 9 verschiedene (yt-viral kam doppelt, identisch). Weitere folgen. `/yt-caption` ist noch nicht dabei.
+Die selbst erstellten yt-Skills bilden einen Ablauf von Recherche über Plan und Skript bis zum Titel/Thumbnail, dazu Werkzeuge für nach dem Dreh. Alle 12 sind geliefert (yt-viral kam doppelt, identisch), dazu `hooks.json` (21 Formeln) und `hookscore.py`. Einen Skill namens `yt-caption` gibt es nicht; Captions/Beschreibung deckt `yt-seo` ab. Weitere folgen. `/yt-caption` ist noch nicht dabei.
 
 ## Details
 | Skill | Aufgabe | Hilfsdatei(en) |
@@ -22,6 +22,9 @@ Die selbst erstellten yt-Skills bilden einen Ablauf von Recherche über Plan und
 | yt-plan | Woche/Monat planen: 1 Anker, 1 günstiges Video, Shorts aus dem Anker; Tabelle mit Stunden und was zuerst fliegt | `voice.md` |
 | yt-comment | Kommentare sortieren (Fragen, Korrekturen, Lob, Köder), Antworten unter 30 Wörtern, einen Kommentar anpinnen | `voice.md` |
 | yt-audit | Kanal prüfen: letzte 10 Titel, Thumbnails im Feed-Format, erste 15 Sekunden, Rhythmus. Endet mit EINEM Fix | `title.py`, `hookscore.py` |
+| yt-script | Skript aus Idee: 5 Hooks nach 21 Formeln, bewertet, beat-genaues Skript mit [ON SCREEN] | `hookscore.py`, `hooks.json` |
+| yt-shorts | Aus Langvideo 20–55-s-Momente finden, neue erste Zeile, Text im Bild, Loop-Punkt | `hookscore.py` |
+| yt-seo | Beschreibung (erste 2 Zeilen), max. 15 Tags, 3 Suchanfragen als Test | `voice.md` |
 | yt-chapters | Kapitel aus Transkript, YouTube-Regeln: Start 00:00, mind. 3, je mind. 10 s | `chapters.py` |
 
 Gemeinsame Regeln (aus den Skills):
@@ -31,11 +34,11 @@ Gemeinsame Regeln (aus den Skills):
 - Wochenordner `woche-YYYY-WW/` mit `00-brief.md` bis `99-zusammenfassung.md`. Pro Woche genau 3 Videos: 1 Langvideo, 2 Shorts.
 - Nach dem Dreh von Hand: yt-edit, yt-chapters, yt-shorts, yt-seo, später yt-retention, yt-comment, yt-audit.
 
-Namen aller bislang bekannten Skills: yt-viral, yt-plan, yt-script, yt-package, yt-pipeline, yt-edit, yt-chapters, yt-shorts, yt-seo, yt-retention, yt-comment, yt-audit (12 Namen, davon 9 vorhanden; noch offen: yt-script, yt-shorts, yt-seo; ❓ unklar: die Zählung „11“ und ob `yt-caption` dazugehört).
+Namen aller bislang bekannten Skills: yt-viral, yt-plan, yt-script, yt-package, yt-pipeline, yt-edit, yt-chapters, yt-shorts, yt-seo, yt-retention, yt-comment, yt-audit (12 Namen, alle vorhanden; ❓ unklar: die Zählung „11“ und ob `yt-caption` dazugehört).
 
 ## Wann brauche ich das?
 - Beim Einbauen in das Post-Studio ([[Base44-Prompt-Adventskalender-Post-Studio]]): `yt-package` (Titel/Thumbnail), `yt-shorts` und `yt-seo` (Captions) sind für den Adventskalender am wichtigsten.
-- ❓ unklar: Die Python-Skripte (`swipe.py`, `title.py`, `deadair.py`, `retention.py`, `hookscore.py`) wurden nicht mitgeliefert. In Base44 müssten ihre Regeln neu umgesetzt werden.
+- `hookscore.py` und `hooks.json` liegen in `00_Inbox/yt-skills/`. Getestet: läuft. Er misst nur Englisch (deutscher Hook bekam 41/SCHWACH, wie der Skill warnt). ❓ unklar: `swipe.py`, `title.py`, `deadair.py`, `retention.py`, `chapters.py` wurden nicht mitgeliefert. In Base44 müssten ihre Regeln neu umgesetzt werden.
 - ❓ unklar: Die Skills sind für Langvideos auf dem Panflöten-Kanal geschrieben. Für Adventskalender-Türen (Shorts/Reels, 9:16) braucht es vermutlich Anpassungen.
 
 ## Verknüpft mit
