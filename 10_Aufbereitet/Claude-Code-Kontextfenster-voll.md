@@ -83,3 +83,8 @@ Die aufgeklappte Liste zeigt alle 578 Tools (ca. 485k Tokens), geladene und defe
 - Größte Einzeltools: vidIQ „Generate Motion Graphic Video" 26,1k, Notion „Query data sources" 12,3k, vidIQ „Channel Search" 8,1k, Notion „Query meeting notes" 5,8k.
 - Vorgehen: unnötige Server ganz abschalten (Higgsfield, vidIQ, Fish Audio, Notion, Sheets, firecrawl, Browser/computer-use, wenn nicht gebraucht), danach `/context` prüfen, bis „MCP tools" und „MCP server instructions" klein sind.
 - ❓ unklar: Ob jeder abgeschaltete Server die geladenen 22,1k senkt, zeigt nur die Messung nach dem Abschalten.
+
+## Connectors pro Chat oder global (2026-10-27)
+- Es gibt einen Schalter pro Chat (Session-Connectors, im „+"-Menü) und die globale Einstellung. ❓ unklar: genaue Menünamen je nach Version.
+- Plan: global an lassen, pro Chat nur nötige aktivieren. Dauerhaft gebraucht: Notion, Google Sheets, vidIQ. Pro Chat aus: Higgsfield, Fish Audio, firecrawl, computer-use, Chrome, Gmail/Kalender/Drive (wenn unnötig).
+- Danach `/context` messen; deferred Tools kosten nichts, daher kann die Ersparnis kleiner sein als erwartet.
