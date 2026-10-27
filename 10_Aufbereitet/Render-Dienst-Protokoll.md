@@ -26,6 +26,7 @@ Der Render-Dienst steht und läuft Ende zu Ende: Rohvideo rein, geschnittenes Re
 - 28 Unit-Tests bestehen (Schnittlogik, Untertitel, Paket-Prüfungen, Orchestrator, Sicherheit).
 - Voller Lauf: 17,6 s Rohclip mit zwei eingefügten Pausen (1,0 s und 0,7 s) → 18,6 s fertiges Reel (inkl. 2,4 s Endkarte), 1080×1920, 30 fps, H.264/AAC, −14,3 LUFS.
 - Überarbeitungsschleife: Test mit absichtlich zu lascher Pausengrenze. Runde 1 meldete „Stille 9,21–9,92 s“, der Überarbeiter schnitt enger und renderte neu, Runde 2 bestanden (`10_Aufbereitet/Render-Dienst-Test/qa-runde-1.json` und `-2.json`).
+- Zwei Rohclips (einer davon 16:9 mit Balken) werden zu 1080×1920 zusammengesetzt, geplante und echte Dauer stimmen (16,12 s / 16,13 s). Schnitt nur nach Stille (ohne Transkript) funktioniert, dann gibt es keine Untertitel.
 - HTTP-Schnittstelle Ende zu Ende: falscher/fehlender Schlüssel → 401, Pfad-Tricks und Rohmaterial → 404, `file://`-URL und `../`-ID → 400, doppelte ID → 409, Download, Lauf, Dateiabruf, Neuberechnung.
 - Ansichtsmaterial: `10_Aufbereitet/Render-Dienst-Test/` (Vorschau-Video 540×960, Kontaktbogen, Thumbnail, Zusammenfassung).
 - Renderzeit: etwa 1,5 Minuten für 18,6 s Video auf 4 Kernen.
@@ -33,14 +34,14 @@ Der Render-Dienst steht und läuft Ende zu Ende: Rohvideo rein, geschnittenes Re
 **Nicht getestet**
 - faster-whisper (Modell-Downloads sind in der Cloud-Umgebung gesperrt). Der Code ist fertig, aber nie gelaufen. Auf deinem PC prüfen.
 - Aufrufe der Claude-API (kein Schlüssel hier). Ohne Schlüssel schreibt der Dienst `briefing-*.md` zum Einfügen in Claude.
-- Docker (kein Docker hier), Musik-Option, Webhook an eine echte Gegenstelle.
+- `start-windows.ps1` (kein Windows hier), Docker (kein Docker hier), Musik-Option, Webhook an eine echte Gegenstelle.
 - Mit echtem Rohmaterial ohne eingebrannte Untertitel: Mein Testmaterial stammt aus dem fertigen Video (Untertitelband übermalt), deshalb sieht man im Test Streifen im Untertitelband und eine doppelte Kopfzeile in den ersten Sekunden. Das liegt am Testmaterial, nicht am Dienst.
 
 **Geschätzte Stilwerte (bitte prüfen, `Render-Dienst/src/style.default.json`)**
 - Gold `#E8C675` (V1-Notiz nennt `#D8B878`), Schrift Playfair Display, Position der Kopfkarte, Dauer des Intros (3 s), Ton −14 LUFS (Referenz misst −15,3).
 
 **Offene Entscheidungen für dich**
-1. Wo läuft der Render-Dienst? Zum Start auf deinem Windows-PC (Node 22, FFmpeg, `pip install faster-whisper`), später auf einem kleinen Server mit Docker. Die Base44-App braucht eine erreichbare https-Adresse.
+1. Wo läuft der Render-Dienst? Zum Start auf deinem Windows-PC mit `Render-Dienst/start-windows.ps1` (installiert Node-Pakete und faster-whisper, erzeugt den Zugriffsschlüssel), später auf einem kleinen Server mit Docker. Base44 läuft in der Cloud und braucht eine erreichbare https-Adresse, z. B. über `cloudflared tunnel --url http://localhost:8787`. Der PC muss dann an sein.
 2. `ANTHROPIC_API_KEY` für die Paket-Agents und die Sichtprüfung eintragen (Kosten pro Video: wenige Cent bis ca. 1 Euro, ❓ unklar: genau).
 3. Stimmprofil: Datei `Render-Dienst/agents/stimme.md` anlegen (dein `voice.md` fehlt mir noch).
 4. Fehlt etwas aus deinem 5-Pass-Kit? Freisteller („Text hinter dem Kopf“) und Motion-Szenen sind nicht eingebaut, weil das Referenzvideo sie nicht hat.

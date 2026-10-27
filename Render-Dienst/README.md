@@ -40,6 +40,11 @@ Zu viel Stille → engerer Schnitt und alles danach neu. Lautheit daneben → To
 - `npm install` in diesem Ordner (lädt HyperFrames, GSAP und die Schrift Playfair Display). Beim ersten Render lädt HyperFrames einen Chrome (`npx hyperframes browser ensure`).
 - Optional `ANTHROPIC_API_KEY` für die Paket-Agents und die Sichtprüfung. Ohne Schlüssel schreibt der Dienst `briefing-*.md`, die du in Claude einfügst.
 
+## Auf dem Windows-PC starten
+`powershell -ExecutionPolicy Bypass -File .\start-windows.ps1` prüft Node, FFmpeg und Python, installiert alles Fehlende (inkl. faster-whisper), erzeugt einen Zugriffsschlüssel (`.render-key`) und startet den Server. Das Skript ist **nicht getestet** (hier gibt es kein Windows). Wenn etwas hakt, bitte die Fehlermeldung schicken.
+
+**Erreichbarkeit:** Base44 läuft in der Cloud und kommt nicht an `localhost` auf deinem PC. Du brauchst eine https-Adresse, z. B. mit `cloudflared tunnel --url http://localhost:8787` (kostenlos, ohne Konto für Testadressen). Diese Adresse trägst du in Base44 als „Render-URL“ ein. Der PC muss dafür an sein.
+
 ## Schnellstart
 
 ```bash
@@ -112,8 +117,8 @@ Die Skills liegen in `agents/skills/` (Kopien aus dem Vault, `00_Inbox/yt-skills
 Stimmprofil: Datei `agents/stimme.md` anlegen (wie du auf der Kamera sprichst, Wörter, die du nie benutzt, wen du ansprichst). Ohne Datei schreiben die Agents im Ton des Stil-Leitfadens (`agents/stil-leitfaden.md`) und sagen es.
 
 ## Grenzen (ehrlich)
-- **Getestet (hier):** Schnitt, Ton, Untertitel, HyperFrames-Render, Export, Prüfer, Überarbeitungsschleife, Thumbnail, Sicherheitsfunktionen, 28 Tests. Mit Testmaterial aus dem Referenzvideo.
-- **Nicht getestet:** faster-whisper (Modell-Downloads sind in der Entwicklungsumgebung gesperrt), Claude-API-Aufrufe (kein Schlüssel), Docker, Server mit echten Downloads über das Internet, Musik-Option.
+- **Getestet (hier):** Schnitt (auch zwei Clips, Querformat-Quelle, nur nach Stille), Ton, Untertitel, HyperFrames-Render, Export, Prüfer, Überarbeitungsschleife, Thumbnail, HTTP-Schnittstelle Ende zu Ende (`npm run test:e2e`), Sicherheitsfunktionen, 28 Unit-Tests. Mit Testmaterial aus dem Referenzvideo.
+- **Nicht getestet:** `start-windows.ps1`, faster-whisper (Modell-Downloads sind in der Entwicklungsumgebung gesperrt), Claude-API-Aufrufe (kein Schlüssel), Docker, Server mit echten Downloads über das Internet, Musik-Option.
 - **Gekannte Näherungen:** Kopfkarten-Position, Intro-Dauer, Gold und Schrift sind aus Standbildern geschätzt (`src/style.default.json`). Schlüsselwörter werden regelbasiert gewählt (Nomen, Zahlen, Länge) und sind vor dem Rendern zum Tauschen in `03-untertitel/schluesselwoerter.json`.
 - Kein Freisteller („Text hinter dem Kopf“) und keine Motion-Szenen aus deinem 5-Pass-Kit; im Referenzvideo kommen sie nicht vor.
 - Das Rohmaterial wird nie verändert. Nichts wird gelöscht.
