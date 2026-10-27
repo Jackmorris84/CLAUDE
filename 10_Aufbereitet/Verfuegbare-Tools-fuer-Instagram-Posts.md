@@ -33,3 +33,9 @@ Ein Instagram-spezifischer „Agent“ oder Skill ist in dieser Sitzung nicht ei
 ## Verknüpft mit
 - [[Base44-Prompt-Adventskalender-Post-Studio]]
 - [[Post-Werbung-v3-Teaser]]
+
+## Nachtrag: die „11 YouTube-Skills“ (yt-…)
+- Quelle: Notion-Seite „01-viral“ (2026-10-02) und Chat vom 2026-10-27.
+- Belegt sind nur `yt-viral` (liegt lokal unter `~/.claude/skills/yt-viral/`, braucht `collected.json` und `swipe.py`) und `yt-plan` (läuft auf `00-brief.md`). Sie laufen in einem Wochenlauf („01 — yt-viral · Woche 2026-W40“, „Schritt 2: yt-plan“).
+- ❓ unklar: Namen und Inhalt der übrigen neun Skills inkl. `/yt-caption`. Sie liegen auf dem lokalen Rechner (`~/.claude/skills/`), nicht in dieser Cloud-Sitzung, nicht im Vault und nicht in claude.ai-Skills. Zum Übernehmen in die App werden die `SKILL.md`-Dateien benötigt.
+- Hinweis aus Notion: vidIQ stand am 2026-10-02 auf 0 Credits (Reset 2026-10-28).
