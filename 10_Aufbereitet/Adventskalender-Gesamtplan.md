@@ -75,3 +75,10 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 - Überfällig (7): Nr. 14, 20, 21, 157, 158, 163, 166.
 - Heute fällig (27.10.): Nr. 24, 25, 28, 29, 30, 31.
 - Morgen (28.10.) fällig: u. a. Nr. 33–45, darunter 36 Bestellmail, 37 Landingpage, 38 Brevo-Mails.
+
+## Stand laut Sheet (abgeglichen 2026-10-28)
+- Erledigt: weiterhin 25 von **172** (Sheet hat jetzt 172 Zeilen). Seit gestern nichts Neues abgehakt.
+- Neue Zeilen im Sheet (von Janniks Seite, 27.10.): Nr. 167 (Angebot 25 € bis 15.11. für Wartelistenmitglieder, ❓ Offene Frage Nr. 21: gilt 25 € nicht ohnehin für alle?), Nr. 168 (koreanische Übersetzung des Kalenders), Nr. 169 (Warteliste und Mails in Deutsch, Englisch, Koreanisch; Beschluss: eine Liste und eine Seite pro Sprache, koreanische Mails erst nach Prüfung durch Muttersprachler/in). Offene Fragen Nr. 19 bis 21 neu.
+- Sheet-Antworten (Jannik): Brevo-Absender `adventskalender@davids-panparadies.de` (in Brevo verifiziert, 26.10.); Konzertseite 2027: „Termine 2027 im Reiter Konzertdaten und im Vault (26.10.)“ ❓ nicht in diesem Branch gefunden.
+- Überfällig (13), u. a.: Nr. 14, 20, 21, 24, 25, 28, 29, 30, 31, 157, 158, 163, 166.
+- ❓ Hinweis: Andere Claude-Chats arbeiten auf anderen Branches (z. B. `claude/funny-clarke-q00s1o`, `ccr-9ffd4d23-m2cogq`). Deren Notizen (Reel-Kit, Base44-Prompt, EN/KO-Seiten laut Sheet) sind in diesem Branch nicht enthalten. Zusammenführen offen.
