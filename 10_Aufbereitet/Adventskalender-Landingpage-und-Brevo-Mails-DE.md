@@ -77,3 +77,7 @@ Betreff: Morgen öffnet sich Türchen 1
 ## Verknüpft mit
 - [[Adventskalender-Launch-Warteliste-und-Verkauf]]
 - [[Adventskalender-Tagesplan]]
+
+## Englische Warteliste-Seite (Screenshot von Jannik, 2026-10-28; Ausschnitt, ungeprüft)
+Sichtbar: Kopfbild mit David (Weihnachtsdeko, Kalender-Türchen), dunkelroter Kasten, Titel „MUSICAL ADVENT SEASON“, Untertitel „24 MOMENTS OF ANTICIPATION“, Text „Experience the Advent season with the sound of the pan flute: 24 little musical moments, one for every day until Christmas. **Join the waiting list now** and be the first to know when the first door opens.“ Darunter das Brevo-Formular „Advent Calendar 2026 – Sign up for the waiting list!“. Der Rest der Seite (Felder, Button, Datenschutz-Hinweis) ist im Screenshot nicht zu sehen.
+- Claude-Anmerkungen (Vorschlag ❓): (1) „be the first to know when the first door opens“ passt nicht zum Beschluss vom 28.10.: Der Kauf-Zugang und das 25-€-Angebot gibt es nur über die Warteliste. Besser: Hinweis auf Kaufzugang und Preis, sobald entschieden (Sheet Nr. 173). (2) Starttermin 1. Dezember und „vom 1. bis 24. Dezember öffnet sich jeden Tag ein Türchen“ fehlen im Ausschnitt. (3) Datenschutz-Hinweis und Link unter dem Formular prüfen (Sheet Nr. 175). (4) Es ist unklar, ob Deutsch und Koreanisch bereits ebenso gebaut sind.
