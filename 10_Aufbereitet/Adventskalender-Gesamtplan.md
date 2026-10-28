@@ -82,3 +82,12 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 - Sheet-Antworten (Jannik): Brevo-Absender `adventskalender@davids-panparadies.de` (in Brevo verifiziert, 26.10.); Konzertseite 2027: „Termine 2027 im Reiter Konzertdaten und im Vault (26.10.)“ ❓ nicht in diesem Branch gefunden.
 - Überfällig (13), u. a.: Nr. 14, 20, 21, 24, 25, 28, 29, 30, 31, 157, 158, 163, 166.
 - ❓ Hinweis: Andere Claude-Chats arbeiten auf anderen Branches (z. B. `claude/funny-clarke-q00s1o`, `ccr-9ffd4d23-m2cogq`). Deren Notizen (Reel-Kit, Base44-Prompt, EN/KO-Seiten laut Sheet) sind in diesem Branch nicht enthalten. Zusammenführen offen.
+
+## Beschlüsse Jannik 2026-10-28
+- **Verkaufsmodell:** Zugang zum Kaufen gibt es nur über die Warteliste. Das 25-€-Angebot gilt nur für Wartelistenmitglieder. Die Warteliste läuft „bis zum ersten“ ❓ (1.12.? unklar). ❓ Offen: Preis und Zugang für alle anderen, ab wann 29,99 €, ob Kauf ohne Warteliste möglich ist. Sheet Nr. 173, 174; Offene Fragen Nr. 19, 21.
+- **ManyChat:** wird nicht gekauft. Nachrichten von Hand. Stichwort **Advent**.
+- **Budget:** so niedrig wie möglich, keine Zahl genannt.
+- **Videos:** Jannik will heute Videos schneiden und veröffentlichen. Rohvideos sind bei Jannik/Videoagent.
+- **Aufnahmen:** David hat „schon viele Geschichten“ und zwei bis vier Lieder aufgenommen (Sheet Nr. 3 nennt 5 Lieder ❓). Genaue Liste fehlt.
+- **Mr. Lee:** hat sich noch nicht gemeldet.
+- **Datenschutz-Link:** Jannik klärt, wo er liegt (Sheet Nr. 175).

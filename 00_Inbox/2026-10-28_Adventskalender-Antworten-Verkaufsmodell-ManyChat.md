@@ -1,0 +1,5 @@
+---
+verarbeitet: true
+quelle: "Jannik, Chat 2026-10-28 (gesprochener Text, sinngemäß, Spracherkennung teils unklar)"
+---
+Durch die Warteliste kriegt man erst einen Zugang zum Kaufen. Das heißt, die Lieferung 20 Euro [gemeint wohl: das 25-Euro-Angebot] ist nur für Wartelistenmitglieder, und diese Warteliste läuft bis zum ersten. Dann deren Kalender können wir heute veröffentlichen. Und auch Videos, wir müssen Videos schneiden, damit wir die Videos heute veröffentlichen können. Die werden ManyChat bezahlt, machen wir nicht. Sondern wir senden das per Hand, weil das werden nicht tausend Leute sein. Deswegen können wir das auch ohne Bot machen. Lieder, die erledigt werden, weiß ich nicht, aber mein Vater hat schon viele Geschichten aufgenommen und zwei, drei, vier Lieder. Gesamtbudget: wir versuchen uns wirklich so niedrig wie möglich zu halten. Und der Mr. Lee hat sich noch nicht gemeldet. Stichwort für Kommentare ist Advent. Link zur Datenschutzerklärung muss ich kurz abklären, wo wir die haben.

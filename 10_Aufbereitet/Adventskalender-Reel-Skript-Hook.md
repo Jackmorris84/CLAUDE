@@ -24,7 +24,7 @@ Standard-Reels beginnen laut („Hey, ich bin David“). Dieses beginnt **leise*
 | 0:17–0:27 | Schnitt auf die Kalenderseite (Prototyp), Türchen öffnen sich nacheinander; dazwischen kurze Ausschnitte aus Dreh. | „Jeden Tag eine Tür“ · „Lied“ · „Geschichte“ · „Musikvideo“ | „24 Türchen. Hinter jedem wartet etwas für dich: ein Lied, eine Geschichte von mir, an vier Tagen ein ganzes Musikvideo. Nichts zum Durchscrollen. Nur Zeit für dich.“ |
 | 0:27–0:31 | Türchen 24, die große Tür, öffnet sich. | „1.–24. Dezember“ | „Ab dem ersten Dezember öffnet sich jeden Morgen eine neue Tür. Und die größte erst an Heiligabend.“ |
 | 0:31–0:33 | optional, nur wenn das Preisfenster noch gilt | „Frühbucher bis 15.11.“ | „Bis zum 15. November gibt es den Frühbucher-Preis.“ |
-| 0:33–0:40 | David schaut wieder in die Kamera, Flöte sinkt. Das Wort **ADVENTSKALENDER** groß im Bild, Pfeil nach unten zum Kommentarfeld. | „Kommentiere: ADVENTSKALENDER“ | „Wenn du einen Zugang zu dem Adventskalender sichern willst, dann kommentiere jetzt mit Adventskalender und ich schicke dir einen Link für die Warteliste.“ |
+| 0:33–0:40 | David schaut wieder in die Kamera, Flöte sinkt. Das Wort **ADVENTSKALENDER** groß im Bild, Pfeil nach unten zum Kommentarfeld. | „Kommentiere: ADVENT“ | „Wenn du einen Zugang zu dem Adventskalender sichern willst, dann kommentiere jetzt mit Advent und ich schicke dir einen Link für die Warteliste.“ |
 
 ## Alternative Hooks (A/B-Test, je ein Reel)
 - **B, Geständnis:** David leise: „Ich spiele dieses Lied nur im Advent. Warum, erzähle ich dir in einer der Türen.“ ❓ nur wenn es für ihn stimmt, sonst Variante streichen.
@@ -61,3 +61,6 @@ Standard-Reels beginnen laut („Hey, ich bin David“). Dieses beginnt **leise*
 
 ## Sprachfassungen (Beschluss Jannik, 2026-10-24)
 Deutsches Reel (Original) plus ein Reel mit englischen Untertiteln. Koreanische Fassung mit Übersetzung folgt nach Klärung mit Herrn Lee (über Janniks Mutter). Untertitel-Texte schreibt Claude, die koreanische Fassung prüft eine Übersetzerin ([[Adventskalender-Gesamtplan]], Nr. 162–164).
+
+## Änderung 2026-10-28
+Stichwort im Schlusssatz jetzt **Advent** (Jannik). Direktnachricht schickt Jannik von Hand, kein Bot. ❓ David bestätigt den Satz.

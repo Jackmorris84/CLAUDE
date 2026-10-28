@@ -14,7 +14,7 @@ Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur
 ## Reel-Beschreibung (Caption)
 > Wann hat dich Weihnachten zuletzt wirklich berührt? 🎄
 > Vom 1. bis 24. Dezember öffnet sich jeden Tag ein Türchen: ein Lied, eine Geschichte von mir oder ein Musikvideo.
-> Du willst dabei sein? Kommentiere **Adventskalender** und ich schicke dir den Link zur Warteliste.
+> Du willst dabei sein? Kommentiere **Advent** und ich schicke dir den Link zur Warteliste.
 > #Panflöte #Advent #Weihnachtslieder #Adventskalender
 
 ## Öffentliche Antwort unter dem Kommentar (abwechselnd, drei Varianten)
@@ -36,7 +36,7 @@ Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur
 - Mail 4 Erinnerung (Mi 11.11.), Mail 5 Letzter Tag (So 15.11.): an alle auf der Warteliste, die noch nicht gekauft haben (Käufer-Etikett, Sheet Nr. 67).
 
 ## Englische Fassung (Entwurf, ❓ nur falls ein englisches Reel gedreht wird)
-- Caption: „When did Christmas last truly touch you? 🎄 From 1 to 24 December a new door opens every day: a song, a story from me, or a music video. Want to join? Comment **Adventskalender** and I’ll send you the link to the waiting list.“
+- Caption: „When did Christmas last truly touch you? 🎄 From 1 to 24 December a new door opens every day: a song, a story from me, or a music video. Want to join? Comment **Advent** and I’ll send you the link to the waiting list.“
 - Direktnachricht: „Hi {Vorname}, so glad you’re here! 🎄 Here is your link to the waiting list for my Advent calendar: https://www.davids-panparadies.de/adventskalender-warteliste/ Enter your name and email and confirm the mail you’ll receive. Warm regards, David“
 
 ## Prüfen
@@ -50,3 +50,9 @@ Ziel der Automatisierung ist die **Warteliste**: Die Direktnachricht schickt nur
 - [[Adventskalender-Reel-Skript-Hook]]
 - [[Adventskalender-Landingpage-und-Brevo-Mails-DE]]
 - [[Adventskalender-Warteliste-Prinzip]]
+
+## Änderung 2026-10-28 (Jannik): Kein ManyChat, Stichwort „Advent“, Nachricht von Hand
+- ManyChat wird **nicht gekauft** (Budget so niedrig wie möglich, es sind nicht tausend Kommentare). Jannik beantwortet Kommentare mit „Advent“ von Hand. Die Texte oben bleiben als Textbausteine zum Kopieren. Das Stichwort in den Texten ist jetzt **Advent**.
+- Auch von Hand gilt: Direktnachricht nur mit dem Link, den die Person angefordert hat. Nach Möglichkeit „Gespeicherte Antworten“ im Instagram-Postfach nutzen (❓ Funktion im Konto prüfen).
+- Das Skript endet jetzt mit „… dann kommentiere jetzt mit Advent und ich schicke dir einen Link für die Warteliste.“ ❓ Jannik bestätigt, dass David diesen Satz so sagt (vorher stand „Adventskalender“).
+- Datenschutz: Ohne ManyChat entfällt der Auftragsverarbeitungsvertrag. Ein Hinweis auf der Warteliste-Seite bleibt nötig. ❓ Link zur Datenschutzerklärung fehlt noch.
