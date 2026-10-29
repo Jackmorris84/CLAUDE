@@ -91,3 +91,10 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 - **Aufnahmen:** David hat „schon viele Geschichten“ und zwei bis vier Lieder aufgenommen (Sheet Nr. 3 nennt 5 Lieder ❓). Genaue Liste fehlt.
 - **Mr. Lee:** hat sich noch nicht gemeldet.
 - **Datenschutz-Link:** Jannik klärt, wo er liegt (Sheet Nr. 175).
+
+## Stand laut Sheet (abgeglichen 2026-10-29, Verkaufsstart-Tag)
+- Erledigt: 29 von 175 (Vortag 25). Neu: Nr. 33 (10 Geschichten-Themen festgelegt), 34 (Dreh-Block A), 35 (Shop-Hinweise), 38 (Brevo Mails 1–3 eingerichtet).
+- Nr. 36 (Bestellmail mit Zugangslink): Frist von Jannik auf **05.11.** verschoben, noch offen. Damit ist der Testkauf am 29.10. (Nr. 46) ohne Zugangslink-Mail nur eingeschränkt möglich ❓.
+- Offen am Verkaufsstart: Nr. 37 Landingpage mit Kaufen-Button, 46 Testkauf, 47 Kaufen-Button live, 49 Verkaufsstart-Mail, 51 Launch-Posts, 173/174 Verkaufsmodell und Zugang nur über Warteliste (❓ keine Antwort im Sheet), 175 Datenschutz-Link.
+- Überfällig: 24 (u. a. 14, 20, 21, 24, 25, 28, 29, 30, 31, 37, 39, 40, 42, 44, 45, 157, 158, 159, 160, 163, 173, 175).
+- Janniks Chrome-Wunsch (Warteliste-Seiten ansehen): in dieser Cloud-Sitzung nicht möglich, Seiten über die Desktop-App ansehen oder Quelltext/Screenshots schicken.
