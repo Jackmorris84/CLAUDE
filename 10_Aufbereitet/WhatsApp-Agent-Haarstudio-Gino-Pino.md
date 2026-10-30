@@ -25,3 +25,13 @@ WhatsApp-Agent für das Haarstudio Gino + Pino (Marktstraße 11, 51643 Gummersba
 
 ## Verknüpft mit
 - [[Second-Brain-Guide]]
+
+## Vorschau, Training, Kosten (2026-10-30)
+Quelle: Testlauf mit dem echten System-Prompt (gpt-4o-mini) + CodeWords-Doku "Cost, Pricing & Limits".
+- Dialog "Wo seid ihr / offen?" → Adresse + "heute bis 18:00".
+- Dialog "Preis schneiden+färben?" → keine Preise erfunden, Verweis auf Tel./Website.
+- Dialog Termin → fragt Name/Leistung/Datum/Zeit ab, speichert Anfrage (Freitag 15:00, Damenschnitt), Salon bestätigt noch.
+- Training: kein Training, nur System-Prompt (Salon-Infos) + Gesprächsverlauf pro Kunde (1 Std. Kontext, 2 Std. Speicher). Wissen erweitern = Defaults in `POST /` ändern.
+- Credits: ja. 1 Credit = 1 USD. Compute ca. $0.00046/Sek. + LLM-Tokens. Grobe Schätzung ❓ unklar: ca. 0,2–0,5 Cent pro Kundennachricht, nicht gemessen.
+- Pläne: FREE 5 Credits einmalig/100 Runs; PRO $39/Monat; Business $100/Monat.
+- Limit: Absendernummer +447424366129 hat Tageslimit für Antworten (FREE 5, PRO 20, MAX 50 pro Tag). Für echten Salonbetrieb eher eigene Nummer (Personal Device, kein Limit) nötig – noch nicht umgesetzt.
