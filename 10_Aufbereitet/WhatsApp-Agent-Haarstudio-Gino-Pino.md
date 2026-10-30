@@ -35,3 +35,10 @@ Quelle: Testlauf mit dem echten System-Prompt (gpt-4o-mini) + CodeWords-Doku "Co
 - Credits: ja. 1 Credit = 1 USD. Compute ca. $0.00046/Sek. + LLM-Tokens. Grobe Schätzung ❓ unklar: ca. 0,2–0,5 Cent pro Kundennachricht, nicht gemessen.
 - Pläne: FREE 5 Credits einmalig/100 Runs; PRO $39/Monat; Business $100/Monat.
 - Limit: Absendernummer +447424366129 hat Tageslimit für Antworten (FREE 5, PRO 20, MAX 50 pro Tag). Für echten Salonbetrieb eher eigene Nummer (Personal Device, kein Limit) nötig – noch nicht umgesetzt.
+
+## Kostenrechnung 25–30 Kunden/Tag (2026-10-30)
+Annahmen (❓ unklar, nicht gemessen): ca. 0,2–0,5 Cent pro Antwort, ca. 6 Nachrichten pro Chat, 26 Öffnungstage/Monat.
+- Szenario A (ca. 10 Chats/Tag): ~60 Antworten/Tag ≈ 1.600/Monat ≈ 3–8 $/Monat; passt in Pro (2.500 Runs).
+- Szenario B (alle 30 Kunden chatten): ~180 Antworten/Tag ≈ 4.700/Monat ≈ 10–25 $/Monat; Runs übersteigen Pro → Business.
+- Tageslimit der gemeinsamen Nummer (max. 50/Tag) reicht in beiden Fällen nicht → eigene Nummer (Personal Device) nötig.
+- Empfehlung: Pro (39 $) zum Start mit eigener Nummer; Business (100 $) bei Szenario B. ❓ unklar: ob jede eingehende Nachricht als "Run" zählt.
