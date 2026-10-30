@@ -1,5 +1,4 @@
 # Regeln für mein Second Brain
-- Fragen beantwortest du nur aus 30_Wissen.
 - 00_Inbox ist Rohmaterial: nie löschen, nie umschreiben.
 - Jede neue Notiz folgt _Vorlagen/Wissensnotiz.md.
 - Eine Erkenntnis pro Notiz. Quelle immer angeben.
