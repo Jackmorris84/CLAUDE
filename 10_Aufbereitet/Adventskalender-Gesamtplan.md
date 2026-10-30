@@ -98,3 +98,9 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 - Offen am Verkaufsstart: Nr. 37 Landingpage mit Kaufen-Button, 46 Testkauf, 47 Kaufen-Button live, 49 Verkaufsstart-Mail, 51 Launch-Posts, 173/174 Verkaufsmodell und Zugang nur über Warteliste (❓ keine Antwort im Sheet), 175 Datenschutz-Link.
 - Überfällig: 24 (u. a. 14, 20, 21, 24, 25, 28, 29, 30, 31, 37, 39, 40, 42, 44, 45, 157, 158, 159, 160, 163, 173, 175).
 - Janniks Chrome-Wunsch (Warteliste-Seiten ansehen): in dieser Cloud-Sitzung nicht möglich, Seiten über die Desktop-App ansehen oder Quelltext/Screenshots schicken.
+
+## Stand laut Sheet (abgeglichen 2026-10-30)
+- Erledigt: 35 von 175. Neu seit 29.10.: Nr. 24 Gesamtbudget, 25 Songs final, 42 Impressum/Datenschutz/Widerruf geprüft, 44 Länderliste, 45 Look, 47 **Kaufen-Button live**. Nr. 48 (Newsletter, Claude) auf „in Arbeit“, Entwurf im Vault: [[Adventskalender-Newsletter-Altliste]].
+- Verschoben: Nr. 49 Verkaufsstart-Mail auf 13.11., Nr. 50 Teaser-Clips auf 30.10., Nr. 51 Launch-Posts, 165/166.
+- Offen heute (30.10.): Nr. 46 Testkauf, 53/54 (Claude), 55 Dreh-Block B, 56 Videohoster, 57 Newsletter versenden, 58, 59.
+- Neue Sheet-Reiter von Jannik: **Weihnachtslieder** (13 Lieder; aufgenommen: 1 Oh du Fröhliche, 4 In der Weihnachtsbäckerei, 11 Herbei o ihr Gläubigen, 12 Fill my cup Lord, 13 I will follow Him; noch nicht: 2 Süßer die Glocken, 3 Kommet ihr Hirten, 5 Maria durch ein Dornwald ging, 6 Carol of the Bells, 7 Lieb mich halt mich küss mich, 8 Rockin' Around the Christmas Tree, 9 The Christmas Song, 10 Stille Nacht; Geschichten 1–8 wie im Drehplan, 9–11 leer) und **Konzertdaten** (5 Termine 2027, Stand 26.10.). ❓ Songtabelle im Vault nachziehen.
