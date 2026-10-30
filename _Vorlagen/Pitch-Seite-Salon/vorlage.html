@@ -1,0 +1,228 @@
+<title>WhatsApp-Assistent für {{SHORT}}</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: ein langer, dunkler Scroll wie ein Board; nummerierte Abschnitte mit Eyebrow, großer Headline, ruhigem Fließtext. Akzent aus der Salon-Website (Bordeaux, Grün der Preise). */
+:root{
+  --bg:#0d0a0b; --bg2:#151012; --line:#2b2125; --fg:#f6f3f4; --mute:#a9a0a4;
+  --accent:#e0577f; --accent-line:#8c2a47; --green:#4cc27f;
+  --wa-head:#075e54; --wa-bg:#efeae2; --wa-out:#d9fdd3; --wa-in:#ffffff; --wa-ink:#111b21; --wa-time:#667781;
+  --font:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1040px;margin:0 auto}
+section{padding-block:72px;border-top:1px solid var(--line)}
+section.first{border-top:0;padding-top:40px}
+.eyebrow{display:flex;gap:12px;align-items:baseline;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin:0 0 18px}
+.eyebrow b{color:var(--accent);font-weight:600}
+h1,h2{font-weight:700;letter-spacing:-.025em;line-height:1.06;margin:0 0 26px;text-wrap:balance}
+h1{font-size:clamp(38px,7vw,72px)}
+h2{font-size:clamp(32px,5.4vw,56px)}
+p{margin:0 0 16px;max-width:640px}
+.lead{font-size:clamp(19px,2.4vw,24px);color:var(--mute);line-height:1.5;max-width:700px}
+.lead strong,.lead b{color:var(--fg);font-weight:500}
+.logo{display:block;height:92px;width:auto;margin-bottom:34px}
+.hero-img{margin:44px 0 0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#1d1d1f}
+.hero-img img{display:block;width:100%;height:auto}
+.hero-img figcaption,.cap{font-size:13px;color:var(--mute);padding:10px 4px 0}
+.hero-img figcaption{padding:12px 16px;border-top:1px solid var(--line)}
+/* Vorteile */
+.points{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:36px 32px;margin-top:44px;padding:0;list-style:none}
+.points li{min-width:0}
+.points h3{margin:0 0 8px;font-size:19px;font-weight:600;letter-spacing:-.01em}
+.points p{margin:0;color:var(--mute);font-size:16px}
+.points .k{display:block;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+/* Chats */
+.chats{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:28px;margin-top:44px;align-items:start}
+.phone{min-width:0}
+.chat{background:var(--wa-bg);border-radius:20px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.5)}
+.chat-h{background:var(--wa-head);color:#fff;padding:12px 14px;display:flex;gap:10px;align-items:center;font-size:14px;font-weight:600}
+.av{width:30px;height:30px;border-radius:50%;background:#cfd8dc;color:var(--wa-head);font-size:10px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.chat-b{padding:12px 9px;display:flex;flex-direction:column;gap:6px}
+.m{max-width:88%;padding:7px 10px 18px;border-radius:8px;font-size:14px;line-height:1.35;position:relative;color:var(--wa-ink);box-shadow:0 1px 1px rgba(0,0,0,.13);margin:0}
+.m.o{align-self:flex-end;background:var(--wa-out)}
+.m.i{align-self:flex-start;background:var(--wa-in)}
+.t{position:absolute;right:7px;bottom:3px;font-size:10px;color:var(--wa-time)}
+.t i{font-style:normal;color:#53bdeb}
+.phone h3{font-size:16px;margin:18px 4px 4px;font-weight:600}
+.phone .cap{padding:0 4px}
+/* Wissen */
+.know{display:grid;grid-template-columns:1fr;gap:28px;margin-top:40px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px 32px;margin:0;padding:0;list-style:none}
+.facts li{border-top:1px solid var(--line);padding-top:14px;min-width:0}
+.facts b{display:block;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);font-weight:500;margin-bottom:4px}
+.facts span{font-size:17px}
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:8px}
+.prices figure{margin:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+.prices img{display:block;width:100%;height:auto}
+/* Schritte */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:36px 28px;margin-top:48px;padding:0;list-style:none;counter-reset:s}
+.steps li{position:relative;min-width:0}
+.steps .n{display:flex;align-items:center;gap:0;margin-bottom:22px}
+.steps .n span{flex:none;width:44px;height:44px;border-radius:50%;border:1px solid var(--accent-line);color:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:600}
+.steps .n::after{content:"";flex:1;height:1px;background:var(--accent-line);opacity:.6}
+.steps li:last-child .n::after{opacity:.15}
+.steps h3{margin:0 0 6px;font-size:18px;font-weight:600}
+.steps p{margin:0;color:var(--mute);font-size:16px}
+/* Fragen */
+.qs{list-style:none;margin:40px 0 0;padding:0;display:grid;gap:0;max-width:760px}
+.qs li{display:grid;grid-template-columns:44px 1fr;gap:6px 14px;padding:20px 0;border-top:1px solid var(--line)}
+.qs li:last-child{border-bottom:1px solid var(--line)}
+.qs .q{color:var(--accent);font-weight:600;font-size:15px;padding-top:3px}
+.qs strong{display:block;font-weight:600;font-size:19px;letter-spacing:-.01em;line-height:1.35}
+.qs small{display:block;color:var(--mute);font-size:15px;margin-top:4px}
+/* Rechner */
+.calc{margin-top:56px;background:var(--bg2);border:1px solid var(--line);border-radius:18px;padding:clamp(22px,4vw,40px)}
+.calc h3{margin:0 0 6px;font-size:24px;letter-spacing:-.015em}
+.calc>p{color:var(--mute);font-size:16px}
+.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin:26px 0}
+.fields label{display:block;font-size:14px;color:var(--mute);min-width:0}
+.fields input{display:block;width:100%;margin-top:8px;background:var(--bg);border:1px solid var(--line);border-radius:10px;color:var(--fg);font:inherit;font-size:19px;padding:12px 14px}
+.fields input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.res{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.res div{border-top:1px solid var(--line);padding-top:14px;min-width:0}
+.res .v{font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.res .v.g{color:var(--green)}
+.res .l{font-size:14px;color:var(--mute)}
+.hint{font-size:13px;color:var(--mute);margin:18px 0 0;max-width:none}
+/* Abschluss */
+.end h2{max-width:14ch}
+.end .lead{margin-bottom:26px}
+footer{padding-block:30px 48px;border-top:1px solid var(--line);font-size:13px;color:var(--mute)}
+footer p{max-width:none;margin:0 0 6px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media (max-width:520px){section{padding-block:52px}.logo{height:72px}.qs li{grid-template-columns:34px 1fr}}
+</style>
+
+<div class="wrap">
+
+<section class="first">
+  <img class="logo" src="{{LOGO}}" alt="{{SALON}}">
+  <p class="eyebrow"><span>Vorschlag für {{SALON}}</span></p>
+  <h1>Dein WhatsApp-Assistent. Beantwortet Fragen, nimmt Termine auf.</h1>
+  <p class="lead">Auch dann, wenn du gerade schneidest, färbst oder die Kasse zu hast. Mit deinen Preisen, deinen Öffnungszeiten, in deinem Ton.</p>
+  <figure class="hero-img">
+    <img src="{{FOOTER}}" alt="Ausschnitt der Website {{DOMAIN}} mit Logo, Kontakt und Öffnungszeiten">
+    <figcaption>Ausschnitt von {{DOMAIN}}. Daraus kennt der Assistent schon deine Zeiten, Kontaktdaten und Preise.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <p class="eyebrow"><b>01</b><span>Wer ich bin</span></p>
+  <h2>Hi {{SALON}}, ich bin {{AUTHOR}}.</h2>
+  <p class="lead">Ich beschäftige mich seit Wochen und Monaten mit IT und Automatisierung. Ich helfe Unternehmen dabei, ihre Kunden einfacher zu betreuen, damit weniger Zeit am Telefon hängen bleibt. Hier siehst du, was ich für dich ausgearbeitet habe.</p>
+</section>
+
+<section>
+  <p class="eyebrow"><b>02</b><span>Was ich für dich ausgearbeitet habe</span></p>
+  <h2>Ein Assistent, der dein Telefon entlastet.</h2>
+  <p class="lead">Deine Kunden schreiben dir auf WhatsApp. Der Assistent antwortet in Sekunden, beantwortet die üblichen Fragen und nimmt Terminwünsche selbstständig auf. Du bestätigst nur noch.</p>
+  <ul class="points">
+    <li><span class="k">Fragen</span><h3>Preise, Zeiten, Kontakt</h3><p>Antworten direkt aus deiner Preisliste und deinen Öffnungszeiten. Wenn er etwas nicht weiß, sagt er das und verweist auf dein Telefon.</p></li>
+    <li><span class="k">Termine</span><h3>Wunsch komplett aufgenommen</h3><p>Name, Leistung, Tag und Uhrzeit. Du bekommst eine saubere Anfrage statt einer Notiz auf dem Zettel.</p></li>
+    <li><span class="k">Erreichbar</span><h3>Auch abends und samstags</h3><p>Wenn der Salon zu ist, bleibt keine Anfrage liegen. Am nächsten Morgen wartet sie auf dich.</p></li>
+    <li><span class="k">Kontrolle</span><h3>Du hast das letzte Wort</h3><p>Er erfindet nichts. Jede Terminanfrage bestätigst du selbst.</p></li>
+  </ul>
+</section>
+
+<section>
+  <p class="eyebrow"><b>03</b><span>So sieht es für deine Kunden aus</span></p>
+  <h2>Drei Beispiele aus dem Testlauf.</h2>
+  <p class="lead">Das sind echte Antworten des Assistenten, mit den Daten von deiner Website.</p>
+  <div class="chats">
+{{CHATS_HTML}}
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow"><b>04</b><span>Er kennt dein Geschäft</span></p>
+  <h2>Deine Preisliste ist schon drin.</h2>
+  <p class="lead">Ich habe Zeiten, Kontakt und die komplette Preisliste von deiner Website übernommen. Ändert sich ein Preis, passe ich ihn an.</p>
+  <div class="know">
+    <ul class="facts">
+{{FACTS_HTML}}
+    </ul>
+    <div class="prices">
+{{PRICES_HTML}}
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow"><b>05</b><span>Deine Schritte</span></p>
+  <h2>Von heute bis zum ersten Chat.</h2>
+  <ol class="steps">
+    <li><div class="n"><span>1</span></div><h3>Infos prüfen</h3><p>Du schaust über Preise, Zeiten und Regeln. Du oder Sie, was darf er sagen und was nicht.</p></li>
+    <li><div class="n"><span>2</span></div><h3>WhatsApp verbinden</h3><p>Ich richte den Assistenten für deine Salon-Nummer ein.</p></li>
+    <li><div class="n"><span>3</span></div><h3>Testen</h3><p>Dein Team probiert ihn aus und stellt die Fragen, die am Telefon wirklich kommen.</p></li>
+    <li><div class="n"><span>4</span></div><h3>Live gehen</h3><p>Danach schauen wir gemeinsam auf die ersten Chats und schärfen nach.</p></li>
+  </ol>
+</section>
+
+<section>
+  <p class="eyebrow"><b>06</b><span>Passt das zu deinem Salon?</span></p>
+  <h2>Sieben Fragen an dich.</h2>
+  <p class="lead">Nimm dir zwei Minuten. Wenn du bei ein paar Fragen denkst „Ja, das kenne ich“, ist der Assistent für dich gemacht.</p>
+  <ol class="qs">
+    <li><span class="q">1</span><div><strong>Wie oft klingelt das Telefon am Tag, während du gerade am Kunden arbeitest?</strong></div></li>
+    <li><span class="q">2</span><div><strong>Wie viele Anrufe verpasst du ungefähr pro Woche?</strong><small>Und rufen die Leute danach nochmal an?</small></div></li>
+    <li><span class="q">3</span><div><strong>Wie viele Minuten dauert ein Terminanruf im Schnitt?</strong></div></li>
+    <li><span class="q">4</span><div><strong>Welche drei Fragen hörst du am häufigsten?</strong><small>Öffnungszeiten, Preise, „Ist noch was frei?“</small></div></li>
+    <li><span class="q">5</span><div><strong>Wie viele Anfragen kommen abends oder am Wochenende, wenn niemand erreichbar ist?</strong></div></li>
+    <li><span class="q">6</span><div><strong>Was ist dir ein neuer Kunde oder ein ausgefallener Termin wert?</strong></div></li>
+    <li><span class="q">7</span><div><strong>Nutzt ihr WhatsApp im Salon schon?</strong></div></li>
+  </ol>
+
+  <div class="calc" id="rechner">
+    <h3>Dein Rechenbeispiel</h3>
+    <p>Trag deine eigenen Zahlen ein. Es wird nichts gespeichert und nichts verschickt.</p>
+    <div class="fields">
+      <label for="calls">Anrufe pro Öffnungstag<input id="calls" type="number" inputmode="decimal" min="0" placeholder="z. B. 10"></label>
+      <label for="mins">Minuten pro Anruf<input id="mins" type="number" inputmode="decimal" min="0" placeholder="z. B. 3"></label>
+      <label for="missed">Verpasste Anrufe pro Woche<input id="missed" type="number" inputmode="decimal" min="0" placeholder="z. B. 8"></label>
+      <label for="lost">Davon rufen nicht zurück (%)<input id="lost" type="number" inputmode="decimal" min="0" max="100" placeholder="z. B. 40"></label>
+      <label for="bill">Durchschnittliche Rechnung (€)<input id="bill" type="number" inputmode="decimal" min="0" placeholder="z. B. 50"></label>
+    </div>
+    <div class="res" aria-live="polite">
+      <div><div class="v" id="r1">–</div><div class="l">Stunden pro Monat am Telefon ({{DAYS}} Öffnungstage pro Woche, {{DAYS_LABEL}})</div></div>
+      <div><div class="v g" id="r2">–</div><div class="l">Umsatz pro Monat, der dir durch verpasste Anrufe entgehen kann</div></div>
+    </div>
+    <p class="hint">Rechnung: Anrufe × Minuten × {{DAYS}} Tage × 4,33 Wochen. Und: verpasste Anrufe × Anteil ohne Rückruf × Rechnung × 4,33 Wochen. Das Ergebnis ist nur so gut wie deine Schätzung.</p>
+  </div>
+</section>
+
+<section class="end">
+  <p class="eyebrow"><b>07</b><span>Nächster Schritt</span></p>
+  <h2>Lass uns kurz drüber sprechen.</h2>
+  <p class="lead">Antworte mir einfach hier auf WhatsApp. Dann gehen wir deine Zahlen in zehn Minuten durch und ich zeige dir den Assistenten live auf deinem Handy.</p>
+</section>
+
+<footer>
+  <p>Vorschlag von {{AUTHOR}} für {{SALON}}.</p>
+  <p>Die Chats sind echte Antworten des Assistenten aus dem Testlauf. Preise und Zeiten stammen von {{DOMAIN}}. Terminanfragen bestätigt der Salon selbst.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var ids=['calls','mins','missed','lost','bill'], el={};
+  ids.forEach(function(i){el[i]=document.getElementById(i)});
+  var r1=document.getElementById('r1'), r2=document.getElementById('r2');
+  var W=4.33, D={{DAYS}};
+  function n(i){var v=parseFloat(String(el[i].value).replace(',','.'));return isFinite(v)&&v>=0?v:null}
+  function fmt(x,d){return x.toLocaleString('de-DE',{maximumFractionDigits:d,minimumFractionDigits:0})}
+  function calc(){
+    var c=n('calls'),m=n('mins'),ms=n('missed'),l=n('lost'),b=n('bill');
+    r1.textContent=(c!==null&&m!==null)?fmt(c*m*D*W/60,1)+' Std.':'–';
+    r2.textContent=(ms!==null&&l!==null&&b!==null)?fmt(ms*Math.min(l,100)/100*b*W,0)+' €':'–';
+  }
+  ids.forEach(function(i){el[i].addEventListener('input',calc)});
+  calc();
+})();
+</script>

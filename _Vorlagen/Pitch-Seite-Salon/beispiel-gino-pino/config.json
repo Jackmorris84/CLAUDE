@@ -1,0 +1,33 @@
+{
+  "salon": "Haarstudio Gino + Pino",
+  "short": "Gino + Pino",
+  "initials": "G+P",
+  "domain": "haarstudio-pino.de",
+  "author": "Jannik",
+  "days_per_week": 5,
+  "days_label": "Di–Sa",
+  "images": {
+    "logo": {"file": "website-footer.png", "crop": [40, 90, 250, 262], "alpha_from_light": true},
+    "website": "website-footer.png",
+    "prices": ["preise-1.png", "preise-2.png"]
+  },
+  "facts": [
+    {"label": "Öffnungszeiten", "value": ["Di–Fr 08:45–18:15", "Sa 07:45–13:15"]},
+    {"label": "Telefon", "value": ["0 22 61 - 2 74 40"]},
+    {"label": "Adresse", "value": ["Marktstraße 11", "51643 Gummersbach"]},
+    {"label": "Preise", "value": ["Kurz, Mittel, Lang", "für jede Leistung"]}
+  ],
+  "chats": [
+    {"title": "Öffnungszeiten", "caption": "Auch außerhalb der Öffnungszeiten.", "msgs": [
+      ["c", "Habt ihr Montag auf und bis wann am Samstag?", "18:42"],
+      ["a", "Unser Salon ist am Montag geschlossen. Am Samstag haben wir von 07:45 bis 13:15 Uhr geöffnet. 😊", "18:42"]]},
+    {"title": "Preisfrage", "caption": "Der Preis kommt aus deiner Liste.", "msgs": [
+      ["c", "Ich möchte Strähnen, was kostet das ungefähr bei langen Haaren?", "10:15"],
+      ["a", "Die Preise für Strähnen bei langen Haaren liegen laut unserer Website bei 85 €. Wenn Sie weitere Informationen benötigen oder einen Termin wünschen, lassen Sie es mich bitte wissen! 😊", "10:15"]]},
+    {"title": "Terminanfrage", "caption": "Du bekommst Name, Leistung, Tag und Uhrzeit.", "msgs": [
+      ["c", "Hi, ich hätte gern einen Termin zum Haareschneiden", "19:20"],
+      ["a", "Guten Tag! 😊 Ich helfe Ihnen gerne bei der Terminvereinbarung. Wie heißen Sie?", "19:20"],
+      ["c", "Anna Müller, Damenschnitt, am Freitag um 15 Uhr", "19:21"],
+      ["a", "Perfekt! 🎉 Ich habe Ihre Terminanfrage für einen Damenschnitt am Freitag um 15 Uhr notiert. Der Salon wird Ihre Anfrage noch bestätigen.", "19:21"]]}
+  ]
+}
