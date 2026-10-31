@@ -107,3 +107,12 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 
 ## 2026-10-31
 Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in again“). Das Sheet konnte heute nicht gelesen werden, Stand bleibt der vom 30.10. (35 von 175 erledigt). Sobald Jannik die Verbindung neu anmeldet (Claude-App, Connectors, Google Sheets), gleicht Claude ab.
+
+## Antworten Jannik 2026-10-31
+- **Herr Lee hat geantwortet** (Inhalt nicht genannt ❓). Sheet Nr. 163 abhaken, Nr. 164 (koreanisches Reel) prüfen.
+- **Verkaufsmodell bestätigt:** 25 € nur für Wartelistenmitglieder. Die Warteliste ist online. Sheet Nr. 173 entschieden. ❓ Preis für alle anderen und Ende der Warteliste weiter ungenannt.
+- **Wartelisten-Stand:** 7 deutsche und 1 koreanische Anmeldung (31.10.).
+- **Lieder:** David nimmt sie nach und nach auf (Sheet-Reiter „Weihnachtslieder“: 5 von 13).
+- **Datenschutz-Link:** liegt schon auf der Website, wird nicht gebraucht (Sheet Nr. 175 erledigt). ❓ In Texten Hinweis auf die Datenschutzerklärung der Website setzen.
+- **Newsletter an die Altliste ist gesendet** (Nr. 57 erledigt, Nr. 48 erledigt).
+- Google Sheets: Verbindung aus Sicht dieser Sitzung weiter nicht nutzbar, Abgleich und Eintragungen im Sheet stehen aus. ❓
