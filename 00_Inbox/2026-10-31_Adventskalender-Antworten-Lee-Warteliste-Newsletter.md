@@ -9,3 +9,6 @@ Herr Lee hat geantwortet, er möchte sogar meinen Papa nächstes Jahr nach Korea
 
 ## Nachtrag 2 2026-10-31 (Jannik)
 Rabattcode: den bekommen sie einen Tag bevor der Verkauf startet, und der ist für diesen 25-€-Preis, ansonsten halt 29 [€]. Und diesen Rabattcode bekommen sie per E-Mail zugesendet. Reel mit Advent: haben wir schon gedreht, das schneide ich gerade. Einladung nach Korea: nicht in den koreanischen Posts erwähnen, das bleibt geheim, bis was Festes steht.
+
+## Nachtrag 3 2026-10-31 (Jannik)
+Der Code ist nur verfügbar vom 13.11. bis zum 15.11., also dem Wochenende, Freitag, Samstag, Sonntag. Jedes Mitglied bekommt den gleichen Code. Das Reel ist noch nicht geschnitten, aber gerade dabei. Ich verbinde Google jetzt, dann kannst du das alles mit eintragen.

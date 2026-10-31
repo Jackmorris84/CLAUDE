@@ -18,16 +18,16 @@ Mitglieder der Warteliste bekommen am **12.11.** per E-Mail einen Rabattcode. Mi
 ## Text
 > Hallo {Vorname},
 > danke, dass du dich auf die Warteliste für meinen Adventskalender eingetragen hast. Morgen, am 13. November, beginnt der Verkauf.
-> Als Dank bekommst du schon heute deinen persönlichen Rabattcode: **{CODE}**
-> Mit dem Code kostet der Kalender 25 € statt 29,99 €. Gib ihn im Shop beim Bezahlen ein: [Link zum Shop]
+> Als Dank bekommst du schon heute deinen Rabattcode: **{CODE}**
+> Er gilt von morgen, Freitag, 13. November, bis Sonntag, 15. November. Mit dem Code kostet der Kalender 25 € statt 29,99 €. Gib ihn im Shop beim Bezahlen ein: [Link zum Shop]
 > Der Kalender startet am 1. Dezember. Jeden Tag bis Weihnachten öffnet sich ein Türchen mit einem Lied, einer Geschichte oder einem Musikvideo.
 > Herzliche Grüße
 > David Döring
 
 ## Offen ❓
-- Gültigkeit des Codes (bis wann, einmal pro Person, an E-Mail gebunden?) und wie er im Shop angelegt wird (WooCommerce-Gutschein mit Betrag 4,99 €). Admin-Zugang hat Janniks Mama.
-- Ob der Code ab 12.11. oder erst ab 13.11. gilt. Mail geht am 12.11. raus ❓.
-- Versandwege: Brevo, jeder Mitglied einen eigenen Code oder ein Sammelcode ❓.
+- **Festgelegt (Jannik, 31.10.):** Der Code gilt **vom 13.11. bis 15.11.** (Fr bis So), **ein gemeinsamer Code für alle Mitglieder**. Die Mail geht am 12.11. raus, der Code ist erst ab 13.11. nutzbar: **Mailtext anpassen** („ab morgen“, „bis Sonntag, 15. November“).
+- ❓ Pro Person nur einmal? Ein Sammelcode lässt sich nicht an eine E-Mail binden. Anlegen im Shop (WooCommerce-Gutschein, Betrag 4,99 €, Ablauf 15.11.): Janniks Mama hat den Admin-Zugang.
+- Versand über Brevo an die Warteliste (alle gleicher Code).
 - Mails ab Warteliste (Mail 2 Willkommen) anpassen: nicht mehr „Frühbucherpreis bis 15.11.“, sondern „Du bekommst am 12.11. einen Rabattcode“.
 
 ## Verknüpft mit

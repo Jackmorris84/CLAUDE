@@ -14,7 +14,7 @@ Posts für die Warteliste-Phase bis zum 13.11., alle in Davids Ich-Form. Die War
 ## Neues Verkaufsmodell (Jannik, 2026-10-31)
 - Bis **13.11.**: nur Warteliste. Mitglieder bekommen einen **Rabattcode**.
 - Ab **13.11.**: Verkauf für alle, **29,99 €**. Wer den Code hat, zahlt weniger.
-- **Rabattcode (Jannik, 31.10.):** kommt **per E-Mail einen Tag vor Verkaufsstart (12.11.)**. Mit Code kostet der Kalender **25 €**, ohne Code **29,99 €**. ❓ Offen: Gültigkeit des Codes (bis wann, einmal pro Person?), ob der 15.11. noch eine Rolle spielt. Sheet Nr. 36, 49, 167, 173, 174 anpassen, sobald Sheets wieder verbunden ist.
+- **Rabattcode (Jannik, 31.10.):** kommt **per E-Mail einen Tag vor Verkaufsstart (12.11.)**. Mit Code kostet der Kalender **25 €**, ohne Code **29,99 €**. Der Code gilt **13.11. bis 15.11.** (Fr bis So), ein gemeinsamer Code für alle Mitglieder (Jannik, 31.10.). ❓ Offen: pro Person nur einmal? Sheet Nr. 36, 49, 167, 173, 174 anpassen, sobald Sheets wieder verbunden ist.
 
 ## Instagram-Reel / Feed (Caption)
 > Wann hat dich Weihnachten zuletzt wirklich berührt? 🎄
