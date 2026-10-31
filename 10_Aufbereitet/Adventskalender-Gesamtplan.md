@@ -121,3 +121,4 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Warteliste nur **bis 13.11.**, Mitglieder bekommen einen **Rabattcode**. **Ab 13.11.** Verkauf für alle zu **29,99 €**. ❓ Code: Zeitpunkt, Höhe, Gültigkeit offen. Early-Bird-Datum 15.11. damit überholt ❓.
 - **Herr Lee** möchte David nächstes Jahr nach Korea einladen. ❓ Noch nicht öffentlich.
 - Launchposts: [[Adventskalender-Launchposts-Warteliste]].
+- 2026-10-31 (Jannik): „Altliste ist auch erledigt.“ Gemeint: Newsletter an die Altliste gesendet (Nr. 48, 57) ❓ falls etwas anderes gemeint ist, Jannik korrigiert. Sheet-Eintrag steht aus, solange Google Sheets nicht verbunden ist.
