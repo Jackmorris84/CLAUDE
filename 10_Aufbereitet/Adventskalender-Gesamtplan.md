@@ -104,3 +104,6 @@ Jannik möchte den Plan als Google Sheet, damit er, seine Mutter und Claude ihn 
 - Verschoben: Nr. 49 Verkaufsstart-Mail auf 13.11., Nr. 50 Teaser-Clips auf 30.10., Nr. 51 Launch-Posts, 165/166.
 - Offen heute (30.10.): Nr. 46 Testkauf, 53/54 (Claude), 55 Dreh-Block B, 56 Videohoster, 57 Newsletter versenden, 58, 59.
 - Neue Sheet-Reiter von Jannik: **Weihnachtslieder** (13 Lieder; aufgenommen: 1 Oh du Fröhliche, 4 In der Weihnachtsbäckerei, 11 Herbei o ihr Gläubigen, 12 Fill my cup Lord, 13 I will follow Him; noch nicht: 2 Süßer die Glocken, 3 Kommet ihr Hirten, 5 Maria durch ein Dornwald ging, 6 Carol of the Bells, 7 Lieb mich halt mich küss mich, 8 Rockin' Around the Christmas Tree, 9 The Christmas Song, 10 Stille Nacht; Geschichten 1–8 wie im Drehplan, 9–11 leer) und **Konzertdaten** (5 Termine 2027, Stand 26.10.). ❓ Songtabelle im Vault nachziehen.
+
+## 2026-10-31
+Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in again“). Das Sheet konnte heute nicht gelesen werden, Stand bleibt der vom 30.10. (35 von 175 erledigt). Sobald Jannik die Verbindung neu anmeldet (Claude-App, Connectors, Google Sheets), gleicht Claude ab.
