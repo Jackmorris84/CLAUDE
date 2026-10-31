@@ -116,3 +116,8 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - **Datenschutz-Link:** liegt schon auf der Website, wird nicht gebraucht (Sheet Nr. 175 erledigt). ❓ In Texten Hinweis auf die Datenschutzerklärung der Website setzen.
 - **Newsletter an die Altliste ist gesendet** (Nr. 57 erledigt, Nr. 48 erledigt).
 - Google Sheets: Verbindung aus Sicht dieser Sitzung weiter nicht nutzbar, Abgleich und Eintragungen im Sheet stehen aus. ❓
+
+## Verkaufsmodell geändert 2026-10-31 (Jannik)
+- Warteliste nur **bis 13.11.**, Mitglieder bekommen einen **Rabattcode**. **Ab 13.11.** Verkauf für alle zu **29,99 €**. ❓ Code: Zeitpunkt, Höhe, Gültigkeit offen. Early-Bird-Datum 15.11. damit überholt ❓.
+- **Herr Lee** möchte David nächstes Jahr nach Korea einladen. ❓ Noch nicht öffentlich.
+- Launchposts: [[Adventskalender-Launchposts-Warteliste]].
