@@ -14,7 +14,7 @@ Posts für die Warteliste-Phase bis zum 13.11., alle in Davids Ich-Form. Die War
 ## Neues Verkaufsmodell (Jannik, 2026-10-31)
 - Bis **13.11.**: nur Warteliste. Mitglieder bekommen einen **Rabattcode**.
 - Ab **13.11.**: Verkauf für alle, **29,99 €**. Wer den Code hat, zahlt weniger.
-- ❓ Offen: Wann kommt der Code (sofort nach Bestätigung oder erst am 13.11.)? Wie hoch ist der Rabatt (bisher gedacht: 25 € Endpreis, also 4,99 € ❓)? Bis wann gilt der Code (bisher 15.11.)? Gilt der 15.11. als „Early Bird“ noch? Sheet Nr. 36, 49, 167, 173, 174 anpassen, sobald Sheets wieder verbunden ist.
+- **Rabattcode (Jannik, 31.10.):** kommt **per E-Mail einen Tag vor Verkaufsstart (12.11.)**. Mit Code kostet der Kalender **25 €**, ohne Code **29,99 €**. ❓ Offen: Gültigkeit des Codes (bis wann, einmal pro Person?), ob der 15.11. noch eine Rolle spielt. Sheet Nr. 36, 49, 167, 173, 174 anpassen, sobald Sheets wieder verbunden ist.
 
 ## Instagram-Reel / Feed (Caption)
 > Wann hat dich Weihnachten zuletzt wirklich berührt? 🎄
@@ -56,7 +56,7 @@ Posts für die Warteliste-Phase bis zum 13.11., alle in Davids Ich-Form. Die War
 ## Rahmen, den Jannik beachtet
 - Kein „nur noch wenige“ oder „limitiert“, solange es nicht stimmt. Wahr ist: Warteliste nur bis 13.11., Kalender startet 1.12.
 - Kein Wort zum Gewinnspiel in diesen Posts.
-- ❓ Herr Lee und die Einladung nach Korea: **nicht öffentlich nennen**, bevor Jannik und David das freigeben.
+- **Herr Lee und die Einladung nach Korea: geheim** (Jannik, 31.10.), auch nicht in koreanischen Posts, bis etwas Festes feststeht.
 - Vor dem Posten Musik/Clips auf Rechte prüfen (Sheet Nr. 31).
 
 ## Verknüpft mit

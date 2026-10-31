@@ -122,3 +122,4 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - **Herr Lee** möchte David nächstes Jahr nach Korea einladen. ❓ Noch nicht öffentlich.
 - Launchposts: [[Adventskalender-Launchposts-Warteliste]].
 - 2026-10-31 (Jannik): „Altliste ist auch erledigt.“ Gemeint: Newsletter an die Altliste gesendet (Nr. 48, 57) ❓ falls etwas anderes gemeint ist, Jannik korrigiert. Sheet-Eintrag steht aus, solange Google Sheets nicht verbunden ist.
+- 2026-10-31 (Jannik): **Rabattcode per E-Mail am 12.11.** (einen Tag vor Verkaufsstart), Preis mit Code 25 €, sonst 29,99 €. **Reel „Advent“ ist gedreht**, Jannik schneidet. **Einladung nach Korea bleibt geheim**, bis etwas Festes steht, auch nicht in koreanischen Posts.
