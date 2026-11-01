@@ -131,3 +131,9 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Neu: Nr. 176 (Rabattcode-Mail am 12.11.), 177 (Willkommens-Mail und Landingpage-Zeile anpassen), 178 (Rabattcode-Gutschein im Shop anlegen, Mama).
 - Übersicht: Zähler „Verkauf für alle (13.11.)“ und „Rabattcode endet (15.11.)“.
 - „Brief an die Zuschauer“: Formatidee aus Janniks Antworten vom 16.10. („gefällt“, Ideen noch zu sammeln). Skript Nr. 53 offen (Claude).
+
+## Stand laut Sheet (abgeglichen 2026-11-01)
+- Erledigt: **49 von 178** (31.10.: 35). Neu: Nr. 14, 37 (Landingpage), 39 (Bio-Links), 40 (Ankündigungsposts), 50 (Teaser-Clips), 54 (Storyboards Musikvideos; ❓ von wem erstellt, nicht in diesem Vault), 55 (Dreh-Block B), 57, 48, 163, 173, 175.
+- Überfällig (25), u. a.: Nr. 20 GEMA-Mail, 21 GEMA-Lizenz, 28 Werbeplan, 29 Teaser-Auswahl, 30 Werbebudget, 31 Teaser-Rechte, 52 AGB/Widerruf, 53 Skript Brief an die Zuschauer (Claude), 56 Videohoster, 58/59 Meta-Konto und Tracking, 61–63 Anzeigentexte/WhatsApp/Facebook, 157/158/160/161 Reel.
+- Heute fällig (1.11.): Nr. 60, 64, 65, 67.
+- Zähler im Sheet: Verkauf für alle in 12 Tagen (13.11.), Rabattcode endet in 14 Tagen, Start in 30 Tagen.
