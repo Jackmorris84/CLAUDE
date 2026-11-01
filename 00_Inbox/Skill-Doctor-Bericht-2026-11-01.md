@@ -45,3 +45,10 @@ tags: [claude-code, skills, kosten]
 
 ## Verknüpft mit
 - [[Token-Kosten-Claude-Code]]
+
+## Nachtrag 2026-11-01: Ergebnis
+- Entfernt in claude.ai (Einstellungen > Skills): google-workspace, deep-research, morning. Ersparnis laut Doctor ca. 650 Tokens pro Zug.
+- Übrig in der Skills-Liste: skill-creator, import-memory.
+- Die übrigen synchronisierten Skills (built-in-browser, chrome-browser, computer-use, docx, pptx, xlsx, pdf, docs) stehen nicht in der Liste und ließen sich nicht abschalten. ❓ unklar: ob sie an "Funktionen > Dateien erstellen und bearbeiten" bzw. "Claude in Chrome" hängen. Nicht geprüft.
+- Entscheidung: nicht weiter verfolgen. Die Restkosten sind im Cache gering, größere Hebel sind /clear und kein Modellwechsel mitten im Chat.
+- Offen: /skill-doctor nach /clear erneut ausführen und den neuen Stand prüfen.
