@@ -137,3 +137,10 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Überfällig (25), u. a.: Nr. 20 GEMA-Mail, 21 GEMA-Lizenz, 28 Werbeplan, 29 Teaser-Auswahl, 30 Werbebudget, 31 Teaser-Rechte, 52 AGB/Widerruf, 53 Skript Brief an die Zuschauer (Claude), 56 Videohoster, 58/59 Meta-Konto und Tracking, 61–63 Anzeigentexte/WhatsApp/Facebook, 157/158/160/161 Reel.
 - Heute fällig (1.11.): Nr. 60, 64, 65, 67.
 - Zähler im Sheet: Verkauf für alle in 12 Tagen (13.11.), Rabattcode endet in 14 Tagen, Start in 30 Tagen.
+
+## Stand laut Sheet (abgeglichen 2026-11-02)
+- Seit 1.11. im Sheet nichts Neues abgehakt (Nr. 60, 64, 65, 67 weiter „offen“). ❓ Janniks Rückmeldung zu gestern steht aus.
+- Heute fällig (2.11.): Nr. 68 Dreh-Block C, Nr. 69 GEMA/Label nachfassen. Morgen: Nr. 70 Teilnahmebedingungen.
+- Überfällig (25): Nr. 20, 21, 28, 29, 30, 31, 41, 52, 53 (Claude), 56, 58, 59, 60, 61, 62, 63, 64, 65, 67, 157, 158, 159, 160, 161, 162.
+- Termine: 11 Tage bis Verkauf für alle (13.11.), 13 Tage bis Rabattcode-Ende (15.11.), 29 Tage bis Start (1.12.).
+- Nächster Schritt: [[Adventskalender-Naechster-Schritt-2026-11-01]].
