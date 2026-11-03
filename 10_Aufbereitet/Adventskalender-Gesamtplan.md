@@ -144,3 +144,10 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Überfällig (25): Nr. 20, 21, 28, 29, 30, 31, 41, 52, 53 (Claude), 56, 58, 59, 60, 61, 62, 63, 64, 65, 67, 157, 158, 159, 160, 161, 162.
 - Termine: 11 Tage bis Verkauf für alle (13.11.), 13 Tage bis Rabattcode-Ende (15.11.), 29 Tage bis Start (1.12.).
 - Nächster Schritt: [[Adventskalender-Naechster-Schritt-2026-11-01]].
+
+## Stand laut Sheet (abgeglichen 2026-11-03)
+- Neu seit 2.11.: erledigt Nr. 63 (Facebook-Launch-Post), 70 (Teilnahmebedingungen, Platzhalter), 164 (Reel mit koreanischer Übersetzung ❓ Herr Lee/Korea-Einladung bleibt geheim, nichts davon in Posts). In Arbeit gesetzt: Nr. 64, 65, 68, 69, 73.
+- Heute (3.11.) ist keine Frist offen. Morgen (4.11.): Nr. 71 Dreh-Block D, 177 Willkommens-Mail/Landingpage-Zeile (Claude).
+- Überfällig (27): Nr. 20, 21, 28, 29, 30, 31, 41, 52, 53 (Claude), 56, 58, 59, 60, 61, 62, 64, 65, 67, 68, 69, 79, 157, 158, 159, 160, 161, 162.
+- Termine: 10 Tage bis Verkauf für alle (13.11.), 12 Tage bis Rabattcode-Ende (15.11.), 28 Tage bis Start (1.12.).
+- WhatsApp-Broadcast (Nr. 62): Einschätzung in [[Adventskalender-WhatsApp-Broadcast-Einschaetzung]].
