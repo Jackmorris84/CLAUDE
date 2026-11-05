@@ -151,3 +151,12 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Überfällig (27): Nr. 20, 21, 28, 29, 30, 31, 41, 52, 53 (Claude), 56, 58, 59, 60, 61, 62, 64, 65, 67, 68, 69, 79, 157, 158, 159, 160, 161, 162.
 - Termine: 10 Tage bis Verkauf für alle (13.11.), 12 Tage bis Rabattcode-Ende (15.11.), 28 Tage bis Start (1.12.).
 - WhatsApp-Broadcast (Nr. 62): Einschätzung in [[Adventskalender-WhatsApp-Broadcast-Einschaetzung]].
+
+## Stand laut Sheet (abgeglichen 2026-11-05)
+- Erledigt: **65 von 178** (1.11.: 49). Überfällig: 24. Termine: 8 Tage bis Verkauf für alle (13.11.), 10 Tage bis Rabattcode-Ende (15.11.), 26 Tage bis Start (1.12.).
+- Seit 3.11. nicht mehr überfällig (erledigt): Nr. 20, 21 (GEMA-Mails), 41 (Rechtsprüfung), 52 (AGB/Widerruf), 69, 159, 162. Weiter erledigt: 72 (EN-Landingpage/Mails), 73 (Cron-Job), 74 (Bestände), 76, 78, 84, 89 (KO-Landingpage/Mails, Entwurf Claude), 177 (Willkommens-Mail).
+- **Heute fällig (5.11.):** Nr. 36 Bestellmail mit Zugangslink (Frist schon einmal verschoben, Blocker für Testkauf Nr. 46 am 8.11.). Morgen (6.11.): Nr. 66 Higgsfield, 75 Dreh-Block E, 77 Behind-the-Scenes.
+- **Überfällig, Kern:** Nr. 174 (Zugang nur für Warteliste/Gutschein, in Arbeit), 157/158/160/161 (Reel „Advent“), 28/29/30/31 (Werbeplan, Teaser, Budget, Teaser-Rechte), 56 (Videohoster), 58/59 (Meta-Konto, Tracking), 60, 61, 64, 65, 67, 68, 71, 79, 51, 62, 53 (Claude: Skript „Brief an die Zuschauer“), 166 (ManyChat, verschoben; laut Nr. 159 wird ManyChat nicht gekauft ❓ Zeile schließen?).
+- Vor dem 12./13.11.: Nr. 178 Gutschein im Shop anlegen (Mama, Code **PANADVENT26** wie in den Mails 3/4, 25 € Endpreis, 13.–15.11.), Nr. 176 Rabattcode-Mail 12.11.
+- Mails 2 und 3 der Warteliste (DE/EN/KO) neu gefasst: [[Adventskalender-Mails-Warteliste-Mail2-3-Korrektur]].
+- ❓ Die Erinnerung vom 4.11. kam erst am 5.11. an. Janniks Rückmeldungen seit gestern stehen aus (siehe Fragen im Chat); bis dahin nichts abgehakt.
