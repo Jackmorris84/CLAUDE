@@ -160,3 +160,11 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Vor dem 12./13.11.: Nr. 178 Gutschein im Shop anlegen (Mama, Code **PANADVENT26** wie in den Mails 3/4, 25 € Endpreis, 13.–15.11.), Nr. 176 Rabattcode-Mail 12.11.
 - Mails 2 und 3 der Warteliste (DE/EN/KO) neu gefasst: [[Adventskalender-Mails-Warteliste-Mail2-3-Korrektur]].
 - ❓ Die Erinnerung vom 4.11. kam erst am 5.11. an. Janniks Rückmeldungen seit gestern stehen aus (siehe Fragen im Chat); bis dahin nichts abgehakt.
+
+## Stand laut Sheet (abgeglichen 2026-11-06)
+- Erledigt: **65 von 178**, unverändert zum 5.11. Überfällig: **25** (gestern 24). Termine: 7 Tage bis Verkauf für alle (13.11.), 9 Tage bis Rabattcode-Ende (15.11.), 25 Tage bis Start (1.12.).
+- Seit gestern im Sheet nichts abgehakt. Neu überfällig: **Nr. 36** (Bestellmail mit Zugangslink, Frist 5.11., schon einmal verschoben). Blockiert Testkauf Nr. 46 (So 8.11.).
+- Heute fällig (6.11.): Nr. 75 Dreh-Block E (in Arbeit), 66 Higgsfield-Test, 77 Behind-the-Scenes-Clips. Bald fällig: 46, 80, 81, 82, 83, 85 (So 8.11.), 86, 87 (Mo 9.11.).
+- Offene Blocker (jeden Tag erneut): Nr. 36, 174 (Zugang/Gutschein), 178 (Gutschein PANADVENT26, Mama), Reel „Advent“ (157/158/160/161), Entscheidungen 28–31, 56, 58, 59.
+- Claude-Anteil offen: Nr. 53 (Skript „Brief an die Zuschauer“), 176 (Entwurf Rabattcode-Mail liegt vor: [[Adventskalender-Mail-Rabattcode]]), 81 (Kalenderseite mit Umsetzer).
+- ❓ Janniks Rückmeldungen auf die Fragen vom 5.11. stehen aus; deshalb nichts im Vault abgehakt.
