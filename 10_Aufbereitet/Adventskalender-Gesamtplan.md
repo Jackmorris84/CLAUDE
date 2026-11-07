@@ -168,3 +168,10 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Offene Blocker (jeden Tag erneut): Nr. 36, 174 (Zugang/Gutschein), 178 (Gutschein PANADVENT26, Mama), Reel „Advent“ (157/158/160/161), Entscheidungen 28–31, 56, 58, 59.
 - Claude-Anteil offen: Nr. 53 (Skript „Brief an die Zuschauer“), 176 (Entwurf Rabattcode-Mail liegt vor: [[Adventskalender-Mail-Rabattcode]]), 81 (Kalenderseite mit Umsetzer).
 - ❓ Janniks Rückmeldungen auf die Fragen vom 5.11. stehen aus; deshalb nichts im Vault abgehakt.
+
+## Stand laut Sheet (abgeglichen 2026-11-07)
+- Erledigt: **65 von 178**, seit 5.11. unverändert (keine Statusänderung seit 2 Tagen). Überfällig: **28** (6.11.: 25). Termine: 6 Tage bis Verkauf für alle (13.11.), 8 Tage bis Rabattcode-Ende (15.11.), 24 Tage bis Start (1.12.).
+- Neu überfällig seit gestern: Nr. 66 (Higgsfield-Test), 77 (Behind-the-Scenes-Clips), 75 (Dreh-Block E, weiter „in Arbeit“).
+- Heute (Sa 7.11.) hat keine Aufgabe eine Frist. Morgen (So 8.11.) fällig: Nr. 46 Testkauf, 80 Schnitt Lied-Videos, 81 Kalenderseite, 82 Stand-Check mit den Eltern, 83 Kampagnen-Auswertung, 85 Koreanisch-Pilot. Nr. 46 hängt an Nr. 36 (Bestellmail, offen).
+- Blocker weiter offen: Nr. 36, 174, 178, Reel „Advent“ (157/158/160/161), Entscheidungen 28–31, 56, 58, 59.
+- ❓ Janniks Rückmeldungen auf die Fragen vom 5. und 6.11. fehlen; im Vault nichts abgehakt.
