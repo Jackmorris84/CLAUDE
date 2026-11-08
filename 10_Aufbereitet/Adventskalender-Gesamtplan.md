@@ -175,3 +175,9 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Heute (Sa 7.11.) hat keine Aufgabe eine Frist. Morgen (So 8.11.) fällig: Nr. 46 Testkauf, 80 Schnitt Lied-Videos, 81 Kalenderseite, 82 Stand-Check mit den Eltern, 83 Kampagnen-Auswertung, 85 Koreanisch-Pilot. Nr. 46 hängt an Nr. 36 (Bestellmail, offen).
 - Blocker weiter offen: Nr. 36, 174, 178, Reel „Advent“ (157/158/160/161), Entscheidungen 28–31, 56, 58, 59.
 - ❓ Janniks Rückmeldungen auf die Fragen vom 5. und 6.11. fehlen; im Vault nichts abgehakt.
+
+## Stand laut Sheet (abgeglichen 2026-11-08)
+- Erledigt: **66 von 178** (7.11.: 65). Neu: **Nr. 79** (Lokale Presse / Panflöten-Community angeschrieben). Überfällig: **27** (7.11.: 28). Termine: 5 Tage bis Verkauf für alle (13.11.), 7 Tage bis Rabattcode-Ende (15.11.), 23 Tage bis Start (1.12.).
+- Heute (So 8.11.) fällig: Nr. 46 Testkauf, 80 Schnitt Lied-Videos, 81 Kalenderseite (Claude + Umsetzer), 82 Stand-Check mit den Eltern, 83 Kampagnen-Auswertung, 85 Koreanisch-Pilot. Morgen: Nr. 86, 87; Start Nr. 178 (Gutschein, Mama).
+- Blocker weiter offen: Nr. 36 (blockiert Testkauf Nr. 46), 174, 178, Reel „Advent“ (157/158/160/161), Entscheidungen 28–31, 56, 58, 59.
+- ❓ Janniks Rückmeldungen auf die Fragen vom 5. bis 7.11. fehlen; außer Nr. 79 (aus dem Sheet) im Vault nichts abgehakt.
