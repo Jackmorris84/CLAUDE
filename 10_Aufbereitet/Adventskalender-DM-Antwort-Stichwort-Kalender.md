@@ -47,3 +47,8 @@ Jemand hat statt „Advent“ das Wort „Kalender“ kommentiert. Antwort im St
 > 감사합니다! 🎄 대기 명단 링크를 메시지로 보내 드렸어요. 메시지 요청함도 확인해 주세요.
 
 ❓ Von einer Muttersprachlerin prüfen lassen (Beschluss Nr. 169/172). Link zur koreanischen Wartelisten-Seite von Jannik (9.11.): https://www.davids-panparadies.de/adventskalender-ko/ (eingetragen). Einladung nach Korea bleibt geheim, nicht erwähnen.
+
+## Öffentliche Antwort Koreanisch, Variante „als persönliche Nachricht geschickt“ (2026-11-09)
+> 대기 명단 링크를 개인 메시지로 보내 드렸습니다. 🎄
+Kürzer: > 대기 명단 링크를 개인 메시지로 보내 드렸어요! 🎄
+Deutsch: „Ich habe dir den Link zur Warteliste als persönliche Nachricht geschickt.“ ❓ Muttersprachlerin prüfen lassen.
