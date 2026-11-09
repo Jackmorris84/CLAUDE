@@ -12,13 +12,13 @@ tags: [adventskalender, texte, instagram, warteliste, direktnachricht]
 Jemand hat statt „Advent“ das Wort „Kalender“ kommentiert. Antwort im Stil einer automatischen Nachricht (Dank für den Kommentar + Wartelisten-Link). Die Texte folgen den vorhandenen Bausteinen in [[Adventskalender-Kommentar-Automatisierung-Texte]] und nennen den Rabattcode bis 13.11. wie in [[Adventskalender-Launchposts-Warteliste]].
 
 ## Direktnachricht (Hauptfassung)
-> Hey {Vorname}, danke für deinen Kommentar! 🎄
+> Hey, danke für deinen Kommentar! 🎄
 > Hier ist der Link zur Warteliste für meinen Adventskalender: https://www.davids-panparadies.de/adventskalender-warteliste/
 > Trag dich mit Name und E-Mail ein und bestätige die Mail, die du von mir bekommst. Wer sich bis zum 13. November einträgt, bekommt einen Rabattcode. Vom 1. bis 24. Dezember öffnet sich dann jeden Tag ein Türchen.
 > Herzliche Grüße, David
 
 ## Kurzfassung
-> Hey {Vorname}, danke für deinen Kommentar! 🎄 Hier ist der Link zur Warteliste: https://www.davids-panparadies.de/adventskalender-warteliste/ Trag dich bis zum 13. November ein und sichere dir deinen Rabattcode. Dein David
+> Hey, danke für deinen Kommentar! 🎄 Hier ist der Link zur Warteliste: https://www.davids-panparadies.de/adventskalender-warteliste/ Trag dich bis zum 13. November ein und sichere dir deinen Rabattcode. Dein David
 
 ## Öffentliche Antwort unter dem Kommentar
 > Danke dir! 🎄 Der Link zur Warteliste ist unterwegs, schau auch bei den Nachrichtenanfragen nach.
@@ -28,7 +28,7 @@ Jemand hat statt „Advent“ das Wort „Kalender“ kommentiert. Antwort im St
 - ❓ Datenschutz-Link in der Nachricht fehlt weiter (siehe Nr. 175 im Sheet: liegt auf der Website).
 - ❓ Ob der Satz „Wer sich bis zum 13. November einträgt…“ noch passt, wenn die Nachricht nach dem 13.11. geschickt wird: dann Rabattsatz streichen.
 - Kein Wort zu Gewinnspiel/Verlosung (Regel aus den Reel-Texten).
-- Namen der Person nur einsetzen, wenn bekannt, sonst „Hey,“.
+- Ohne Vornamen, einfach „Hey,“ (Jannik, 9.11.).
 
 ## Verknüpft mit
 - [[Adventskalender-Kommentar-Automatisierung-Texte]]
