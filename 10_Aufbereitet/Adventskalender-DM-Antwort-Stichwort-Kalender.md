@@ -36,14 +36,14 @@ Jemand hat statt „Advent“ das Wort „Kalender“ kommentiert. Antwort im St
 
 ## Koreanische Fassung (Entwurf Claude, 2026-11-09)
 > 안녕하세요, 댓글 남겨 주셔서 감사합니다! 🎄
-> 제 대림절 캘린더 대기 명단 링크입니다: https://www.davids-panparadies.de/adventskalender-warteliste/
+> 제 대림절 캘린더 대기 명단 링크입니다: https://www.davids-panparadies.de/adventskalender-ko/
 > 이름과 이메일을 입력하시고, 제가 보내 드리는 확인 메일에서 인증해 주세요. 11월 13일까지 등록하시면 할인 코드를 받으실 수 있습니다. 12월 1일부터 24일까지 매일 하나씩 문이 열립니다.
 > 따뜻한 인사를 담아, 다비드 드림
 
 **Kurzfassung:**
-> 안녕하세요, 댓글 감사합니다! 🎄 대기 명단 링크입니다: https://www.davids-panparadies.de/adventskalender-warteliste/ 11월 13일까지 등록하시고 할인 코드를 받아 가세요. 다비드 드림
+> 안녕하세요, 댓글 감사합니다! 🎄 대기 명단 링크입니다: https://www.davids-panparadies.de/adventskalender-ko/ 11월 13일까지 등록하시고 할인 코드를 받아 가세요. 다비드 드림
 
 **Öffentliche Antwort:**
 > 감사합니다! 🎄 대기 명단 링크를 메시지로 보내 드렸어요. 메시지 요청함도 확인해 주세요.
 
-❓ Von einer Muttersprachlerin prüfen lassen (Beschluss Nr. 169/172). ❓ Es gibt eine eigene koreanische Wartelisten-Seite (Liste „Warteliste KO“, Sheet Nr. 171); der Link oben ist die deutsche Seite. Korea-Link von Jannik eintragen. Einladung nach Korea bleibt geheim, nicht erwähnen.
+❓ Von einer Muttersprachlerin prüfen lassen (Beschluss Nr. 169/172). Link zur koreanischen Wartelisten-Seite von Jannik (9.11.): https://www.davids-panparadies.de/adventskalender-ko/ (eingetragen). Einladung nach Korea bleibt geheim, nicht erwähnen.
