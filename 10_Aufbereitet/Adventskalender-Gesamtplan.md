@@ -181,3 +181,10 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Heute (So 8.11.) fällig: Nr. 46 Testkauf, 80 Schnitt Lied-Videos, 81 Kalenderseite (Claude + Umsetzer), 82 Stand-Check mit den Eltern, 83 Kampagnen-Auswertung, 85 Koreanisch-Pilot. Morgen: Nr. 86, 87; Start Nr. 178 (Gutschein, Mama).
 - Blocker weiter offen: Nr. 36 (blockiert Testkauf Nr. 46), 174, 178, Reel „Advent“ (157/158/160/161), Entscheidungen 28–31, 56, 58, 59.
 - ❓ Janniks Rückmeldungen auf die Fragen vom 5. bis 7.11. fehlen; außer Nr. 79 (aus dem Sheet) im Vault nichts abgehakt.
+
+## Stand laut Sheet (abgeglichen 2026-11-09)
+- Erledigt: **66 von 178**, seit 8.11. unverändert. Überfällig: **33** (8.11.: 27). Termine: 4 Tage bis Verkauf für alle (13.11.), 6 Tage bis Rabattcode-Ende (15.11.), 22 Tage bis Start (1.12.).
+- Neu überfällig seit gestern (Frist 8.11., weiter offen): Nr. 46 Testkauf, 80 Schnitt Lied-Videos, 81 Kalenderseite, 82 Stand-Check mit den Eltern, 83 Kampagnen-Auswertung, 85 Koreanisch-Pilot.
+- Heute (Mo 9.11.) fällig: Nr. 86 Higgsfield-Clips (hängt an Nr. 66), 87 Kanäle Korea/USA (Mama + Jannik). Start Nr. 178 (Gutschein im Shop, Frist Do 12.11.). Dienstag 10.11.: Nr. 88 Zugriffsprüfung, Mittwoch 11.11.: Nr. 90.
+- Kritischer Pfad bis 13.11.: Nr. 36 (Bestellmail, offen seit 5.11.) → Nr. 46 Testkauf; Nr. 178 Gutschein PANADVENT26 → Nr. 176 Code-Mail am 12.11.; Nr. 174 Zugang nur für die Warteliste.
+- ❓ Janniks Rückmeldungen auf die Fragen vom 5. bis 8.11. fehlen weiter; im Vault nichts abgehakt.
