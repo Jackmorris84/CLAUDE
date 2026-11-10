@@ -188,3 +188,10 @@ Google-Sheets-Verbindung verlangt eine neue Anmeldung („needs you to sign in a
 - Heute (Mo 9.11.) fällig: Nr. 86 Higgsfield-Clips (hängt an Nr. 66), 87 Kanäle Korea/USA (Mama + Jannik). Start Nr. 178 (Gutschein im Shop, Frist Do 12.11.). Dienstag 10.11.: Nr. 88 Zugriffsprüfung, Mittwoch 11.11.: Nr. 90.
 - Kritischer Pfad bis 13.11.: Nr. 36 (Bestellmail, offen seit 5.11.) → Nr. 46 Testkauf; Nr. 178 Gutschein PANADVENT26 → Nr. 176 Code-Mail am 12.11.; Nr. 174 Zugang nur für die Warteliste.
 - ❓ Janniks Rückmeldungen auf die Fragen vom 5. bis 8.11. fehlen weiter; im Vault nichts abgehakt.
+
+## Stand 2026-11-10 (Sheet nicht lesbar)
+- ❓ Die Google-Sheets-Verbindung war in dieser Sitzung nicht verfügbar. Es gibt **keinen neuen Abgleich**; Stand bleibt der vom 9.11. (66 von 178 erledigt, 33 überfällig). Sobald das Sheet wieder verbunden ist, gleicht Claude ab.
+- Termine: 3 Tage bis Verkauf für alle (13.11.), 5 Tage bis Rabattcode-Ende (15.11.), 21 Tage bis Start (1.12.).
+- Laut Plan heute (Di 10.11.) fällig: Nr. 88 Zugriffsprüfung auf dem Server (Umsetzer). Frist Do 12.11.: Nr. 178 Gutschein PANADVENT26 (Mama), 176 Code-Mail, 167, 91, 92, 93, 94. Mi 11.11.: Nr. 90 („Noch 4 Tage Early Bird“-Mail; ❓ passt nicht mehr zum Modell mit Rabattcode, Wortlaut anpassen oder streichen).
+- Neu erarbeitet: DM-Text für Kommentar „Kalender“ (DE/KO): [[Adventskalender-DM-Antwort-Stichwort-Kalender]]. Koreanischer Wartelisten-Link: https://www.davids-panparadies.de/adventskalender-ko/
+- Blocker weiter offen (letzter Stand): Nr. 36, 174, 178, Reel „Advent“ (157/158/160/161), 46 Testkauf, Entscheidungen 28–31, 56, 58, 59. Rückmeldungen von Jannik stehen weiter aus.
