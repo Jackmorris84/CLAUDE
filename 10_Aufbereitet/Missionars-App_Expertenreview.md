@@ -314,3 +314,10 @@ Weitere (später):
 - Variante B: Ein Anruf verschiebt die Ampel um einen halben Schritt (z. B. Rot → Orange), nie auf Grün.
 - Empfehlung: A mit Wochenfortschritt „x,5 von n". Einfach, nachvollziehbar.
 - Offen: Gilt das auch für Prioritätenschüler? Zählen Textnachrichten (vermutlich nein)?
+
+### Nachtrag Entscheidungen (2026-11-11)
+- **Verantwortlicher:** Jeder Missionar für seine eigenen Schüler. Folgen: Einwilligung und Information der Schüler liegen beim jeweiligen Missionar; App liefert Mustertext, Export und Löschfunktion; Datentrennung pro Missionar bleibt zentral. ❓ unklar: Ob die Organisation trotzdem Vorgaben hat – kurz nachfragen.
+- **Anruf:** Wird vermerkt (Kontaktart „Anruf"), im Wochenbericht zusätzlich angezeigt, **zählt nicht als Treffen** (nicht im Wochenfortschritt). Wirkung auf die Ampel: **eine halbe Stufe besser, nie bis Grün** (z. B. Rot → Orange). Gilt für Anrufe seit dem letzten Treffen; nach dem nächsten Treffen zurückgesetzt.
+- **Textnachrichten:** zählen nicht.
+- ❓ unklar: Prioritätenschüler haben kein Orange (Grün/Gelb/Rot). Vorschlag: Rot → Gelb bei Anruf, oder Prio bekommt ebenfalls vier Stufen (siehe 2.1 Punkt 3).
+- ❓ unklar: Hält die Halbstufe unbegrenzt oder nur z. B. 7 Tage nach dem Anruf? Vorschlag: einmalig, danach läuft die Ampel normal weiter.
