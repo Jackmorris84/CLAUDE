@@ -293,3 +293,24 @@ Weitere (später):
 
 ## Verknüpft mit
 - [[Second-Brain-Guide]]
+
+---
+
+## 11. Entscheidungen (Stand 2026-11-11)
+
+| # | Frage | Entscheidung | Folge |
+|---|---|---|---|
+| 1 | Nutzerkreis | Nur ein paar Missionare | Google-Testmodus reicht (max. 100 Nutzer, Nutzer als Testnutzer eintragen); Kosten klein; kein Verifizierungsaufwand |
+| 2 | Verantwortlicher | Jannik ist nicht der Verantwortliche der Organisation | ❓ unklar: Wer ist es dann (Organisation oder jeder Missionar selbst)? Vor echten Schülerdaten klären |
+| 3 | Minderjährige | Nein | Keine Eltern-Einwilligung nötig; Einwilligung der Schüler selbst bleibt (Art. 9) |
+| 4 | Treffen vs. Anruf | Anruf zählt nicht als Treffen, wird aber vermerkt; zählt „0.5" | Kontaktart als Feld (Treffen / Anruf). ❓ unklar: Wie wirkt 0.5 auf die Ampel? (siehe unten) |
+| 5 | Ampel Rolling-Tage + Wochenfortschritt Kalenderwoche | Ja | wie empfohlen |
+| 6 | Bericht: 1 Pflichtfeld | Ja | wie empfohlen |
+| 7 | Smartphones | Beides (iPhone + Android) | iOS-Push-Spike in Phase 0 Pflicht; PWA muss zum Home-Bildschirm hinzugefügt werden |
+| 8 | Google Calendar | Erst Phase 2 | Phase 1 mit internem Kalender |
+
+### Offen aus Entscheidung 4 (Vorschlag)
+- Variante A: Ein Anruf setzt die Ampel **nicht** zurück, zeigt aber „Kontakt per Anruf vor X Tagen"; zwei Anrufe in einer Woche zählen als ein Treffen für den Wochenfortschritt (0.5 + 0.5).
+- Variante B: Ein Anruf verschiebt die Ampel um einen halben Schritt (z. B. Rot → Orange), nie auf Grün.
+- Empfehlung: A mit Wochenfortschritt „x,5 von n". Einfach, nachvollziehbar.
+- Offen: Gilt das auch für Prioritätenschüler? Zählen Textnachrichten (vermutlich nein)?
