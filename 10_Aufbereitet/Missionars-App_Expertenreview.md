@@ -323,3 +323,5 @@ Weitere (später):
 - ❓ unklar: Hält die Halbstufe unbegrenzt oder nur z. B. 7 Tage nach dem Anruf? Vorschlag: einmalig, danach läuft die Ampel normal weiter.
 - **Entscheidung Prio-Ampel:** Prioritätenschüler bekommen ebenfalls vier Stufen (Grün/Gelb/Orange/Rot). Damit ersetzt dies die Frage oben. Vorschlag Schwellen: Grün bis 4 Tage, Gelb 5, Orange 6, Rot ab 7 – ❓ unklar: bitte bestätigen (ursprünglich: Gelb ab 5, Rot ab 6). Anruf-Regel gilt gleich (eine halbe Stufe besser, nie Grün).
 - **Entscheidung Anruf-Verbesserung:** einmalig. Die halbe Stufe gilt einmal, danach läuft die Ampel normal weiter; nach dem nächsten Treffen ist alles zurückgesetzt.
+- **Bestätigt (2026-11-12):** Prio-Schwellen Grün bis 4 Tage, Gelb 5, Orange 6, Rot ab 7.
+- **Bestätigt (als Defaults, einstellbar):** Zufallsfenster für Erinnerungen 08:00–21:30; Abendhinweis für fehlenden Prio-Bericht 20:30. Tageslimit für Zufallsimpulse: Vorschlag max. 3 pro Tag – ❓ unklar: noch nicht ausdrücklich bestätigt.
