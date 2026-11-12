@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>Musikalische Adventszeit – Produktvideo</title>
+<link rel="stylesheet" href="vendor/noto-kr/600.css">
 <style>
+  .ko #head, .ko #end { font-family: Mont, 'Noto Sans KR', sans-serif; word-break: keep-all; }
   @font-face { font-family: Mont; font-weight: 600; src: url(vendor/montserrat-600.woff2) format('woff2'); }
   html, body { margin: 0; background: #000; }
   #frame {
@@ -118,6 +120,14 @@ const additive = (map, color, extra = {}) => new THREE.SpriteMaterial({ map, col
 
 /* ---------- assets ---------- */
 await document.fonts.load('600 60px Mont');
+/* ?lang=ko renders the Korean version; the photos stay as they are */
+const LANG = new URLSearchParams(location.search).get('lang') || 'de';
+if (LANG === 'ko') {
+  document.getElementById('frame').classList.add('ko');
+  document.getElementById('head').innerHTML = '팬플루트 음악과 개인적인 이야기가 가득한 <b>24개의 문</b>';
+  document.getElementById('end').innerHTML = '<b>13일까지</b> 대기자 명단에 등록하고 <b>쿠폰 코드</b>를 받으세요.';
+  await document.fonts.load('600 60px "Noto Sans KR"', document.getElementById('head').textContent + document.getElementById('end').textContent);
+}
 const [frontTex, stillImgs, shotImg] = await Promise.all([
   load('assets/front.jpg'),
   Promise.all([1, 2, 3, 4, 5, 6].map(i => loadImg(`assets/still${i}.png`))),

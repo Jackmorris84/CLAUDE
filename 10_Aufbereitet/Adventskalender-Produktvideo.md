@@ -18,6 +18,8 @@ Für den digitalen Adventskalender „Musikalische Adventszeit" gibt es ein 23-S
 - In der Video-Wand wurden Bild 1 und 3 auf meinen Wunsch durch „Maria durch ein Dornwald" und „Süßer die Glocken nie klingen" ersetzt.
 - Die Standbilder stammen aus der Video-Übersicht (je 400x224 Pixel, mit Laufzeit-Marke) und wirken groß gezeigt leicht unscharf.
 - Neu rendern: im Projektordner einen lokalen Webserver auf Port 8765 starten, dann `render.js` mit Playwright ausführen und die Einzelbilder mit ffmpeg zusammensetzen. `reel.html` zeichnet über `window.seek(t)` für jede Sekunde t immer dasselbe Bild.
+- Koreanische Fassung: `produktvideo-ko.mp4` (ohne Ton) und `produktvideo-ko-mit-musik.mp4`. Übersetzt sind nur die beiden eingeblendeten Sätze: „팬플루트 음악과 개인적인 이야기가 가득한 24개의 문" und „13일까지 대기자 명단에 등록하고 쿠폰 코드를 받으세요." Kalenderbild und Screenshot bleiben deutsch. Rendern mit `reel.html?lang=ko`.
+- ❓ unklar: Die koreanischen Sätze sind von Claude übersetzt und nicht von einer Muttersprachlerin oder einem Muttersprachler geprüft.
 
 ## Wann brauche ich das?
 - Wenn ich das Video posten oder im Shop einsetzen will.
