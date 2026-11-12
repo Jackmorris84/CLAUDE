@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Musikalische Adventszeit – Produktvideo</title>
+<style>
+  @font-face { font-family: Mont; font-weight: 600; src: url(vendor/montserrat-600.woff2) format('woff2'); }
+  html, body { margin: 0; background: #000; }
+  #frame {
+    position: relative; width: 1080px; height: 1920px; overflow: hidden;
+    background: radial-gradient(ellipse 95% 62% at 50% 47%, #43200f 0%, #1c0c06 52%, #060202 100%);
+  }
+  canvas { position: absolute; inset: 0; }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse 88% 78% at 50% 50%, transparent 52%, rgba(0,0,0,.7) 100%); }
+  #head {
+    position: absolute; left: 90px; right: 90px; top: 300px; text-align: center;
+    font: 600 60px/1.28 Mont, sans-serif; color: #f7ecd6; opacity: 0;
+    text-shadow: 0 4px 30px rgba(0,0,0,.6);
+  }
+  #head b { color: #e6bd6c; font-weight: 600; }
+  #flash, #fade { position: absolute; inset: 0; opacity: 0; }
+  #flash { background: #fff1d6; }
+  #fade { background: #000; }
+</style>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js" } }</script>
+</head>
+<body>
+<div id="frame">
+  <div id="vig"></div>
+  <div id="head"><b>24 Türchen</b> voller Panflötenmusik und persönlicher Geschichten</div>
+  <div id="flash"></div>
+  <div id="fade"></div>
+</div>
+<script type="module">
+import * as THREE from 'three';
+
+/* ------------------------------------------------------------------
+   Produktvideo "Musikalische Adventszeit", 1080x1920, 20 s bei 30 fps.
+   window.seek(t) zeichnet das Bild für die Sekunde t. Gleiche t, gleiches Bild:
+   keine Timer, keine CSS-Animationen, Zufall nur mit festem Startwert.
+   Alle Fotos werden unverändert als Texturen verwendet.
+------------------------------------------------------------------- */
+const DURATION = 20, FPS = 30;
+const CUT1 = 11.6, CUT2 = 15.6, CUT3 = 18.0;
+
+const frame = document.getElementById('frame');
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+renderer.setSize(1080, 1920, false);
+renderer.setClearColor(0x000000, 0);
+frame.prepend(renderer.domElement);
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(30, 1080 / 1920, 0.3, 120);
+
+/* ---------- helpers ---------- */
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const out3 = x => 1 - Math.pow(1 - x, 3);
+const inOut = x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const lerp = (a, b, x) => a + (b - a) * x;
+function rng(seed) { return () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296); }
+
+const loader = new THREE.TextureLoader();
+const load = url => new Promise((res, rej) => loader.load(url, t => { t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 16; res(t); }, undefined, rej));
+const loadImg = url => new Promise((res, rej) => { const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = url; });
+
+function canvasTex(w, h, draw) {
+  const c = document.createElement('canvas'); c.width = w; c.height = h;
+  draw(c.getContext('2d'), w, h);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 16;
+  return t;
+}
+function roundRect(ctx, x, y, w, h, r) {
+  ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath();
+}
+/* a photo on a thin cream card with rounded corners; the photo pixels themselves are untouched */
+function cardTexture(img, pad, radius, scale = 2) {
+  const w = img.width + pad * 2, h = img.height + pad * 2;
+  return canvasTex(w * scale, h * scale, ctx => {
+    ctx.scale(scale, scale);
+    ctx.imageSmoothingQuality = 'high';
+    roundRect(ctx, 0, 0, w, h, radius + pad); ctx.fillStyle = '#f4e6c8'; ctx.fill();
+    ctx.save(); roundRect(ctx, pad, pad, img.width, img.height, radius); ctx.clip();
+    ctx.drawImage(img, pad, pad); ctx.restore();
+  });
+}
+const glowTex = canvasTex(256, 256, (ctx, w) => {
+  const g = ctx.createRadialGradient(w / 2, w / 2, 0, w / 2, w / 2, w / 2);
+  g.addColorStop(0, 'rgba(255,255,255,1)'); g.addColorStop(0.25, 'rgba(255,255,255,.55)');
+  g.addColorStop(0.6, 'rgba(255,255,255,.12)'); g.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, w);
+});
+const streakTex = canvasTex(512, 64, (ctx, w, h) => {
+  const g = ctx.createLinearGradient(0, 0, w, 0);
+  g.addColorStop(0, 'rgba(255,255,255,0)'); g.addColorStop(0.5, 'rgba(255,255,255,1)'); g.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+  const v = ctx.createLinearGradient(0, 0, 0, h);
+  v.addColorStop(0, 'rgba(0,0,0,1)'); v.addColorStop(0.5, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,1)');
+  ctx.globalCompositeOperation = 'destination-out'; ctx.fillStyle = v; ctx.fillRect(0, 0, w, h);
+});
+const sweepTex = canvasTex(1024, 4, (ctx, w, h) => {
+  const g = ctx.createLinearGradient(0, 0, w, 0);
+  g.addColorStop(0.40, 'rgba(255,255,255,0)'); g.addColorStop(0.5, 'rgba(255,244,220,.55)'); g.addColorStop(0.60, 'rgba(255,255,255,0)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+});
+sweepTex.center.set(0.5, 0.5); sweepTex.rotation = 0.38;
+
+const additive = (map, color, extra = {}) => new THREE.SpriteMaterial({ map, color, transparent: true, opacity: 0, blending: THREE.AdditiveBlending, depthWrite: false, depthTest: false, ...extra });
+
+/* ---------- assets ---------- */
+await document.fonts.load('600 60px Mont');
+const [frontTex, stillImgs, shotImg] = await Promise.all([
+  load('assets/front.jpg'),
+  Promise.all([1, 2, 3, 4, 5, 6].map(i => loadImg(`assets/still${i}.png`))),
+  loadImg('assets/kalender-screenshot.png'),
+]);
+
+/* ---------- lights ---------- */
+const ambient = new THREE.AmbientLight(0xffffff, 1.35);
+const keyLight = new THREE.DirectionalLight(0xffffff, 1.7);
+keyLight.position.set(0.5, 2.5, 10);
+const leftLight = new THREE.DirectionalLight(0xffb45a, 0);   // warm, from the left
+leftLight.position.set(-10, 1.5, 3.5);
+const rightLight = new THREE.DirectionalLight(0xa9c8ff, 0);  // cool, from the right
+rightLight.position.set(10, 2, 3.5);
+scene.add(ambient, keyLight, leftLight, rightLight);
+
+/* ---------- backdrop: drifting golden bokeh, always behind the product ---------- */
+const BOKEH = 170, rnd = rng(24);
+const bokehBase = [];
+for (let i = 0; i < BOKEH; i++) bokehBase.push([lerp(-9, 9, rnd()), lerp(-11, 11, rnd()), lerp(-22, -3, rnd()), 0.15 + rnd() * 0.5, rnd() * 6.283]);
+const bokehGeo = new THREE.BufferGeometry();
+bokehGeo.setAttribute('position', new THREE.Float32BufferAttribute(new Float32Array(BOKEH * 3), 3));
+const bokeh = new THREE.Points(bokehGeo, new THREE.PointsMaterial({ map: glowTex, color: 0xffc46b, size: 0.85, sizeAttenuation: true, transparent: true, opacity: 0.5, blending: THREE.AdditiveBlending, depthWrite: false }));
+bokeh.renderOrder = -10;
+scene.add(bokeh);
+
+const beamL = new THREE.Sprite(additive(glowTex, 0xffa544)); beamL.scale.set(13, 17, 1); beamL.position.set(-6.2, 0.5, -3);
+const beamR = new THREE.Sprite(additive(glowTex, 0x8fb6ff)); beamR.scale.set(13, 17, 1); beamR.position.set(6.2, 0.8, -3);
+const flareL = new THREE.Sprite(additive(streakTex, 0xffc480)); flareL.scale.set(9, 0.35, 1);
+const flareR = new THREE.Sprite(additive(streakTex, 0xbcd4ff)); flareR.scale.set(9, 0.35, 1);
+const backGlow = new THREE.Sprite(additive(glowTex, 0xff9a3c)); backGlow.scale.set(11, 9, 1); backGlow.position.set(0, 0, -2.5);
+for (const s of [beamL, beamR, backGlow]) s.renderOrder = -5;
+scene.add(beamL, beamR, backGlow, flareL, flareR);
+
+/* ---------- the calendar box (front = the shop product image, rectified, otherwise unchanged) ---------- */
+const BW = 3.4, BH = BW * 1200 / 1704, BD = 0.22, FZ = BD / 2;
+const box = new THREE.Group();
+scene.add(box);
+const copper = new THREE.MeshStandardMaterial({ color: 0x94503a, metalness: 0.55, roughness: 0.38 });
+const backMat = new THREE.MeshStandardMaterial({ color: 0x5b2f22, metalness: 0.2, roughness: 0.6 });
+const frontMat = new THREE.MeshStandardMaterial({ map: frontTex, roughness: 0.5, metalness: 0 });
+box.add(new THREE.Mesh(new THREE.BoxGeometry(BW, BH, BD), [copper, copper, copper, copper, frontMat, backMat]));
+
+const sweep = new THREE.Mesh(new THREE.PlaneGeometry(BW, BH), new THREE.MeshBasicMaterial({ map: sweepTex, transparent: true, opacity: 0, blending: THREE.AdditiveBlending, depthWrite: false }));
+sweep.position.z = FZ + 0.012;
+box.add(sweep);
+
+/* door 1, in pixels of the 1704x1200 front image */
+const DOOR = { x0: 46, y0: 64, x1: 194, y1: 214 };
+const dw = (DOOR.x1 - DOOR.x0) / 1704 * BW, dh = (DOOR.y1 - DOOR.y0) / 1200 * BH;
+const dLeft = (DOOR.x0 / 1704 - 0.5) * BW, dCy = (0.5 - (DOOR.y0 + DOOR.y1) / 2 / 1200) * BH, dCx = dLeft + dw / 2;
+
+const cavity = new THREE.Mesh(new THREE.PlaneGeometry(dw, dh), new THREE.MeshBasicMaterial({
+  map: canvasTex(128, 128, (ctx, w) => {
+    const g = ctx.createRadialGradient(w / 2, w / 2, 4, w / 2, w / 2, w * 0.75);
+    g.addColorStop(0, '#fff0c0'); g.addColorStop(0.45, '#f0a53a'); g.addColorStop(1, '#5a2408');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, w, w);
+  }),
+}));
+cavity.position.set(dCx, dCy, FZ + 0.002);
+box.add(cavity);
+
+const doorGeo = new THREE.PlaneGeometry(dw, dh);
+doorGeo.translate(dw / 2, 0, 0); // hinge on the left edge
+const u0 = DOOR.x0 / 1704, u1 = DOOR.x1 / 1704, v0 = 1 - DOOR.y1 / 1200, v1 = 1 - DOOR.y0 / 1200;
+doorGeo.setAttribute('uv', new THREE.Float32BufferAttribute([u0, v1, u1, v1, u0, v0, u1, v0], 2));
+const hinge = new THREE.Group();
+hinge.position.set(dLeft, dCy, FZ + 0.006);
+hinge.add(new THREE.Mesh(doorGeo, new THREE.MeshStandardMaterial({ map: frontTex, roughness: 0.5 })));
+hinge.add(new THREE.Mesh(doorGeo, new THREE.MeshStandardMaterial({ color: 0xcfa77a, roughness: 0.8, side: THREE.BackSide })));
+box.add(hinge);
+
+const doorHalo = new THREE.Sprite(additive(glowTex, 0xffc060)); doorHalo.position.set(dCx, dCy, FZ + 0.004);
+const doorBurst = new THREE.Sprite(additive(glowTex, 0xffd9a0)); doorBurst.position.set(dCx, dCy, FZ + 0.05);
+box.add(doorHalo, doorBurst);
+const doorLight = new THREE.PointLight(0xffb050, 0, 4, 2);
+doorLight.position.set(dCx, dCy, FZ + 0.35);
+box.add(doorLight);
+
+/* ---------- the still that comes out of the door ---------- */
+const STILL_ASPECT = (400 + 12) / (224 + 12);
+const stillTex = stillImgs.map(img => cardTexture(img, 6, 18, 3));
+const heroCard = new THREE.Mesh(new THREE.PlaneGeometry(1, 1 / STILL_ASPECT), new THREE.MeshBasicMaterial({ map: stillTex[1], transparent: true }));
+heroCard.renderOrder = 5;
+scene.add(heroCard);
+
+/* ---------- wall of the six videos ---------- */
+const wall = new THREE.Group();
+scene.add(wall);
+const CW = 1.92, CH = CW / STILL_ASPECT;
+const wallCards = stillTex.map((tex, i) => {
+  const m = new THREE.Mesh(new THREE.PlaneGeometry(CW, CH), new THREE.MeshBasicMaterial({ map: tex, transparent: true }));
+  m.userData.home = new THREE.Vector3((i % 2 ? 1 : -1) * (CW / 2 + 0.09), 0.75 - Math.floor(i / 2) * (CH + 0.2), 0);
+  wall.add(m);
+  return m;
+});
+
+/* ---------- the real calendar, exactly as in the screenshot ---------- */
+const shotTex = cardTexture(shotImg, 0, 10, 3);
+const SW = 3.55, SH = SW * shotImg.height / shotImg.width;
+const shot = new THREE.Mesh(new THREE.PlaneGeometry(SW, SH), new THREE.MeshBasicMaterial({ map: shotTex, transparent: true }));
+scene.add(shot);
+
+/* ---------- DOM layers ---------- */
+const head = document.getElementById('head'), flash = document.getElementById('flash'), fade = document.getElementById('fade');
+
+const camPos = new THREE.Vector3(), camLook = new THREE.Vector3(), tmp = new THREE.Vector3(), qId = new THREE.Quaternion();
+
+window.DURATION = DURATION; window.FPS = FPS;
+window.seek = function (t) {
+  t = clamp(t, 0, DURATION);
+  const shotA = t < CUT1, shotB = t >= CUT1 && t < CUT2, shotC = t >= CUT2 && t < CUT3, shotD = t >= CUT3;
+
+  /* backdrop */
+  const pos = bokehGeo.attributes.position;
+  for (let i = 0; i < BOKEH; i++) {
+    const b = bokehBase[i];
+    const y = ((b[1] + 11 + t * b[3] * 0.6) % 22) - 11;
+    pos.setXYZ(i, b[0] + Math.sin(t * 0.5 + b[4]) * 0.35, y, b[2]);
+  }
+  pos.needsUpdate = true;
+  bokeh.material.opacity = 0.42 + 0.1 * Math.sin(t * 1.3);
+
+  /* ---- shot A: fly in, turn, side lights, push in, door opens, still comes out ---- */
+  box.visible = shotA || shotD;
+  heroCard.visible = shotA && t >= 9.3;
+  wall.visible = shotB; shot.visible = shotC;
+  let lL = 0, lR = 0, sweepP = -1, doorOpen = 0;
+  camPos.set(0, 0, 12.5); camLook.set(0, 0, 0);
+
+  if (shotA) {
+    const fly = out3(seg(t, 0, 2.4)), spin = inOut(seg(t, 2.4, 6.6));
+    box.position.set(lerp(-3.5, 0, fly), lerp(7, 0, fly) + (t < 6.6 ? Math.sin(t * 1.4) * 0.05 * fly : 0), lerp(-46, 0, fly));
+    box.rotation.set((1 - fly) * 2.4, -0.5 + (1 - fly) * -5.6 + spin * (Math.PI * 2 + 0.5), (1 - fly) * 0.9);
+    /* side lights: warm from the left, then cool from the right, then both */
+    lL = Math.max(Math.sin(Math.PI * seg(t, 2.2, 4.6)), seg(t, 5.4, 6.4) * 0.65);
+    lR = Math.max(Math.sin(Math.PI * seg(t, 3.8, 6.0)), seg(t, 5.4, 6.4) * 0.65);
+    const settle = 1 - seg(t, 6.8, 8.2) * 0.75;
+    lL *= settle; lR *= settle;
+    sweepP = seg(t, 6.0, 7.2);
+    /* push in on door 1 */
+    const push = inOut(seg(t, 6.6, 8.7));
+    camPos.set(lerp(0, dCx * 0.82, push), lerp(0, dCy * 0.82, push), lerp(12.5, 4.3, push));
+    camLook.set(lerp(0, dCx, push), lerp(0, dCy, push), 0);
+    camPos.z -= seg(t, 8.7, CUT1) * 0.25; // slow creep while the door plays
+    doorOpen = out3(seg(t, 8.6, 9.5));
+  }
+  if (shotD) {
+    const k = seg(t, CUT3, DURATION);
+    box.position.set(0, 0.1, 0);
+    box.rotation.set(-0.04, lerp(0.5, 0.16, out3(k)), 0);
+    camPos.set(0, 0, lerp(12.9, 11.9, k));
+    lL = 0.55; lR = 0.5;
+    sweepP = seg(t, CUT3 + 0.35, CUT3 + 1.5);
+  }
+
+  camera.position.copy(camPos); camera.lookAt(camLook); camera.updateMatrixWorld();
+
+  leftLight.intensity = lL * 2.0; rightLight.intensity = lR * 1.7;
+  beamL.material.opacity = lL * 0.55; beamR.material.opacity = lR * 0.5;
+  flareL.material.opacity = lL * 0.8 * (box.visible ? 1 : 0); flareR.material.opacity = lR * 0.75 * (box.visible ? 1 : 0);
+  flareL.position.set(box.position.x - BW * 0.5 * Math.abs(Math.cos(box.rotation.y)) - 0.1, box.position.y + 0.55, box.position.z + 0.3);
+  flareR.position.set(box.position.x + BW * 0.5 * Math.abs(Math.cos(box.rotation.y)) + 0.1, box.position.y - 0.35, box.position.z + 0.3);
+  backGlow.material.opacity = box.visible ? 0.3 * (shotD ? 1 : seg(t, 1.6, 3)) * (1 - seg(t, 6.6, 8.6) * 0.6) : (shotC ? 0.32 : 0.16);
+
+  sweep.material.opacity = sweepP > 0 && sweepP < 1 ? Math.sin(Math.PI * sweepP) * 0.9 : 0;
+  sweepTex.offset.x = lerp(0.75, -0.75, sweepP);
+
+  hinge.rotation.y = -doorOpen * 2.05;
+  const pulse = shotA ? seg(t, 7.6, 8.5) * (0.6 + 0.4 * Math.sin((t - 7.6) * 9)) * (1 - doorOpen) : 0;
+  doorHalo.scale.setScalar(dw * 2.6); doorHalo.material.opacity = pulse * 0.55;
+  doorBurst.scale.setScalar(lerp(0.3, 2.3, doorOpen)); doorBurst.material.opacity = doorOpen * lerp(0.95, 0.4, seg(t, 9.6, 11));
+  doorLight.intensity = doorOpen * 6;
+  cavity.visible = doorOpen > 0;
+
+  /* the still leaves the door and comes to the viewer */
+  if (heroCard.visible) {
+    const c = inOut(seg(t, 9.3, 10.9)), hold = seg(t, 10.9, CUT1);
+    const from = tmp.set(dCx, dCy, FZ + 0.01).clone();
+    camera.getWorldDirection(tmp);
+    const to = camera.position.clone().addScaledVector(tmp, 2.55);
+    heroCard.position.lerpVectors(from, to, c);
+    heroCard.position.y += Math.sin(Math.PI * c) * 0.12;
+    heroCard.quaternion.slerpQuaternions(qId, camera.quaternion, c);
+    heroCard.rotateY(Math.sin(Math.PI * c) * 0.55); heroCard.rotateZ(Math.sin(Math.PI * c) * -0.07);
+    heroCard.scale.setScalar(lerp(dw * 0.9, 0.69, c) * (1 + hold * 0.035));
+    heroCard.material.opacity = seg(t, 9.3, 9.5);
+  }
+
+  /* ---- shot B: everything that is behind the doors ---- */
+  if (shotB) {
+    camera.position.set(0, 0.55, lerp(15.6, 14.7, seg(t, CUT1, CUT2))); camera.lookAt(0, 0.55, 0);
+    wall.rotation.y = lerp(-0.2, 0.2, seg(t, CUT1, CUT2));
+    wall.position.y = -0.6;
+    wallCards.forEach((m, i) => {
+      const a = out3(seg(t, CUT1 + 0.05 + i * 0.13, CUT1 + 0.85 + i * 0.13));
+      const h = m.userData.home;
+      m.position.set(h.x + (i % 2 ? 1 : -1) * (1 - a) * 2.5, h.y - (1 - a) * 5, h.z - (1 - a) * 9 + Math.sin(t * 1.1 + i) * 0.04);
+      m.rotation.set((1 - a) * -1.1, (1 - a) * (i % 2 ? -1 : 1) * 0.9, 0);
+      m.material.opacity = seg(a, 0, 0.3);
+    });
+  }
+  head.style.opacity = shotB ? seg(t, CUT1 + 0.35, CUT1 + 0.9) : 0;
+  head.style.transform = `translateY(${shotB ? (1 - out3(seg(t, CUT1 + 0.35, CUT1 + 1.0))) * 40 : 0}px)`;
+
+  /* ---- shot C: the real digital calendar ---- */
+  if (shotC) {
+    const a = out3(seg(t, CUT2, CUT2 + 0.9));
+    camera.position.set(0, 0, lerp(14.6, 13.5, seg(t, CUT2, CUT3))); camera.lookAt(0, 0, 0);
+    shot.position.set(0, (1 - a) * -1.2, (1 - a) * -4);
+    shot.rotation.set((1 - a) * 0.25, (1 - a) * -0.95 + Math.sin((t - CUT2) * 0.9) * 0.05 * a, 0);
+    shot.material.opacity = seg(a, 0, 0.35);
+  }
+
+  /* cuts and the final fade */
+  let f = 0;
+  for (const cut of [CUT1, CUT2, CUT3]) f = Math.max(f, t >= cut ? 1 - seg(t, cut, cut + 0.22) : seg(t, cut - 0.07, cut) * 0.6);
+  flash.style.opacity = f * 0.85;
+  fade.style.opacity = Math.max(1 - seg(t, 0, 0.35), seg(t, DURATION - 0.5, DURATION - 0.05));
+
+  renderer.render(scene, camera);
+};
+
+seek(new URLSearchParams(location.search).get('t') ? parseFloat(new URLSearchParams(location.search).get('t')) : 0);
+window.ready = true;
+
+/* press space in a browser to preview in real time */
+let playing = false, t0 = 0;
+addEventListener('keydown', e => {
+  if (e.code !== 'Space') return;
+  playing = !playing; t0 = performance.now();
+  const loop = () => { if (!playing) return; seek(((performance.now() - t0) / 1000) % DURATION); requestAnimationFrame(loop); };
+  loop();
+});
+</script>
+</body>
+</html>
