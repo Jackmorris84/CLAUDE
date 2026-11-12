@@ -122,6 +122,10 @@ const additive = (map, color, extra = {}) => new THREE.SpriteMaterial({ map, col
 await document.fonts.load('600 60px Mont');
 /* ?lang=ko renders the Korean version; the photos stay as they are */
 const LANG = new URLSearchParams(location.search).get('lang') || 'de';
+if (LANG === 'en') {
+  document.getElementById('head').innerHTML = '<b>24 doors</b> full of pan flute music and personal stories';
+  document.getElementById('end').innerHTML = 'Join the waitlist <b>by the 13th</b> and get your <b>voucher code</b>.';
+}
 if (LANG === 'ko') {
   document.getElementById('frame').classList.add('ko');
   document.getElementById('head').innerHTML = '팬플루트 음악과 개인적인 이야기가 가득한 <b>24개의 문</b>';
