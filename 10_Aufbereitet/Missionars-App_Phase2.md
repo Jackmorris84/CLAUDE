@@ -48,10 +48,13 @@ Sonntags-Autoplanung, Zwei-Wege-Sync, Zusammenarbeit/Übergabe, KI-Funktionen.
 - Zu viele Hinweise ergeben Alarmmüdigkeit → Limit für „Jetzt dran" bleibt bei 5.
 - Direction wird nicht gepflegt, wenn die Eingabe aufwendig ist → Beobachtungen als Ein-Zeilen-Eingabe aus dem Bericht.
 
+## Entscheidungen (2026-11-12)
+- Zielreflexion: **jede Woche** (einstellbar).
+- Standarddauer Schülertreffen: **60 Min.**
+- Google: **eigener Kalender** für App-Termine.
+- Tageslimit Zufallsimpulse: **3 pro Tag** (gilt auch für Phase 1).
+
 ## ❓ Offen vor Start
-- Wie oft sollen Ziele reflektiert werden (Vorschlag: alle 4 Wochen)?
-- Termindauer-Standard für Schülertreffen (Vorschlag: 60 Min.)?
-- Sollen Termine in einem eigenen Google-Kalender oder im Hauptkalender landen (Vorschlag: eigener Kalender, weniger Risiko)?
 - Hat die Phase-1-Nutzung neue Wünsche gezeigt, die Vorrang haben?
 
 ## Verknüpft mit

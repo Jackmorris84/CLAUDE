@@ -325,3 +325,4 @@ Weitere (später):
 - **Entscheidung Anruf-Verbesserung:** einmalig. Die halbe Stufe gilt einmal, danach läuft die Ampel normal weiter; nach dem nächsten Treffen ist alles zurückgesetzt.
 - **Bestätigt (2026-11-12):** Prio-Schwellen Grün bis 4 Tage, Gelb 5, Orange 6, Rot ab 7.
 - **Bestätigt (als Defaults, einstellbar):** Zufallsfenster für Erinnerungen 08:00–21:30; Abendhinweis für fehlenden Prio-Bericht 20:30. Tageslimit für Zufallsimpulse: Vorschlag max. 3 pro Tag – ❓ unklar: noch nicht ausdrücklich bestätigt.
+- **Bestätigt (2026-11-12):** Tageslimit 3 Zufallsimpulse pro Tag. Weitere Entscheidungen siehe [[Missionars-App_Phase2]].
