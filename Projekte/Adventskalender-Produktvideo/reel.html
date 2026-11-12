@@ -18,6 +18,12 @@
     text-shadow: 0 4px 30px rgba(0,0,0,.6);
   }
   #head b { color: #e6bd6c; font-weight: 600; }
+  #end {
+    position: absolute; left: 80px; right: 80px; top: 1215px; text-align: center;
+    font: 600 62px/1.3 Mont, sans-serif; color: #f7ecd6; opacity: 0;
+    text-shadow: 0 4px 30px rgba(0,0,0,.7);
+  }
+  #end b { color: #e6bd6c; font-weight: 600; }
   #flash, #fade { position: absolute; inset: 0; opacity: 0; }
   #flash { background: #fff1d6; }
   #fade { background: #000; }
@@ -28,6 +34,7 @@
 <div id="frame">
   <div id="vig"></div>
   <div id="head"><b>24 Türchen</b> voller Panflötenmusik und persönlicher Geschichten</div>
+  <div id="end"><b>Bis zum 13.</b> in die Warteliste eintragen und <b>Gutscheincode</b> sichern.</div>
   <div id="flash"></div>
   <div id="fade"></div>
 </div>
@@ -40,7 +47,7 @@ import * as THREE from 'three';
    keine Timer, keine CSS-Animationen, Zufall nur mit festem Startwert.
    Alle Fotos werden unverändert als Texturen verwendet.
 ------------------------------------------------------------------- */
-const DURATION = 20, FPS = 30;
+const DURATION = 23, FPS = 30;
 const CUT1 = 11.6, CUT2 = 15.6, CUT3 = 18.0;
 
 const frame = document.getElementById('frame');
@@ -215,7 +222,7 @@ const shot = new THREE.Mesh(new THREE.PlaneGeometry(SW, SH), new THREE.MeshBasic
 scene.add(shot);
 
 /* ---------- DOM layers ---------- */
-const head = document.getElementById('head'), flash = document.getElementById('flash'), fade = document.getElementById('fade');
+const endText = document.getElementById('end'), head = document.getElementById('head'), flash = document.getElementById('flash'), fade = document.getElementById('fade');
 
 const camPos = new THREE.Vector3(), camLook = new THREE.Vector3(), tmp = new THREE.Vector3(), qId = new THREE.Quaternion();
 
@@ -260,9 +267,9 @@ window.seek = function (t) {
   }
   if (shotD) {
     const k = seg(t, CUT3, DURATION);
-    box.position.set(0, 0.1, 0);
+    box.position.set(0, 0.75, 0);
     box.rotation.set(-0.04, lerp(0.5, 0.16, out3(k)), 0);
-    camPos.set(0, 0, lerp(12.9, 11.9, k));
+    camPos.set(0, 0, lerp(13.1, 12.8, k));
     lL = 0.55; lR = 0.5;
     sweepP = seg(t, CUT3 + 0.35, CUT3 + 1.5);
   }
@@ -324,6 +331,9 @@ window.seek = function (t) {
     shot.rotation.set((1 - a) * 0.25, (1 - a) * -0.95 + Math.sin((t - CUT2) * 0.9) * 0.05 * a, 0);
     shot.material.opacity = seg(a, 0, 0.35);
   }
+
+  endText.style.opacity = shotD ? seg(t, CUT3 + 0.5, CUT3 + 1.1) : 0;
+  endText.style.transform = `translateY(${shotD ? (1 - out3(seg(t, CUT3 + 0.5, CUT3 + 1.2))) * 40 : 0}px)`;
 
   /* cuts and the final fade */
   let f = 0;
