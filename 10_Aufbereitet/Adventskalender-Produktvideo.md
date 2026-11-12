@@ -24,7 +24,8 @@ Für den digitalen Adventskalender „Musikalische Adventszeit" gibt es ein 23-S
 - Wenn ich Ablauf, Text, Türchen oder Standbilder ändern lassen will.
 
 ## Offene Punkte
-- ❓ unklar: Musik. Das Video hat keinen Ton; eine eigene Panflöten-Aufnahme müsste ich liefern.
+- Fassung mit Musik: `produktvideo-mit-musik.mp4`, unterlegt mit der von mir gelieferten Datei „Jingle Bells - Instrumental Christmas Music (Orchestra)" (erste 23 Sekunden, Ausblende am Ende). `produktvideo.mp4` bleibt die Fassung ohne Ton.
+- ❓ unklar: Nutzungsrechte an der Musikdatei für Veröffentlichung und Werbung.
 - ❓ unklar: Der Schlusssatz nennt „13." ohne Monat und keinen Link zur Warteliste.
 - Schärfere Standbilder möglich, wenn ich die Originalvideos oder Einzelbilder daraus bereitstelle.
 
