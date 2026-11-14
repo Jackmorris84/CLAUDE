@@ -17,6 +17,7 @@ Von den fünf Builds des Fable-5.2-Guides sind Build 2 (3D-Produktseite) und Sch
 - Build 2: `Projekte/Fable-5.2-Builds/2-produktseite-3d/index.html`. In Headless-Chrome geprüft: lädt ohne Konsolenfehler, Drehteller dreht, Preis 129 → 137 (Premium-Farbe) → 167 (Leder) → 179 (Initialen), Ziehen dreht die Kamera, „Add to bag" animiert den Schuh, Zähler springt auf 1. Three.js kam im Test aus einer lokalen Kopie derselben Version 0.160.0, weil unpkg.com im Container gesperrt ist.
 - Build 5: `.claude/skills/fable-playbook/SKILL.md` (Projekt-Skill dieses Vaults). ❓ unklar: ob `/advisor fable` in meiner lokalen Claude-Code-Version verfügbar ist; im Container nicht prüfbar, weil Slash-Befehle nur ich tippen kann.
 - Seit 2026-11-14 gibt es zusätzlich `.claude/skills/opus-playbook/SKILL.md`: dieselbe Methode auf Deutsch, ohne Fable als Berater, mit einem Abschnitt „Wenn du feststeckst" und den Regeln dieses Vaults. Gedacht für die Zeit, in der ich Fable nicht mehr nutze.
+- Anleitung zum Weitergeben: `Projekte/Opus-Playbook/Opus-Playbook-Anleitung.md` (Installation, Prompts, Umgang, Playbook-Text ohne die Vault-Regeln).
 - Gesperrt im Container: unpkg.com, huggingface.co, charliehills.ai. Folge: Das Whisper-Sprachmodell für Build 3 lässt sich dort nicht laden.
 
 ## Wann brauche ich das?
