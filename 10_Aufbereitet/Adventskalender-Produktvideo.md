@@ -32,5 +32,11 @@ Für den digitalen Adventskalender „Musikalische Adventszeit" gibt es ein 23-S
 - ❓ unklar: Der Schlusssatz nennt „13." ohne Monat und keinen Link zur Warteliste.
 - Schärfere Standbilder möglich, wenn ich die Originalvideos oder Einzelbilder daraus bereitstelle.
 
+## Idee: Build 1 für die Webseite (Stand 2026-11-14)
+- Ausgangslage laut mir: Warteliste existiert, der Verkauf des Kalenders ist geöffnet.
+- Vorschlag von Claude, in dieser Reihenfolge: (1) Schritt 6 von Build 1 auf die bestehende Verkaufsseite anwenden – die fünf größten Kaufhürden finden und den Text der Seite überarbeiten. (2) Bei Bedarf eine eigene Landingpage nur für den Kalender bauen (Video, Inhalt, Kaufen-Knopf; Deutsch, Englisch, Koreanisch). (3) Ein kompletter Neubau der Webseite erst nach der Adventszeit.
+- ❓ unklar: Adresse der Webseite und der Verkaufsseite; wo der Kauf abgewickelt wird.
+- Folge für das Produktvideo: Der Schlusssatz verweist noch auf die Warteliste und müsste auf den Kauf umgestellt werden.
+
 ## Verknüpft mit
 - [[Fable-5.2-Guide-Setup-Stand]]
