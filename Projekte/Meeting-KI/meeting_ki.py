@@ -87,7 +87,11 @@ def transcribe_audio(path: Path, sprache: str | None, modell: str) -> str:
 
 
 def read_transcript(path: Path) -> str:
-    text = path.read_text(encoding="utf-8")
+    raw = path.read_bytes()
+    try:  # utf-8-sig entfernt ein BOM (Windows/Teams-Export)
+        text = raw.decode("utf-8-sig")
+    except UnicodeDecodeError:  # z.B. mit PowerShell Set-Content oder Notepad (ANSI) gespeichert
+        text = raw.decode("cp1252", errors="replace")
     if path.suffix.lower() == ".vtt":  # WEBVTT: Kopf und Cue-Nummern entfernen, Zeiten kürzen
         out, ts = [], None
         for line in text.splitlines():
